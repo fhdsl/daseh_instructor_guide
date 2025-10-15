@@ -75,23 +75,11 @@ knitr::include_graphics('resources/images/ocs_graphic.png')
 
 ### What problem are we addressing?
 
-Despite unprecedented and growing interest in data science on campuses, there are few courses and course materials that provide meaningful opportunity for students to learn about real-world challenges. Most courses frequently fail to frame the lectures around a real-world application and provide unrealistically clean datasets that fit the assumptions of the methods in an unrealistic way. The result is that students are left unable to effectively analyze data and solve real-world challenges outside of the classroom.
+Despite a growing interest in data science and environmental health on campuses, instructors do not always have time to create course content to support new courses. These resources are intended to help others support more environmental health data science education to promote more research and advancement in this importants field of public health. 
 
-### Problems with previously suggested solutions
 
-In 1999, [Nolan and Speed](https://www.stat.berkeley.edu/users/statlabs/) argued the solution was to teach courses through in-depth case studies derived from interesting problems, with nontrivial solutions that leave room for different analyses. This innovative framework teaches the student to make important connections between the scientific question, data and statistical concepts that only come from hands-on experience analyzing data. However, these case studies based on realistic challenges, not toy examples, are scarce. Furthermore they are often open-ended without a single complete full example. This can make it challenging for instructors who are new to these topics or have limited time.
-
-### What are we proposing as a solution?
-
-To address this, we are developing the Open Case Studies educational resource of case studies, which demonstrate illustrative **complete** data analyses that can be used in and outside the classroom to teach learners how to effectively derive knowledge from data. Our case studies have successfully been used to teach data science and statistics courses to graduate and undergraduate students at:
-
- - [Johns Hopkins Bloomberg School of Public Health](https://jhu-advdatasci.github.io/2018/)
- - [Johns Hopkins University](https://www.jhu.edu/)
- - [University of California Santa Barbara](https://www.ucsb.edu/)
  
-If you'd like to learn more about the Open Case Studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
- 
-## Open Case Studies Anatomy
+## DaSEH Shot Course Resources
 
 
 

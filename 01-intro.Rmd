@@ -29,6 +29,7 @@ Elements of our materials can be helpful for instructors who teach:
 - High school students
 - Undergraduate students
 - Graduate students
+- Professionals (researchers and public health practicioners)
 
 Elements of the case studies can assist with teaching courses about the following topics:
 
@@ -110,7 +111,7 @@ Week two:
 
 Course instruction lasts for 4 hours each day with breaks.
 
-```{r, fig.align='center', echo = FALSE, fig.alt = "online course schedule starting at 10:30am to 11:30 for the first session, followed by a break for 1- min then another session from 11:40 - 12:40, followed by another ten minute break, concluding with a session from 12:50 to 2 pm", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt = "online course schedule starting at 10:30am to 11:30 for the first session, followed by a break for 1- min then another session from 11:40 - 12:40, followed by another ten minute break, concluding with a session from 12:50 to 2 pm. Each session has a lecture followed by a lab to practice exercises relevant to the topic.", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_79#slide=id.g38d50c20f17_0_79')
 ```
 
@@ -124,95 +125,68 @@ We recommend having two instructors and one TA. We have the instructors split up
 
 For labs we provide learners with 3 options:
 
-- A room led by one instructor who waits briefly for each question and then walks through the exercizes
-- A room led by one instructor who allows students time to work through all exercizes and then students share their work and challenges with guidance and troubleshooting from the instructor
+- A room led by one instructor who waits briefly for each question and then walks through the exercises
+- A room led by one instructor who allows students time to work through all exercises and then students share their work and challenges with guidance and troubleshooting from the instructor
 - A room where the teaching assistant helps those who need one-on-one support
 
-### Stage 2: Analyzing the Data 
 
-This stage includes the bulk of the data analysis. It begins with a detailed description of the data used in the case study, how it was generated, and where is was obtained. This sets the stage for a walk-through of the data import procedure and exploration of the available data. From there, the specific subsets of the data relevant to answering the main question of interest can be identified and the data can be cleaned and wrangled to give the data in the format needed for analysis. The cleaned data can then be visualized and analyzed to answer the study question. 
-
-- Data description
-- Import and exploration 
-- Wrangling 
-- Visualization 
-- Analysis 
-
-### Stage 3: Wrapping-Up
-
-In the final stage of the case study, students synthesize conclusions to the main study question based on the results of their data analysis. They summarize the data exploration and analysis steps they took and discuss potential next steps they could take based on their results. Finally, additional analyses are suggested as homework and additional information relevant to the case study is provided. 
-
-- Analysis conclusions 
-- Case study summary
-- Next steps 
-- Homework 
-
-### Table of Contents
-	
-This anatomy is reflected in the table of contents of case study sections:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Open Case Study Anatomy in the Table of Contents", out.width="100%"}
-knitr::include_graphics('resources/images/OCS_TOC_anatomy.png')
-```
-  
- <br> 
-    
-| **Case Study Section** | **Description** |
-| ------- | ---------------- |
-| Motivation | Motivating figure and text at the start of the case study |
-| Main questions | Scientific question(s) |
-| Learning objectives  | Both data science and statistics learning objectives |
-| Context | Context of question(s) or data |
-| Limitations | Any limitations in case study or with data used |
-| What are the data? | Summary of where the data came from and what the data contain |
-| Data import | Analyses for importing data |
-| Data wrangling | Analyses for wrangling data |
-| Data exploration | Analyses for data exploration | 
-| Data visualization | Analyses for data visualization | 
-| Data analysis | Analyses containing statistical concepts and methods to answer question(s) | 
-| Summary | Summary of results and conclusion |
-| Suggested homework | Question(s) to explore further |
-| Additional information | Helpful links and packages used |
-
- <br>
-
-The table of contents can be used to navigate to specific sections in a case study:
-
-```{r, fig.align='center', echo = FALSE, fig.alt= "Video illustrating how to navigate a case study with the table of contents", out.width="100%"}
-knitr::include_url("https://www.youtube.com/embed/j-I0Zgicjsk")
+```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_79#slide=id.g38d50c20f17_0_79')
 ```
 
-## Starter Kit
 
-Open Case Studies are designed to be beginner friendly. Users can work through an entire case study with no prerequisite knowledge in programming, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is required. This section will detail what students will need to be able to jump into a case study. 
+Topics covered in each week of the online course:
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "In Week one day one includes information about the course sturcture, best practices for learning, an overview of necessary jargon, context about R, Basic R for simple calculations and assigning objects, how to navigate RStudio, how to test and save code, how to view data, Day two includes practices for reproducibility including  cleaning the environment, using reports, reporting packages and versions, as well as inputing data like csv files tab delimited files and excel. Day 3 includes subsetting data, such as filtering rows and selecting columns, day 4 includes summarizing basic stats from data and grouping variables to do so, as well as information about data classes and how to transform them. The last day includes data cleaning topics, including dealing with missing data, recoding values, and making new values based on other columns", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_98#slide=id.g38d50c20f17_0_98')
+```
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt = " Week two day 1 includes manipulating data to reshape it or join it, as well as using a point and click option to create visualizations, the next day incldues covering the basics of a famous package called ggplot2, extensions to make interactive plots, combined plots or labeled plots, as well as best practices for visualizing data,as well as an introduction to factors and how to reorder levels, the next day includes statistcs for correlation, t-tests and regression, followed by data output to save csv and Rda files, finally we end with writing functions to make work more efficient and to apply tasks to multiple columns of a dataframe. ", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_105#slide=id.g38d50c20f17_0_105')
+```
+Students have access to [our website](https://daseh.org) for course resources which includes lecture slides, lab exercises, cheetsheats to remind them about important functions, homework assignments, and additional resources.
+
+
+
+### Stage 2: Self-Directed Review and Project Planning
+
+In this stage, learners can complete homework problems for extra practice or watch recordings of the lectures and labs from the previous week. This stage also lasts at least a week. It also gives students time to digest what they learned and catch up on other work and personal responsibilities before the code-a-thon.
+
+
+Learners are also encouraged to find data and are given resources on where one can [find public data](https://daseh.org/data.html), so that they can identify a research question for their project in the codeathon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [project template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
+
+
+
+
+### Stage 3: Code-a-thon
+
+In the final stage of the short course, learners participate in a 3 day code-a-thon, which allows them to apply what they learned to a topic of interest, get peer and instructor in person assistance, ask more extensive questions, and learn about some more advanced topics in reproducibility and data ethics.  
+
+
+See this [code-a-thon shedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more detials.
+
+
+
+## Getting Started
+
+DaSEH materials are designed to be beginner friendly. Users can work through our materials with no prerequisite knowledge in programming, enviornmental health, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is helpful. This section will detail what learners and instructors will need to be able to jump into our resources. 
 
 ### Technical Requirements 
 
-All case studies use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement for the case studies, the [`OCSdata`](https://github.com/opencasestudies/OCSdata) package, which can be used to download the data, requires R version 3.5 or higher. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the Session Info section in each case study.
+Our materials the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement, we recommend that instructors have all students use the same version (typically the most recent version of R).
+
+Additional R packages are also required including:
+
+- tidyverse
+- naniar
+- janitor
+- esquisse
 
 Cheat sheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
 Please note that to install R version 3.5 and higher you will need to have a [web browser](https://en.wikipedia.org/wiki/Web_browser) and a compatible [operating system](https://en.wikipedia.org/wiki/Operating_system). See this [link](https://cran.r-project.org/) for more information.
 
-**Case Study Compilation Times**
-
-The following table lists the time it took for RMarkdown to compile each case study using the "Knit" button in RStudio. 
-
-| **Case Study** | **Compilation Time** (seconds) |
-| -------------------- | -------------- |
-| [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard) | 29 - 39 |
-| [Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection) | 36 - 46 |
-| [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban) | 103 - 113 |
-| [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study) | 107 - 117 |
-| [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health) | 35 - 45 |
-| [Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity) | 31 - 41 |
-| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling) | ??? |
-| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 39 - 49 |
-| [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 36 - 46 |
-| [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 79 - 89 |
-| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 148 - 158 |
-
-These compilation times were measured on a PC machine operating on Windows 10. The ranges listed should only be used as estimates as compilation time will vary with different machines and operating systems.
 
 ### RStudio
 
@@ -222,17 +196,35 @@ For reproducible data analyses and easy publishing of reports and presentations,
 
 ### GitHub  
 
-Open Case Studies is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use. While GitHub is not needed for users to access the case studies, users can use GitHub to streamline download and modification of case studies. Check out the GitHub Organization and OCSdata sections in [Chapter 2](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html) for more details on how to use GitHub to access case studies and modify content for personalized use. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+DaSEH is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all materials through our [DaSEH GitHub repository](https://github.com/fhdsl/daseh). The repository contains all the materials needed for the case study. 
+
+This includes the slide files to be distributed to learners, data used in the examples (that aren't installed in R otherwise), cheatsheets to remind learners of packages, homework and lab files, including both keys and raw files for learners. While experience with GitHub is not needed for users to access the materialss, users can use GitHub to streamline download and modification of our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+
+## Website
+
+Our website has the following pages:
+
+1) An about page explaining what the course is for: https://daseh.org/index.html
+2) A page that links to a form for people to apply to the course: https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL_H65PI6U0sR1lPDjMI-DG2MtSld-1A/viewform 
+3) A page with information about how people can participate and what is required: https://daseh.org/logistics.html 
+4) A schedule with all associate materials: https://daseh.org/materials_schedule.html
+5) Resources about whre to find environmental health data: https://daseh.org/data.html
+6) Resources for extra learning and help: 
+https://daseh.org/resources.html 
+7) A help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 
+
 
 ## Feedback
 
-We are continually working to improve the Open Case Studies project to address learner and educator needs. Feedback is essential for this goal. If you use Open Case Studies material, we would love to hear from you!
+We are continually working to improve the DaSEH resources to address learner and educator needs. Feedback is essential for this goal. If you use DaSEH materials, we would love to hear from you!
 
 ### Survey
 
-Please consider participating in our [user experience survey](https://www.opencasestudies.org/#survey).
+Please consider participating in our user experience survey. 
 
-We appreciate feedback about all aspects of the OCS user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the case studies in the classroom. 
+avocado need to update for our own survey!
+
+We appreciate feedback about all aspects of the DaSEH user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the our materials in the classroom. 
 
 ```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
 knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?embedded=true")
@@ -240,19 +232,12 @@ knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2A
 
 ### Feedback for this Guide
 
-If you have feedback for this guide about how we can improve the content, please see [here](https://github.com/opencasestudies/OCS_Guide/issues/new/choose).
+If you have feedback for this guide about how we can improve the content, please see [here](https://github.com/fhdsl/daseh_instructor_guide/issues/new/choose).
 
 
 ## Contact Us 
 
-If you have any questions, suggestions for improvement for individual case studies, ideas, or thoughts, you can contact us through email using this form:
-
-```{r, echo=FALSE}
-knitr::include_url("https://www.opencasestudies.org/#contact")
-```
+If you have any questions, suggestions for improvement for individual resources, ideas, or thoughts, you can contact us through email at. avocado add info
 
 
-
-Also, see the [final chapter](https://www.opencasestudies.org/OCS_Guide/new-case-studies---building-and-contributing.html) for information on submitting case studies to our collection.
-
-You can also find us on Twitter with the following handle: [`@OpenCaseStudies`](https://twitter.com/opencasestudies)
+You can also find us XYZ avocado add

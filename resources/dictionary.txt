@@ -6,11 +6,14 @@ BIPOC
 Bloomberg
 Bookdown
 chapt
+cheatsheets
 Coursera
 creativecommons
 css
+csv
 Datatrail
 DataTrail
+DaSEH
 DISCOVERABLE
 Dockerfile
 Dockerhub
@@ -24,6 +27,7 @@ fyi
 GDSCN
 Generis
 GH
+github
 Github
 GitHub
 https

@@ -29,7 +29,7 @@ Elements of our materials can be helpful for instructors who teach:
 - High school students
 - Undergraduate students
 - Graduate students
-- Professionals (researchers and public health practicioners)
+- Professionals (researchers and public health practitioners)
 
 Elements of the case studies can assist with teaching courses about the following topics:
 
@@ -48,7 +48,7 @@ This guide documents:
 
 - The DaSEH philosophy 
 - The general structure of the short course
-- Various entry points to using the short course materials (including our hands-on lab exercizes, homework ideas and more)
+- Various entry points to using the short course materials (including our hands-on lab exercises, homework ideas and more)
 - Examples of how to use the materials in the classroom 
 - Instructions on how to modify and adapt components of our materials for the classroom
 - Guidelines for contributing to our materials or creating your own short course
@@ -64,7 +64,7 @@ Our resources are not intended to show all aspects of the research process, howe
 
 We emphasize learning the concepts of best practices as well as how to troubleshoot and look up documentation to support continued learning, rather than memorization of small coding details. For more information on our teaching philosophy see our [paper about teaching R](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012018).
 
-All DaSEH materials are open source and free and available at our [GitHub Repository](https://github.com/fhdsl/DaSEH). We provide transparency about where the data came from and where possible how it was produced. We also cover data method limitations and ethicalconsiderations.
+All DaSEH materials are open source and free and available at our [GitHub Repository](https://github.com/fhdsl/DaSEH). We provide transparency about where the data came from and where possible how it was produced. We also cover data method limitations and ethical considerations.
 
 Our materials can be used for small additional assignments in a classroom setting or as the main content that educators can slowly work through with students.
 
@@ -82,7 +82,7 @@ Despite a growing interest in data science and environmental health on campuses,
 
 
 
-```{r, fig.align='center', echo = FALSE, fig.alt = "Illustration of DaSEH short course, where there are 4 main stages: 1. Online synchronous instruction with hads-on labs for week one and 2 covering topics in reproducibility, basic R, subsetting, summarizing, cleaning, manipulation visualization, statistics, and functions, 2. self-directed time for review and for finding data for codeathon project 3. Codeathon for 3 days in person coverign topics about GitHub, ethics, mapping, and appling what was learned earlier to a project. We also evaluate learner experiences and skills before the online course, after the online course, and after the codeathon", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt = "Illustration of DaSEH short course, where there are 4 main stages: 1. Online synchronous instruction with hads-on labs for week one and 2 covering topics in reproducibility, basic R, subsetting, summarizing, cleaning, manipulation visualization, statistics, and functions, 2. self-directed time for review and for finding data for code-a-thon project 3. Code-a-thon for 3 days in person coverign topics about GitHub, ethics, mapping, and appling what was learned earlier to a project. We also evaluate learner experiences and skills before the online course, after the online course, and after the code-a-thon", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_0#slide=id.g38d50c20f17_0_0')
 ```
 
@@ -145,7 +145,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ```{r, fig.align='center', echo = FALSE, fig.alt = " Week two day 1 includes manipulating data to reshape it or join it, as well as using a point and click option to create visualizations, the next day incldues covering the basics of a famous package called ggplot2, extensions to make interactive plots, combined plots or labeled plots, as well as best practices for visualizing data,as well as an introduction to factors and how to reorder levels, the next day includes statistcs for correlation, t-tests and regression, followed by data output to save csv and Rda files, finally we end with writing functions to make work more efficient and to apply tasks to multiple columns of a dataframe. ", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_105#slide=id.g38d50c20f17_0_105')
 ```
-Students have access to [our website](https://daseh.org) for course resources which includes lecture slides, lab exercises, cheetsheats to remind them about important functions, homework assignments, and additional resources.
+Students have access to [our website](https://daseh.org) for course resources which includes lecture slides, lab exercises, cheatsheets to remind them about important functions, homework assignments, and additional resources.
 
 
 
@@ -154,7 +154,7 @@ Students have access to [our website](https://daseh.org) for course resources wh
 In this stage, learners can complete homework problems for extra practice or watch recordings of the lectures and labs from the previous week. This stage also lasts at least a week. It also gives students time to digest what they learned and catch up on other work and personal responsibilities before the code-a-thon.
 
 
-Learners are also encouraged to find data and are given resources on where one can [find public data](https://daseh.org/data.html), so that they can identify a research question for their project in the codeathon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [project template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
+Learners are also encouraged to find data and are given resources on where one can [find public data](https://daseh.org/data.html), so that they can identify a research question for their project in the code-a-thon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [project template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
 
 
 
@@ -164,13 +164,13 @@ Learners are also encouraged to find data and are given resources on where one c
 In the final stage of the short course, learners participate in a 3 day code-a-thon, which allows them to apply what they learned to a topic of interest, get peer and instructor in person assistance, ask more extensive questions, and learn about some more advanced topics in reproducibility and data ethics.  
 
 
-See this [code-a-thon shedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more detials.
+See this [code-a-thon shedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more details.
 
 
 
 ## Getting Started
 
-DaSEH materials are designed to be beginner friendly. Users can work through our materials with no prerequisite knowledge in programming, enviornmental health, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is helpful. This section will detail what learners and instructors will need to be able to jump into our resources. 
+DaSEH materials are designed to be beginner friendly. Users can work through our materials with no prerequisite knowledge in programming, environmental health, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is helpful. This section will detail what learners and instructors will need to be able to jump into our resources. 
 
 ### Technical Requirements 
 

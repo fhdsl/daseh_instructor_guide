@@ -131,7 +131,7 @@ For labs we provide learners with 3 options:
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}
-ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_79#slide=id.g38d50c20f17_0_79')
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_88#slide=id.g38d50c20f17_0_88')
 ```
 
 
@@ -145,6 +145,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ```{r, fig.align='center', echo = FALSE, fig.alt = " Week two day 1 includes manipulating data to reshape it or join it, as well as using a point and click option to create visualizations, the next day incldues covering the basics of a famous package called ggplot2, extensions to make interactive plots, combined plots or labeled plots, as well as best practices for visualizing data,as well as an introduction to factors and how to reorder levels, the next day includes statistcs for correlation, t-tests and regression, followed by data output to save csv and Rda files, finally we end with writing functions to make work more efficient and to apply tasks to multiple columns of a dataframe. ", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_105#slide=id.g38d50c20f17_0_105')
 ```
+
 Students have access to [our website](https://daseh.org) for course resources which includes lecture slides, lab exercises, cheatsheets to remind them about important functions, homework assignments, and additional resources.
 
 

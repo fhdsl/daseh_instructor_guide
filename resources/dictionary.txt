@@ -19,6 +19,7 @@ Dockerfile
 Dockerhub
 dropdown
 enforceability
+esquisse
 faq
 favicon
 FirstName
@@ -30,6 +31,8 @@ GH
 github
 Github
 GitHub
+ggplot
+ggplot2
 https
 ies
 iframe
@@ -38,6 +41,7 @@ impactful
 ITCR
 itcrtraining
 ITN
+knitr
 LastName
 Leanpub
 Licensor
@@ -45,7 +49,9 @@ LICENSOR
 Markua
 mentorship
 MERCHANTABILITY
+modularization
 Muschelli
+naniar
 NCI
 NHGRI
 OTTR
@@ -57,10 +63,16 @@ pre
 reproducibility
 rmarkdown
 RMarkdown
+Rmd
+Rproj
+RStudio
 Savonen
 sexualized
+skillsets
 socio
 synched
+thon
+tidyverse
 tada
 UE
 UE5

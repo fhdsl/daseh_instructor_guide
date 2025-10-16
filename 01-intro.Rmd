@@ -74,7 +74,7 @@ We hope you find our resources useful!
 
 ### What problem are we addressing?
 
-Despite a growing interest in data science and environmental health on campuses, instructors do not always have time to create course content to support new courses. These resources are intended to help others support more environmental health data science education to promote more research and advancement in this importants field of public health. 
+Despite a growing interest in data science and environmental health on campuses, instructors do not always have time to create course content to support new courses. These resources are intended to help others support more environmental health data science education to promote more research and advancement in this important field of public health. 
 
 
  
@@ -165,7 +165,7 @@ Learners are also encouraged to find data and are given resources on where one c
 In the final stage of the short course, learners participate in a 3 day code-a-thon, which allows them to apply what they learned to a topic of interest, get peer and instructor in person assistance, ask more extensive questions, and learn about some more advanced topics in reproducibility and data ethics.  
 
 
-See this [code-a-thon shedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more details.
+See this [code-a-thon schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more details.
 
 
 
@@ -199,7 +199,7 @@ For reproducible data analyses and easy publishing of reports and presentations,
 
 DaSEH is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all materials through our [DaSEH GitHub repository](https://github.com/fhdsl/daseh). The repository contains all the materials needed for the case study. 
 
-This includes the slide files to be distributed to learners, data used in the examples (that aren't installed in R otherwise), cheatsheets to remind learners of packages, homework and lab files, including both keys and raw files for learners. While experience with GitHub is not needed for users to access the materialss, users can use GitHub to streamline download and modification of our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+This includes the slide files to be distributed to learners, data used in the examples (that aren't installed in R otherwise), cheatsheets to remind learners of packages, homework and lab files, including both keys and raw files for learners. While experience with GitHub is not needed for users to access the materials, users can use GitHub to streamline download and modification of our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
 
 ## Website
 
@@ -209,7 +209,7 @@ Our website has the following pages:
 2) A page that links to a form for people to apply to the course: https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL_H65PI6U0sR1lPDjMI-DG2MtSld-1A/viewform 
 3) A page with information about how people can participate and what is required: https://daseh.org/logistics.html 
 4) A schedule with all associate materials: https://daseh.org/materials_schedule.html
-5) Resources about whre to find environmental health data: https://daseh.org/data.html
+5) Resources about where to find environmental health data: https://daseh.org/data.html
 6) Resources for extra learning and help: 
 https://daseh.org/resources.html 
 7) A help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 

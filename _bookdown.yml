@@ -5,7 +5,7 @@ rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-daseh_infrastructure.Rmd",
             "03-daseh_use.Rmd",
-            "04-daseh_modifcation.Rmd",
+            "04-daseh_modification.Rmd",
             "05-daseh_on_your_own.Rmd",
             "About.Rmd",
             "References.Rmd"]

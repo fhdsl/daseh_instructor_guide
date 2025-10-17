@@ -7,12 +7,26 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Guide for how to use DaSEH resources"
-favicon: assets/dasl_favicon.ico
+favicon: assets/favicon.ico
 output:
     bookdown::word_document2:
       toc: true
-      css: assets/style.css
+       css: assets/web_style.css
 ---
+
+
+<head>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+  <!--script src="https://kit.fontawesome.com/6a26f47516.js"></script-->
+  <!--<script src="assets/hideOutput.js"></script>-->
+  <link href="assets/web_styles.css" rel="stylesheet">
+</head>
+
+
+
+<div class="hero-image-container">
+  <img class= "hero-image" src= "https://github.com/fhdsl/DaSEH/raw/main/images/DaSEH_logo_transparent.png">
+</div>
 
 # About this guide {-}
 

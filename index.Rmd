@@ -8,10 +8,6 @@ biblio-style: apalike
 link-citations: yes
 description: "Guide for how to use DaSEH resources"
 favicon: assets/favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
-      css: assets/web_styles.css
 ---
 
 

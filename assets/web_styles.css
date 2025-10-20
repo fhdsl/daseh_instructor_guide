@@ -15,9 +15,9 @@
   text-align: center;
 }
 
-/* Style buttons - if you want to have a button */
+/* Style buttons - for nav bar*/
 .btn {
-  background-color: DodgerBlue;
+  background-color: #38b722;
   border: none;
   color: white;
   padding: 8px 20px;

@@ -1,26 +1,40 @@
 ---
-title: "Course Name"
+title: "DaSEH Instructor Guide"
 date: "October, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
-favicon: assets/dasl_favicon.ico
+description: "Guide for how to use DaSEH resources"
+favicon: assets/favicon.ico
 output:
     bookdown::word_document2:
       toc: true
+      css: assets/web_styles.css
 ---
 
-# About this Course {-}
+
+# About this guide {-}
+
+## Formats
+
+You can find an online version of this guide at [https://hutchdatascience.org/daseh_instructor_guide/](https://hutchdatascience.org/daseh_instructor_guide/). 
+
+<!-- PDF versions are available at Leanpub. -->
+
+## Summary
+
+The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/), combines online learning and an in-person project-focused intensive. DaSEH is tailored for beginners and novices in R programming, offering instruction on importing, wrangling, visualizing, and analyzing data. It provides hands-on training in using R for statistical computing, a widely-used open-source tool for data analysis and visualization.
+
+This training initiative is funded by National Institute of Environmental Health Sciences 1R25ES035590-01.
+
+DaSEH guides can be used:
+
+1) As a course or to add to a curriculum (either onsite or online) by engaging students to actively participate in data science education for environmental health.
+
+2) Outside of the classroom by providing an archive of  examples code for data science best practices for self-learning. 
+
+To help guide educators on how to most effectively use the DaSEH resources (either in or outside of the classroom), this guide documents various entry points to using the materials, examples of how to use the materials, how to modify and adapt components of the resources for the classroom, and how to contribute our resources. 
 
 
-## Available course formats
-
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
-
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE).

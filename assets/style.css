@@ -81,7 +81,7 @@ h1 {
 }
 
 h1::after{
-  content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png'); /* Replace with your image path */
+  content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/dasehs.png'); /* Replace with your image path */
   /*content: url("https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png)"; /* Replace with your image path */
   /*content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png'); /* Replace with your image path */
   display: inline-block; /* Allows setting dimensions and margins */
@@ -193,7 +193,7 @@ color: var(--accent-color)
 .book .book-summary ul.summary li.active>a { /*active TOC links*/
   color: var(--link-color) !important;
   border-left: solid 4px;
-  border-color: var(--highlight-color);
+  border-color: #38b722;
   padding-left: 11px !important;
 }
 

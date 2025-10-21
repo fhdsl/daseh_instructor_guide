@@ -7,14 +7,18 @@ bibliography: book.bib
 biblio-style: apalike
 link-citations: true
 description: Guide for how to use DaSEH resources
-favicon: assets/dasl_favicon.ico
+favicon: assets/favicon.ico
 ---
+
+
 
 # About this guide {-}
 
 ## Formats
 
-You can find an online version of this guide at [https://hutchdatascience.org/daseh_instructor_guide/](https://hutchdatascience.org/daseh_instructor_guide/). 
+You can find an online version of this guide at: https://hutchdatascience.org/daseh_instructor_guide/
+
+The GitHub repository is available here: https://github.com/fhdsl/daseh_instructor_guide 
 
 <!-- PDF versions are available at Leanpub. -->
 

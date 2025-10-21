@@ -6,16 +6,16 @@
 .btn {
   background-color: #38b722;
   border: none;
-  color: white;
   padding: 8px 20px;
   cursor: pointer;
   font-size: 14px;
 }
 
-/* Darker background on mouse-over */
+/* background on mouse-over currently not working */
 .btn:hover {
   background-color: #feb818;
 }
+
 
 p.caption {
   color: var(--caption-color);
@@ -81,9 +81,7 @@ h1 {
 }
 
 h1::after{
-  content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/dasehs.png'); /* Replace with your image path */
-  /*content: url("https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png)"; /* Replace with your image path */
-  /*content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png'); /* Replace with your image path */
+  content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png'); /* Replace with your image path */
   display: inline-block; /* Allows setting dimensions and margins */
   vertical-align: middle; /* Aligns image with the text baseline */
   margin-left: 10px; /* Adds spacing between the image and h1 text */

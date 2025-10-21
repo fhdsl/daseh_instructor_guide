@@ -75,6 +75,11 @@ h1, h2, h3, h4 {
   font-family: 'Lora', arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  
+}
+
 
 .book .book-body .page-wrapper .page-inner section.normal h1,
 .book .book-body .page-wrapper .page-inner section.normal h2,

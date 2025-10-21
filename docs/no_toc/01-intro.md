@@ -2,7 +2,10 @@
 
 
 
+
 # Introduction
+***
+
 
 ## Learning Objectives
 
@@ -224,7 +227,7 @@ If you have feedback for this guide about how we can improve the content, please
 
 ## Contact Us 
 
-If you have any questions, suggestions for improvement for individual resources, ideas, or thoughts, you can contact us through email at. avocado add info
+If you have any questions, suggestions for improvement for individual resources, ideas, or thoughts, you can contact us through email at daseh at fredhutch.org. add info
 
 
 You can also find us XYZ avocado add

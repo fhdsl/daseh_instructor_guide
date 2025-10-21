@@ -5,7 +5,7 @@ any variables listed in style_config_default.css can be overridden by giving the
 */
 
 :root {
-    --link-color: #0b5b9d;
-    --accent-color: #012d72;
+    --link-color: #38b722;
+    --accent-color: #black;
   }
 

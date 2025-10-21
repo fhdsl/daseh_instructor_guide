@@ -3,15 +3,11 @@ title: "DaSEH Instructor Guide"
 date: "October, 2025"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: book.bib
 biblio-style: apalike
-link-citations: yes
-description: "Guide for how to use DaSEH resources"
+link-citations: true
+description: Guide for how to use DaSEH resources
 favicon: assets/dasl_favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
-      css: assets/style.css
 ---
 
 # About this guide {-}

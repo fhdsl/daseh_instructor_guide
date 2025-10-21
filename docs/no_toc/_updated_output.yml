@@ -1,10 +1,10 @@
 bookdown::gitbook:
   css:
+  - assets/style.css
   - assets/style_config_default.css
   - assets/style_config_custom.css
-  - assets/style.css
+  - assets/web_styles.css
   includes:
-    before_body: assets/big-image.html
     after_body: assets/footer.html
     highlight: tango
     in_header: /__w/daseh_instructor_guide/daseh_instructor_guide/docs/no_toc/assets/links.html
@@ -12,11 +12,12 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <a href="http://jhudatascience.org/"><img src="https://ottrproject.org/images/dasl.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top "</a>
+        <p><a href="https://daseh.org/"><img src="https://daseh.org/images/DaSEH_logo_transparent.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top"></a> </p>
+        <p style="text-align: center; font-size: 20px; font-weight: bold; font-family: 'Lora', arial, sans-serif; "> Instructor Guide </p>
       after: |
         <p style="text-align:center;"> <a href="https://www.ottrproject.org/" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown using</a> </p>
         <p style="text-align:center;"> <a href="https://github.com/ottrproject/OTTR_Template"> The OTTR Template by:</a></p>
-        <p style="text-align:center;"> <a href="http://jhudatascience.org/"> The Johns Hopkins Data Science Lab </a></p>
+        <p style="text-align:center;"> <a href="https://hutchdatascience.org//"> The Fred Hutch Data Science Lab </a></p>
         <p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
 bookdown::word_document2:
   toc: yes

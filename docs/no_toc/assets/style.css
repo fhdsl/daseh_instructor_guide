@@ -2,6 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Karla:400,400i,700,700i|Lora:400,400i,700,700i&display=swap');
 
+/* Style buttons - for nav bar*/
+.btn {
+  background-color: #38b722;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #feb818;
+}
+
 p.caption {
   color: var(--caption-color);
   margin-top: 10px;
@@ -60,6 +75,19 @@ h1, h2, h3, h4 {
   font-family: 'Lora', arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  
+}
+
+h1::after{
+  content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/dasehs.png'); /* Replace with your image path */
+  /*content: url("https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png)"; /* Replace with your image path */
+  /*content: url('https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png'); /* Replace with your image path */
+  display: inline-block; /* Allows setting dimensions and margins */
+  vertical-align: middle; /* Aligns image with the text baseline */
+  margin-left: 10px; /* Adds spacing between the image and h1 text */
+}
 
 .book .book-body .page-wrapper .page-inner section.normal h1,
 .book .book-body .page-wrapper .page-inner section.normal h2,
@@ -159,13 +187,13 @@ color: var(--accent-color)
 }
 
 .summary a:hover {
-  color: var(--highlight-color) !important;
+  color: #feb818 !important;
 }
 
 .book .book-summary ul.summary li.active>a { /*active TOC links*/
   color: var(--link-color) !important;
   border-left: solid 4px;
-  border-color: var(--highlight-color);
+  border-color: #38b722;
   padding-left: 11px !important;
 }
 
@@ -188,6 +216,7 @@ li.appendix span, li.part span { /* for TOC part names */
 	height: 50px;
 	padding-top: 10px;
 	border-bottom: 1px solid rgba(0,0,0,.07);
+	color: black;
 }
 
 .book .book-summary ul.summary li.divider {

@@ -187,7 +187,7 @@ color: var(--accent-color)
 }
 
 .summary a:hover {
-  color: var(--highlight-color) !important;
+  color: #feb818 !important;
 }
 
 .book .book-summary ul.summary li.active>a { /*active TOC links*/

@@ -4,6 +4,14 @@
 
 
 # Introduction
+<div class="img-wrap" style="max-width:320px;margin:0 auto;">
+  <img
+    src="https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png"
+    alt="Leaf"
+    loading="lazy"
+    style="width:10%;height:auto;display:block;"
+    onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png';">
+</div>
 ***
 
 

@@ -169,75 +169,30 @@ GitHub is a website and cloud service that enables developers to store, manage, 
 Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
 
 
+## Data
 
-Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the `OCSdata` R package described below. 
 
-## OCSdata 
+All of the data used in the modules are also included in the GitHub repository. This data can be reused separately outside of our our module materials for other uses.
 
-To simplify the process of accessing the data required for each case study, we have created the `OCSdata` R package. Briefly, the `OCSdata` package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the `OCSdata` package also downloads extra source data that is not used in the case study. 
+To use the DaSEH data, you can either:
 
-The following are the main functions to import data in various formats using the `OCSdata` package. Each function is described in more detail in the `OCSdata` [package documentation](https://cran.r-project.org/web/packages/OCSdata/index.html).
-
-| Data Folder | Case Study Section | `OCSdata` Function |
-| ----- | -------- | ------ |
-| raw | Data Import | `raw_data` |
-| imported | Data Exploration, Data Wrangling | `imported_data` |
-| wrangled | Data Visualization, Data Analysis | `wrangled_csv`, `wrangled_rda` |
-| simpler_import | Data Import | `simpler_import_data` |
-| extra | Suggested Homework (?) | `extra_data` |
-
-The package source files and documentation are also available on [GitHub](https://github.com/opencasestudies/OCSdata).
-
-### Getting Started with `OCSdata`
-
-The `OCSdata` package is available on the package repository [CRAN](https://cran.r-project.org/web/packages/OCSdata/index.html). It requires R 3.5 or higher and can be installed in R as follows: 
+1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data
+2) Directly download individual files by searching through our [data directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/data), clicking on a data file and the clicking the download raw file button.
 
 
 
-### Downloading raw data
+```{r, fig.align='center', echo = FALSE, fig.alt = "Visual showing the download raw file button on github for one of the data files", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_11#slide=id.g3a4b18ec263_0_11')
+```
 
-The `raw_data` function will download the raw data files that can be imported into R. 
-
-The first argument is the name of the case study. A list of case study names can be found in the package documentation [online](https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html#casestudy) or by typing `?raw_data` in R. 
-
-The `outpath` argument is a string specifying the folder where the data should be downloaded. To download the data to a folder named "OCS_data" in the current working directory, you can supply `getwd()` to the `output` argument. If nothing is provided for the argument, you will be prompted to enter 1, 2, or 3 to download the data into the current director, to specify the download path, or to cancel, respectively. 
-
-In the following example, we download the raw data for the "Opioids in the United States" case study to the current directory. 
+Information about the which modules that data is used in and information about the data sources can be found here: https://daseh.org/data.html
 
 
-
-### Downloading data in other formats
-
-The `OCSdata` package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.
-
-#### Simpler import
-
-The `simpler_import_data()` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
-
-
-
-#### Importing data as R objects 
-
-The `imported_data()` function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the `load()` function as follows. 
+This page also includes other relevant datasets.
 
 
 
 
-#### Importing wrangled data
-
-The following functions will download the data files that have already been wrangled and are ready to be analyzed. These come in both .csv and .rda formats.
-
-Download as csv files:
-
-
-
-Downloading as R objects:
-
-
-
-### Downloading extra data
-
-Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data()` function. 
 
 
 

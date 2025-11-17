@@ -158,7 +158,7 @@ In the lab activity, learners write a csv and RDS file as well as read back in a
 
 15) **Functions**
 
-In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame.
+In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code. 
 
 In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
 

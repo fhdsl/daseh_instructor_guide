@@ -44,38 +44,53 @@ The survey should take no more than 10 minutes to complete. Your feedback helps 
 
 ## Materials Search Tool
 
-The website also includes a Materials  search tool to aid instructors in finding appropriate modules for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
+The website also includes a Materials search tool to aid instructors in finding appropriate modules for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
-This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
-
-
-
-### Interactive Case Studies
-
-The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the [`learnr`](https://rstudio.github.io/learnr/) and [`gradethis`](https://pkgs.rstudio.com/gradethis/) packages. 
-
-If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
+<!-- This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study. -->
 
 
 
-If you'd like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+### Materials
 
-The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
-
-- The "Case Study" column contains the case study name and a link to the static and interactive versions of the case study (if available)
-- The "GitHub Repository" column provides links to the case study's associated GitHub repository that contains all case study source files, data, code, and more
-- The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill
-- The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)
-- The "Category" column lists the source of funding or project that the case study is associated with
-
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. Users may search for keywords across all columns using the overall search bar, otherwise users can search individual columns of interest. 
-
-This table can be used to access all case study resources:
+We have the following modules on various topics related to data science for environmental public health. 
 
 
 
-This video provides a live demonstration on how to use the search tool: 
+Each one has lecture slides built using ioslides as well as lab activities.
 
+The rendered version of the slides, as well as the raw Rmd file are available on the website. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
+
+We also include cheatsheets so that learners can review the functions that they learned that day.
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of the materials and schedule table on the DaSEH website which shows the module name, the lecture links available in HTML, PDF, and the raw Rmd file, the lab activity links including the Rmd file and  html rendered version, as well as for the key version which includes the answers and finally additional resources like cheatsheets", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_0#slide=id.g3a4b18ec263_0_0')
+```
+
+1) An Introduction to R
+
+This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.
+
+This module does not have a lab associated with it.
+
+2) Basic R
+
+This module includes how to assign objects, how to create vectors, and how to perform simple calculations.
+
+The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical opperations, assigning vectors, and checking the class and length of vectors.
+
+3) R Studio
+
+This module includes a tour of R Studio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.
+
+The lab activity involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.
+
+4) Reproducibility
+
+This module introduces concepts related to repeatability, reproducibility, and replicability. It introduces best practices for improving transparency in our code.
+
+The lab activity features tasks like cleaning the environment, using the `set.seed()` function to generate the same random numbers each time, and using the `sessionInfo()` function to list packages and versions used.
+
+5) 
 
 
 ## Open Case Studies GitHub Organization

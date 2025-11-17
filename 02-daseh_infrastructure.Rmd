@@ -66,32 +66,101 @@ We also include cheatsheets so that learners can review the functions that they 
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_0#slide=id.g3a4b18ec263_0_0')
 ```
 
-1) An Introduction to R
+1) **An Introduction to R**
 
 This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.
 
 This module does not have a lab associated with it.
 
-2) Basic R
+2) **Basic R**
 
 This module includes how to assign objects, how to create vectors, and how to perform simple calculations.
 
 The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical opperations, assigning vectors, and checking the class and length of vectors.
 
-3) R Studio
+3) **RStudio**
 
-This module includes a tour of R Studio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.
+This module includes a tour of RStudio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.
 
 The lab activity involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.
 
-4) Reproducibility
+4) **Reproducibility**
 
 This module introduces concepts related to repeatability, reproducibility, and replicability. It introduces best practices for improving transparency in our code.
 
 The lab activity features tasks like cleaning the environment, using the `set.seed()` function to generate the same random numbers each time, and using the `sessionInfo()` function to list packages and versions used.
 
-5) 
+5) **Data Input**
 
+This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for improting excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
+
+The lab activity covers using the point-and-click option within RStudio and using code with `readr`.
+
+6) **Data Subsetting**
+
+This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for appling conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
+
+The lab activity covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
+
+
+7) **Data Summarization**
+
+This module covers how to apply mathematical functions to get summary statistics from data including, mean, standard deviation, range, max, and min. We show how we can pull the data out as a vector to use these functions or we can use the `summarize()` function on columns of a data to create a new data frame with summary statistics. We also talk about the `summary()` function to find quantiles of data quickly.
+
+In the lab activity, learners find the dimensions of the data, use the `count` function to summarize the data, use `pull` and mathematical functions like `sum` to calculate summaries of columns, as well as use the `summarize()` function to summarize the data. 
+
+8) **Data Cleaning**
+
+This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to seperate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
+
+In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For eample, "n, N, and "No" to indicate no exposure. 
+
+9) **Manipulating Data**
+
+This module covers how to rearrange data so that it is either in long or wide format. We discuss how wide format can be useful for human interpretation and how long format is useful for R to use the data for analyses and data visualizations. We also discuss how to join different datasets together and describe why one might want to do this.
+
+
+In the lab activity, learners use functions like `pivot_longer` and `pivot_wider` to change the shape of a dataset. They also practice doing joins of datasets together and comparing how the different joining functions work.
+
+
+10) **Intro to Data Visualization**
+
+This module gives learners a taste of making data visualizations by using the point-and-click option of the `esquisse` package so that learners can quickly attempt data visualiations and get the code for generating such visualizations.
+
+In the lab activity, learners get to try out creating different plots with `esquisse`.
+
+
+11) **Data Visualization**
+
+This module dives deeper into best practices for data visualization, how to make a `ggplot2` plot, and more customization options for creating data visualizations such as using `themes`, how to spot common issues in visualizations and fix them, as well as how to make plots interactive or how to combine plots using other packages like `plotly` and `patchwork`.
+
+In the lab activity, learners practice making plots directly with `ggplot2` and practice applying new themes to their plots and faceting their plots.
+
+
+12) **Factors**
+
+In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations show data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
+
+In the lab activity, learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.
+
+
+13) **Statistics**
+
+In this module, we describe how statisitcal tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.
+
+In the lab activity, learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).
+
+14) **Data Output**
+
+In this module, learners discover that they can save their processed data as RDS (R native) or csv files so that they don't have to rerun processing on data (especially if it is large) or if they want to share data with others.
+
+In the lab activity, learners write a csv and RDS file as well as read back in an RDS file.
+
+15) **Functions**
+
+In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame.
+
+In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
 
 ## Open Case Studies GitHub Organization
 

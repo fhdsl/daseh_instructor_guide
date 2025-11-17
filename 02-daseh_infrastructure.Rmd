@@ -3,47 +3,48 @@
 ottrpal::set_knitr_image_path()
 ```
 
+
+  
 # Open Case Study Infrastructure
 
 ## Learning Objectives
 
-In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
+In this chapter we will discuss the overall infrastructure of the DaSEH Project, which includes:
 
-- The Open Case Studies (OCS) website
-- Methods to provide feedback
-- A search tool to find case studies
-- The OCS GitHub organization
-- Our R package called `OCSdata`
-
-
-## OCS Website
+- [The DaSEH website](https://daseh.org/)
+- Methods for learners to provide feedback
+- [The DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/)
+- Our [R package called `dasehr`](https://github.com/fhdsl/dasehr)
 
 
+## DaSEH Website
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
 
-Links to all of our case studies can be found on the Open Case Studies website. The case studies are listed in a searchable table that will be detailed further in the following section.  
+
+The [DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. 
+
+Links to all of our learning modules can be found on the DaSEH website on the  on the [Materials Schedule page](https://daseh.org/materials_schedule.html). 
 
 ## Feedback
 
-We are continually striving to make our case studies better. Please contact us if you have ideas for suggestions for the project or new ideas for how case studies can be used in the classroom.
+We are continually striving to make our content better. Please contact us if you have ideas for suggestions for the project.
 
 Also please let us know if you notice typos or errors, or if you are interested in getting involved.
 
-### Email Form
+### Contact Info
 
-The website contains a contact [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions.
+The website contains a contact email that may be used to send a message to DaSEH to ask a question or provide suggestions.
 
 ### Survey
 
-There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website and also within the case studies themselves that allows us to do research on case study use. 
+There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website that allows us to do research on DaSEH resource use. 
 
-The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
+The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
 
 
-## OCS Case Study Search Tool
+## Materials Search Tool
 
-The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
+The website also includes a Materials  search tool to aid instructors in finding appropriate modules for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
 This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
 

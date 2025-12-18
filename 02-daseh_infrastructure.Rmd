@@ -14,12 +14,9 @@ In this chapter we will discuss the overall infrastructure of the DaSEH Project,
 - [The DaSEH website](https://daseh.org/)
 - Methods for learners to provide feedback
 - [The DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/)
-- Our [R package called `dasehr`](https://github.com/fhdsl/dasehr)
 
 
 ## DaSEH Website
-
-
 
 The [DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. 
 
@@ -166,17 +163,17 @@ In this final module, learners discover the power of writing their own functions
 
 In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
 
-## Open Case Studies GitHub Organization
+## DaSEH GitHub Organization
 
-GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use.
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course and website repository](https://github.com/fhdsl/daseh). 
 
-Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
+This diagram explains the folder structure of our materials:
 
 
 ## Data
 
 
-All of the data used in the modules are also included in the GitHub repository. This data can be reused separately outside of our our module materials for other uses.
+All of the data used in the modules are also included in the [GitHub repository](https://github.com/fhdsl/daseh). This data can be reused separately outside of our our module materials for other uses.
 
 To use the DaSEH data, you can either:
 

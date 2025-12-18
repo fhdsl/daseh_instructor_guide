@@ -5,7 +5,7 @@ ottrpal::set_knitr_image_path()
 
 
   
-# Open Case Study Infrastructure
+# DaSEH Infrastructure
 
 ## Learning Objectives
 
@@ -23,30 +23,36 @@ In this chapter we will discuss the overall infrastructure of the DaSEH Project,
 
 The [DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. 
 
-Links to all of our learning modules can be found on the DaSEH website on the  on the [Materials Schedule page](https://daseh.org/materials_schedule.html). 
+It is built using R Markdown on GitHub at this repository: https://github.com/fhdsl/daseh and includes Google Forms to gather various information from potential participants or those with interest or feedback.
 
-## Feedback
+Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our [Apply tab](https://forms.gle/pfX4zCPFjTinKttaA).
 
-We are continually striving to make our content better. Please contact us if you have ideas for suggestions for the project.
+Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
 
-Also please let us know if you notice typos or errors, or if you are interested in getting involved.
+We also include links to all the data used in the course as well as additional data that could be used for projects our extra practice on our [data page](https://daseh.org/data.html).
+
+To help users navigate challenges, we have a page to assist with common errors on our [Error FAQ page](https://daseh.org/data.html)
+
+To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
+
+
 
 ### Contact Info
 
-The website contains a contact email that may be used to send a message to DaSEH to ask a question or provide suggestions.
+The [contact page on the website](https://daseh.org/contact.html) contains a contact email that may be used to send a message to DaSEH to ask a question or provide suggestions.
+
+### Feedback
+
+We are continually striving to make our content better. Please contact us on our [feedback form](https://forms.gle/pfX4zCPFjTinKttaA) if you have ideas for suggestions for the project.
+
+Also please let us know if you notice typos or errors, or if you are interested in getting involved.
 
 ### Survey
 
-There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website that allows us to do research on DaSEH resource use. 
+There is also a survey available on our website that allows us to do research on DaSEH resource use. 
 
 The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
 
-
-## Materials Search Tool
-
-The website also includes a Materials search tool to aid instructors in finding appropriate modules for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
-
-<!-- This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study. -->
 
 
 
@@ -54,11 +60,9 @@ The website also includes a Materials search tool to aid instructors in finding 
 
 We have the following modules on various topics related to data science for environmental public health. 
 
+Each one has lecture slides built using ioslides and as well as lab activities built using R Markdown.
 
-
-Each one has lecture slides built using ioslides as well as lab activities.
-
-The rendered version of the slides, as well as the raw Rmd file are available on the website. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
+The rendered version of the slides, as well as the raw Rmd file are available on the website or our GitHub repository. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
 
 We also include cheatsheets so that learners can review the functions that they learned that day.
 
@@ -189,10 +193,6 @@ Information about the which modules that data is used in and information about t
 
 
 This page also includes other relevant datasets.
-
-
-
-
 
 
 

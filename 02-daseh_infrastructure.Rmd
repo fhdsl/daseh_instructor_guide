@@ -205,8 +205,3 @@ Different slides are indicated by the double hashtag `##` in the document on a n
 2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
 
-## Session info
-
-```{r, echo = FALSE}
-sessionInfo()
-```

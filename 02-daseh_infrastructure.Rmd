@@ -177,11 +177,11 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ## Data
 
 
-All of the data used in the modules are also included in the [GitHub repository](https://github.com/fhdsl/daseh). This data can be reused separately outside of our our module materials for other uses.
+All of the data used in the modules are also included in the [GitHub repository](https://github.com/fhdsl/daseh) within the data folder. This data can be reused separately outside of our our module materials for other uses.
 
 To use the DaSEH data, you can either:
 
-1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data
+1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data.
 2) Directly download individual files by searching through our [data directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/data), clicking on a data file and the clicking the download raw file button.
 
 
@@ -190,37 +190,20 @@ To use the DaSEH data, you can either:
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_11#slide=id.g3a4b18ec263_0_11')
 ```
 
-Information about the which modules that data is used in and information about the data sources can be found here: https://daseh.org/data.html
+Information about the which modules the data is used in and information about the data sources can be found here: https://daseh.org/data.html. This page also includes other relevant datasets which can be used to develop or adapt course materials, such as for homework assignments, extra practice, or projects.
 
 
-This page also includes other relevant datasets.
+### Adapting materials
+
+If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you do either of the following:
+
+1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
+
+Different slides are indicated by the double hashtag `##` in the document on a new line. 
 
 
+2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
-### Downloading all case study data
-
-The `zip_ocs()` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history. 
-
-If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.  
-
-If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
-
-Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happygitwithr to learn more.
-
-
-
-### Fork or clone the case study repository
-
-If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
-
-Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
-
-
-
-However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
-
-
-If you'd like to learn more about the `OCSdata` package or the OCS GitHub organization page, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
 ## Session info
 

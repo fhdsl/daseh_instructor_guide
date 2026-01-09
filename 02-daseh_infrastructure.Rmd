@@ -93,13 +93,13 @@ The lab activity features tasks like cleaning the environment, using the `set.se
 
 5) **Data Input**
 
-This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for improting excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
+This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
 
 The lab activity covers using the point-and-click option within RStudio and using code with `readr`.
 
 6) **Data Subsetting**
 
-This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for appling conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
+This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
 
 The lab activity covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
 
@@ -112,9 +112,9 @@ In the lab activity, learners find the dimensions of the data, use the `count` f
 
 8) **Data Cleaning**
 
-This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to seperate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
+This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to separate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
 
-In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For eample, "n, N, and "No" to indicate no exposure. 
+In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate no exposure. 
 
 9) **Manipulating Data**
 
@@ -126,7 +126,7 @@ In the lab activity, learners use functions like `pivot_longer` and `pivot_wider
 
 10) **Intro to Data Visualization**
 
-This module gives learners a taste of making data visualizations by using the point-and-click option of the `esquisse` package so that learners can quickly attempt data visualiations and get the code for generating such visualizations.
+This module gives learners a taste of making data visualizations by using the point-and-click option of the `esquisse` package so that learners can quickly attempt data visualizations and get the code for generating such visualizations.
 
 In the lab activity, learners get to try out creating different plots with `esquisse`.
 
@@ -147,7 +147,7 @@ In the lab activity, learners convert a variable to a factor class and specify n
 
 13) **Statistics**
 
-In this module, we describe how statisitcal tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.
+In this module, we describe how statistical tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.
 
 In the lab activity, learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).
 

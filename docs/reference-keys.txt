@@ -42,12 +42,10 @@ daseh-in-the-classroom
 teaching-the-full-set-of-materials
 duration
 teaching-part-of-the-daseh-materials
-teaching-with-case-study-data-only
-case-study-recommendations
+teaching-with-daseh-data-only
+daseh-module-recommendations
 troubleshooting
-example-use-cases
-using-case-studies-as-lecture-content
-using-case-studies-for-assignments
+additional-use-cases
 independent-study
 interactive-case-studies
 examples-of-assignments

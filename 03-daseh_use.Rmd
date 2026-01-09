@@ -71,7 +71,7 @@ DaSEH was designed to fit the duration of an intensive two week short course for
 Some educators may find that only certain modules are relevant to their course learning objectives. Each provides information about how to access the appropriate data. Note that you may have to add some introduction to explain any functions that were explained in a previous module. 
 
 
-* For a data visualization course, the following modules could be helpful:
+* For a data visualization course, the following modules could be useful:
 
    - Basic R (only if students don't have familiarity with R)
    - RStudio  (only if students don't have familiarity with R)
@@ -80,7 +80,7 @@ Some educators may find that only certain modules are relevant to their course l
    - Data Visualization
    - Factors
 
-* For a data wrangling course, the following modules could be helpful:
+* For a data wrangling course, the following modules could be useful:
 
     - Basic R
     - RStudio  (only if students don't have familiarity with R)
@@ -90,7 +90,13 @@ Some educators may find that only certain modules are relevant to their course l
     - Manipulating Data in R
     - Factors
 
-* For a reproducibility course the following modules could be 
+* For a reproducibility course the following modules could be useful:
+
+    - Reproducibility
+    - Data Input
+    - Data Output
+    - Functions
+
   
 <br>
 
@@ -98,9 +104,33 @@ Some educators may find that only certain modules are relevant to their course l
 
 
 
-### Teaching With Case Study Data Only
+### Teaching With DaSEH Data Only
 
-Educators can use the data available with the case studies without using the case study as a whole. The data is available on GitHub and can be accessed using the `OCSdata` R package. 
+Educators can use the data available with the DaSEH without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data). See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
+
+The data can also be accessed in R by updating the path of daseh.org/data/ with the name of the data file in the URL like the following examples:
+
+```{r, eval = FALSE}
+library(readr)
+er <- 
+  read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
+
+er_visits_age <- read_csv("https://daseh.org/data/CO_ER_heat_visits_by_age.csv")
+
+Denver_heat_Data.csv <- ("https://daseh.org/data/Denver_heat_data.csv")
+```
+
+Be careful to make sure that the name of the file matches exactly include the case of the letters:
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of the data directory files and an example URL for one of the files like the examples above", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b78c177085_0_0#slide=id.g3b78c177085_0_0')
+```
+
+
+A table of which data is used in which materials is available here: https://daseh.org/data.html
+
+
+
 
 
 ## Case Study Recommendations

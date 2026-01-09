@@ -77,7 +77,7 @@ This module does not have a lab associated with it.
 
 This module includes how to assign objects, how to create vectors, and how to perform simple calculations.
 
-The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical opperations, assigning vectors, and checking the class and length of vectors.
+The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical operations, assigning vectors, and checking the class and length of vectors.
 
 3) **RStudio**
 

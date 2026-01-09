@@ -23,6 +23,7 @@ esquisse
 faq
 favicon
 FirstName
+fredhutch
 Funder
 fyi
 GDSCN
@@ -38,6 +39,7 @@ ies
 iframe
 immunities
 impactful
+ioslides
 ITCR
 itcrtraining
 ITN

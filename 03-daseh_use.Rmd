@@ -133,9 +133,11 @@ A table of which data is used in which materials is available here: https://dase
 
 
 
-## Case Study Recommendations
+## DaSEH Module Recommendations
 
-Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but only need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the [Case Study Search Tool](https://www.opencasestudies.org/#searchtab) or in the Learning Objectives section in each case study. 
+Overall the DaSEH materials are intended for anyone with zero to minimal familiarity with R, altough we have had learners with more intermediate levels of experience who have reported getting alot out of the material. 
+
+Across the program, the modules also involve different levels of skill, as some would be fine on their own for beginners, while others may require some basic familiarity. Below we provide broad categorizations of each module in terms of the skill levels required (beginner, intermediate, or advanced).
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
@@ -152,48 +154,40 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
 
-| Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
-| ------- | --------- | --------- | ------- | --------- |
-| School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
-| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | Beginner | 
-| Opioids in United States | Intermediate | Beginner | Beginner | Intermediate | 
-| Vaping Behaviors in American Youth | Beginner | Beginner | Beginner | Intermediate | 
-| Mental Health of American Youth | Advanced | Beginner | Beginner | Beginner | 
-| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | Beginner | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Beginner | Advanced | NA | NA | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | NA | Intermediate | Advanced | 
-| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | Beginner | 
-| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | Intermediate | 
-| Predicting Annual Air Pollution | Beginner | Beginner | Intermediate | Advanced | 
-| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | Beginner | 
+| Module | Skill Level| 
+| ------- | --------- | 
+| Intro |  Beginner | 
+| Basic R | Beginner | 
+| RStudio | Beginner |
+| Reproducibility| Beginner but also appropriate for Intermediate or Advanced audiences that are new to this topic| 
+| Data Input | Beginner | 
+| Subsetting Data in R | Intermediate |
+| Data Summarization | Intermediate |
+| Data Classes | Beginner|
+| Data Cleaning | Intermediate |
+| Manipulating Data in R | Intermediate |
+| Intro to Data Visualization | Beginner |
+| Data Visualization| Intermediate |
+| Factors | Intermediate |
+| Statistics | Beginner * Note that we do not focus on statistical theory, but rather on using R to perform tests |
+| Data Output | Beginner |
+| Functions | Intermediate and Advanced if a new topic|
 
 ## Troubleshooting
 
-You may encounter errors trying to render our case studies. 
-
-In which case, we suggest that you check the "Session Info" section under the "Additional Information "section of the case study to see what versions of packages we used. 
+You may encounter errors trying to render our materials. 
 
 R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.
 
-If you encounter an error, this is likely the reason. We try to update our case studies when we can, but we can't always update the information in a timely manner as this is currently a passion project. You can either use the error message from trying to knit the case study to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information), or you can use the versions of the packages that are shown in our Session Info section and load the versions that we used, following the directions [here](https://search.r-project.org/CRAN/refmans/remotes/html/install_version.html). 
+If you encounter an error, this is likely the reason. We try to update our materials when we can, but updates to packages may happen in the meantime. You can either use the error message from trying to knit the Rmd file to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information).
 
-## Example Use Cases
+## Additional Use Cases
 
-Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
+Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, we would love to [hear](https://daseh.org/contact.html) about it! 
 
-### Using Case Studies as Lecture Content
+ 1. Using materials for assignments
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
-
-Here you can see how the course used the `OCSdata` package:
-
-
-
-[Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
-
-### Using Case Studies for Assignments
-
-[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by [Dr. Jeff Leek](https://jtleek.com/) and [Dr. Roger Peng](https://rdpeng.org/) in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
+ Assignments could include [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
 
 ### Independent Study
 

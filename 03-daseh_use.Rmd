@@ -3,30 +3,29 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Use of Open Case Studies
+# Use of DaSEH
 
 ## Learning Objectives
 
 
-This chapter will provide guidance on how to use Open Case Studies for instruction. 
+This chapter will provide guidance on how to use DaSEH resources for instruction. 
 
-- We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners.
-- We will describe ways that instructors can use full case studies, part of a case study, or just the data.
-- We will present ways in which others have used the case studies.
-- We will present some examples of extensions that can accompany the case studies and can serve as a template for homework assignments or independent student exploration. 
+- We will give a information on what material is appropriate for beginner, intermediate, or advanced learners.
+- We will describe ways that instructors can use the full set of DaSEH resources, some of the modules, or just the data.
+- We will present some examples of extensions that can accompany the materials and can serve as a template for homework assignments or independent student exploration. 
 
-The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please [let us know](https://www.opencasestudies.org/#contact) what you come up with so that other educators may be inspired by your creativity. 
+The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know]https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
 
-#### Public Health Subject Matter
+#### Environmental Health Subject Matter
  
-The case studies in Open Case Studies generally deal with topics in public health. We do not require any prior knowledge on the public health subjects examined in the case studies. The Getting Started section in each case study (specifically, the case study context) will present the subject material relevant to understanding the data and the case study implications. 
+The materials in DaSEH use data related to environmental health. There is no requirement for any prior knowledge on environmental health. The resources are also applicable for those interested in data science for other uses. 
 
 #### Statistics
 
-The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see the [case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
+The DaSEH materials do expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course.
 
 #### Coding/Data Science
 

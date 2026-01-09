@@ -180,8 +180,8 @@ This diagram is from former graduate student [Michael Breshock's](https://mbresh
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_4.3.2  fastmap_1.1.1   bookdown_0.43   cli_3.6.2      
-##  [5] htmltools_0.5.7 tools_4.3.2     yaml_2.3.10     rmarkdown_2.25 
-##  [9] knitr_1.50      digest_0.6.34   xfun_0.52       rlang_1.1.6    
-## [13] evaluate_1.0.4
+##  [1] compiler_4.3.2  fastmap_1.1.1   bookdown_0.46   cli_3.6.5      
+##  [5] htmltools_0.5.7 tools_4.3.2     yaml_2.3.12     rmarkdown_2.25 
+##  [9] knitr_1.50      digest_0.6.34   xfun_0.55       rlang_1.1.6    
+## [13] evaluate_1.0.5
 ```

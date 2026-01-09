@@ -1,213 +1,198 @@
 
 
 
-# Open Case Study Infrastructure
+
+  
+# DaSEH Infrastructure
 
 ## Learning Objectives
 
-In this chapter we will discuss the overall infrastructure of the Open Case Studies platform, which includes:
+In this chapter we will discuss the overall infrastructure of the DaSEH Project, which includes:
 
-- The Open Case Studies (OCS) website
-- Methods to provide feedback
-- A search tool to find case studies
-- The OCS GitHub organization
-- Our R package called `OCSdata`
+- [The DaSEH website](https://daseh.org/)
+- Methods for learners to provide feedback
+- [The DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/)
 
 
-## OCS Website
+## DaSEH Website
+
+The [DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. 
+
+It is built using R Markdown on GitHub at this repository: https://github.com/fhdsl/daseh and includes Google Forms to gather various information from potential participants or those with interest or feedback.
+
+Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our [Apply tab](https://forms.gle/pfX4zCPFjTinKttaA).
+
+Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
+
+We also include links to all the data used in the course as well as additional data that could be used for projects our extra practice on our [data page](https://daseh.org/data.html).
+
+To help users navigate challenges, we have a page to assist with common errors on our [Error FAQ page](https://daseh.org/data.html)
+
+To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
 
 
 
-The [OpenCaseStudies website](https://www.opencasestudies.org/) describes the mission of the Open Case Studies project, the history of its inception, current and previous members of the OCS team, an archive of talks and blog posts and other information. 
+### Contact Info
 
-Links to all of our case studies can be found on the Open Case Studies website. The case studies are listed in a searchable table that will be detailed further in the following section.  
+The [contact page on the website](https://daseh.org/contact.html) contains a contact email that may be used to send a message to DaSEH to ask a question or provide suggestions.
 
-## Feedback
+### Feedback
 
-We are continually striving to make our case studies better. Please contact us if you have ideas for suggestions for the project or new ideas for how case studies can be used in the classroom.
+We are continually striving to make our content better. Please contact us on our [feedback form](https://forms.gle/pfX4zCPFjTinKttaA) if you have ideas for suggestions for the project.
 
 Also please let us know if you notice typos or errors, or if you are interested in getting involved.
 
-### Email Form
-
-The website contains a contact [email form](https://www.opencasestudies.org/OCS_Guide/introduction.html#contact-us) that may be used to send a message to Open Case Studies to ask a question or provide suggestions.
-
 ### Survey
 
-There is also a [survey](https://docs.google.com/forms/d/e/1FAIpQLSfpN4FN3KELqBNEgf2Atpi7Wy7Nqy2beSkFQINL7Y5sAMV5_w/viewform?usp=sf_link) available on our website and also within the case studies themselves that allows us to do research on case study use. 
+There is also a survey available on our website that allows us to do research on DaSEH resource use. 
 
-The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve the data science education experience. Part of this includes getting a better understanding of who is using our case studies and how so that we can better design our case studies. We would greatly appreciate you filling it out if you have the time!
+The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
 
 
-## OCS Case Study Search Tool
 
-The website also includes the case study search tool to aid instructors in finding appropriate case studies for their learning objectives. Accessing the search tool and how to use it is described in more detail below.
 
-This diagram illustrates the workflow of accessing a case study from the OCS website through the case study search table. From the table, users can use the provided links to view the original static case studies, interactive case studies, and the GitHub repositories for each. Users may find all case study source files in the case study repository, as well as instructions on how to use the case study.
+### Materials
 
+We have the following modules on various topics related to data science for environmental public health. 
 
+Each one has lecture slides built using ioslides and as well as lab activities built using R Markdown.
 
-### Interactive Case Studies
+The rendered version of the slides, as well as the raw Rmd file are available on the website or our GitHub repository. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
 
-The interactive versions of the case studies are a recent development. These versions include live tutorials through quizzes and interactive coding exercises with real-time feedback. The interactive case studies were made using the [`learnr`](https://rstudio.github.io/learnr/) and [`gradethis`](https://pkgs.rstudio.com/gradethis/) packages. 
+We also include cheatsheets so that learners can review the functions that they learned that day.
 
-If you'd like to learn more about the interactive case studies, graduate student [Qier Meng](https://www.opencasestudies.org/authors/qmeng/) discusses the interactive versions in further detail in the video below: 
+![](02-daseh_infrastructure_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3a4b18ec263_0_0.png){width=100%}
 
+1) **An Introduction to R**
 
+This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.
 
-If you'd like to learn more about the interactive case studies you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
+This module does not have a lab associated with it.
 
-The [Open Case Study Search](https://www.opencasestudies.org/#searchtab) tool can be found at the bottom of the [OCS Website](https://www.opencasestudies.org/). The tool consists of a table with searchable columns and each row describing an individual case study. This searchable table is designed to aid instructors in identifying appropriate case studies for their learning objectives. The columns are organized as such:
+2) **Basic R**
 
-- The "Case Study" column contains the case study name and a link to the static and interactive versions of the case study (if available)
-- The "GitHub Repository" column provides links to the case study's associated GitHub repository that contains all case study source files, data, code, and more
-- The "Packages" column details all the R packages used in the case study, and can help identify if a case study teaches a specific data import, wrangling, analysis, or visualization skill
-- The "Objectives" column details the learning objectives of each case study (e.g. importing data from PDF files, reshaping data, specific statistical analysis, etc.)
-- The "Category" column lists the source of funding or project that the case study is associated with
+This module includes how to assign objects, how to create vectors, and how to perform simple calculations.
 
-The main two columns likely to be helpful in identifying appropriate case studies are the "Packages" and "Objectives" columns. Users may search for keywords across all columns using the overall search bar, otherwise users can search individual columns of interest. 
+The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical operations, assigning vectors, and checking the class and length of vectors.
 
-This table can be used to access all case study resources:
+3) **RStudio**
 
+This module includes a tour of RStudio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.
 
+The lab activity involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.
 
-This video provides a live demonstration on how to use the search tool: 
+4) **Reproducibility**
 
+This module introduces concepts related to repeatability, reproducibility, and replicability. It introduces best practices for improving transparency in our code.
 
+The lab activity features tasks like cleaning the environment, using the `set.seed()` function to generate the same random numbers each time, and using the `sessionInfo()` function to list packages and versions used.
 
-## Open Case Studies GitHub Organization
+5) **Data Input**
 
-GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. OCS uses GitHub for both development and distribution purposes. Users have complete access to all case study material through our [OCS GitHub page](https://github.com/opencasestudies) where each case study is hosted in an individual repository. The repository contains all the materials needed for the case study. This includes the case study text to be distributed to students, the data used in the case study (discussed below), additional documents and references, and brief guidelines on case study use.
+This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
 
-Data included in the GitHub repository is available in multiple formats to enable modular use of the case studies. This diagram explains the case study data folder structure and how data is categorized into different sub-folders:
+The lab activity covers using the point-and-click option within RStudio and using code with `readr`.
 
+6) **Data Subsetting**
 
+This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
 
-Data included in the GitHub repository is available in multiple formats to facilitate modularization of the case studies as described below. To use the case study data, you can download the GitHub repository directly or use the `OCSdata` R package described below. 
+The lab activity covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
 
-## OCSdata 
 
-To simplify the process of accessing the data required for each case study, we have created the `OCSdata` R package. Briefly, the `OCSdata` package creates a new folder called "OCSdata" where it downloads the data needed for a specific case study. Users can download the data in its original raw format or in various processed formats that correspond to different stages of data wrangling and cleaning. This allows users to perform the data exploration and wrangling or the data visualization and analysis sections of the case study without having to process the data from the raw files. For some of the case studies, the `OCSdata` package also downloads extra source data that is not used in the case study. 
+7) **Data Summarization**
 
-The following are the main functions to import data in various formats using the `OCSdata` package. Each function is described in more detail in the `OCSdata` [package documentation](https://cran.r-project.org/web/packages/OCSdata/index.html).
+This module covers how to apply mathematical functions to get summary statistics from data including, mean, standard deviation, range, max, and min. We show how we can pull the data out as a vector to use these functions or we can use the `summarize()` function on columns of a data to create a new data frame with summary statistics. We also talk about the `summary()` function to find quantiles of data quickly.
 
-| Data Folder | Case Study Section | `OCSdata` Function |
-| ----- | -------- | ------ |
-| raw | Data Import | `raw_data` |
-| imported | Data Exploration, Data Wrangling | `imported_data` |
-| wrangled | Data Visualization, Data Analysis | `wrangled_csv`, `wrangled_rda` |
-| simpler_import | Data Import | `simpler_import_data` |
-| extra | Suggested Homework (?) | `extra_data` |
+In the lab activity, learners find the dimensions of the data, use the `count` function to summarize the data, use `pull` and mathematical functions like `sum` to calculate summaries of columns, as well as use the `summarize()` function to summarize the data. 
 
-The package source files and documentation are also available on [GitHub](https://github.com/opencasestudies/OCSdata).
+8) **Data Cleaning**
 
-### Getting Started with `OCSdata`
+This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to separate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
 
-The `OCSdata` package is available on the package repository [CRAN](https://cran.r-project.org/web/packages/OCSdata/index.html). It requires R 3.5 or higher and can be installed in R as follows: 
+In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate no exposure. 
 
+9) **Manipulating Data**
 
+This module covers how to rearrange data so that it is either in long or wide format. We discuss how wide format can be useful for human interpretation and how long format is useful for R to use the data for analyses and data visualizations. We also discuss how to join different datasets together and describe why one might want to do this.
 
-### Downloading raw data
 
-The `raw_data` function will download the raw data files that can be imported into R. 
+In the lab activity, learners use functions like `pivot_longer` and `pivot_wider` to change the shape of a dataset. They also practice doing joins of datasets together and comparing how the different joining functions work.
 
-The first argument is the name of the case study. A list of case study names can be found in the package documentation [online](https://cran.r-project.org/web/packages/OCSdata/vignettes/instructions.html#casestudy) or by typing `?raw_data` in R. 
 
-The `outpath` argument is a string specifying the folder where the data should be downloaded. To download the data to a folder named "OCS_data" in the current working directory, you can supply `getwd()` to the `output` argument. If nothing is provided for the argument, you will be prompted to enter 1, 2, or 3 to download the data into the current director, to specify the download path, or to cancel, respectively. 
+10) **Intro to Data Visualization**
 
-In the following example, we download the raw data for the "Opioids in the United States" case study to the current directory. 
+This module gives learners a taste of making data visualizations by using the point-and-click option of the `esquisse` package so that learners can quickly attempt data visualizations and get the code for generating such visualizations.
 
+In the lab activity, learners get to try out creating different plots with `esquisse`.
 
 
-### Downloading data in other formats
+11) **Data Visualization**
 
-The `OCSdata` package can be used to download the data in various processed formats that may be helpful in skipping certain case study sections and focusing on data wrangling and/or analysis and visualization. All of the functions take the same arguments described above.
+This module dives deeper into best practices for data visualization, how to make a `ggplot2` plot, and more customization options for creating data visualizations such as using `themes`, how to spot common issues in visualizations and fix them, as well as how to make plots interactive or how to combine plots using other packages like `plotly` and `patchwork`.
 
-#### Simpler import
+In the lab activity, learners practice making plots directly with `ggplot2` and practice applying new themes to their plots and faceting their plots.
 
-The `simpler_import_data()` function will download raw data files that have been converted to file formats that are easier to import into R, typically .csv. Some case studies offer this option when the original raw files require a more complicated import step. 
 
+12) **Factors**
 
+In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations show data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
 
-#### Importing data as R objects 
+In the lab activity, learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.
 
-The `imported_data()` function will download raw data files in .rda format. This means the data have already been imported into R objects. This can be used to skip the data import section and start directly with data wrangling. The R objects files can be imported into R by either double clicking on the files in RStudio or using the `load()` function as follows. 
 
+13) **Statistics**
 
+In this module, we describe how statistical tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.
 
+In the lab activity, learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).
 
-#### Importing wrangled data
+14) **Data Output**
 
-The following functions will download the data files that have already been wrangled and are ready to be analyzed. These come in both .csv and .rda formats.
+In this module, learners discover that they can save their processed data as RDS (R native) or csv files so that they don't have to rerun processing on data (especially if it is large) or if they want to share data with others.
 
-Download as csv files:
+In the lab activity, learners write a csv and RDS file as well as read back in an RDS file.
 
+15) **Functions**
 
+In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code. 
 
-Downloading as R objects:
+In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
 
+## DaSEH GitHub Organization
 
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course and website repository](https://github.com/fhdsl/daseh). 
 
-### Downloading extra data
+This diagram explains the folder structure of our materials:
 
-Some case studies have extra data are not used in the case study but can be used to explore the case study subject from different perspectives. These data  but can This data can be downloaded using the `extra_data()` function. 
+![](02-daseh_infrastructure_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b1c31cfa63_0_80.png){width=100%}
 
+## Data
 
 
-### Downloading all case study data
+All of the data used in the modules are also included in the [GitHub repository](https://github.com/fhdsl/daseh) within the data folder. This data can be reused separately outside of our our module materials for other uses.
 
-The `zip_ocs()` function will download the all of the repository files in a .zip folder and unzip them into a specified directory. This includes the case study data in all the formats detailed above (raw, simpler_import, imported, wrangled, and extra). It also includes the case study .Rmd file, which can be modified by instructors as needed. We recommend using this method over cloning or forking (terms that you may be familiar with if you are familiar with Git and GitHub), as this will not result in the user getting all of our git history. 
+To use the DaSEH data, you can either:
 
-If you choose to fork the repository you will automatically generate a repository on GitHub and your repository will have connections to the original case study. This can be helpful for pulling any changes to the original case study. It can also be helpful if you want to send edits to the original case study in the form of what is called a pull request.  
+1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data.
+2) Directly download individual files by searching through our [data directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/data), clicking on a data file and the clicking the download raw file button.
 
-If you clone the case study repository, you can set it up on GitHub as well with a few more steps and you will not preserve any connection to the original case study repository.
 
-Again, don't worry if all these terms are new to you. You can just use the `zip_ocs()` function instead. Otherwise take a look at @happygitwithr to learn more.
 
+![](02-daseh_infrastructure_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3a4b18ec263_0_11.png){width=100%}
 
+Information about the which modules the data is used in and information about the data sources can be found here: https://daseh.org/data.html. This page also includes other relevant datasets which can be used to develop or adapt course materials, such as for homework assignments, extra practice, or projects.
 
-### Fork or clone the case study repository
 
-If instead users are familiar with Git and GitHub and want to fork or clone the case study repository, this can also easily be done using the `OCSdata` package. The `clone_ocs()` function of the `OCSdata` package can be used to do either. If the `fork_repo` function is set to `TRUE` it will fork the repo, otherwise, by default, it will clone the repository. These functions will result in the same outcome as using GitHub to clone or fork the repo.
+### Adapting materials
 
-Again you can also specify the `outpath` location as in the previous description about the `zip_ocs()` function.
+If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you do either of the following:
 
+1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
 
+Different slides are indicated by the double hashtag `##` in the document on a new line. 
 
-However, using these functions will involve the users getting all of our git history so we suggest that users use the `zip_ocs()` function (described in the above section) of `OCSdata` instead. 
 
+2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
-If you'd like to learn more about the `OCSdata` package or the OCS GitHub organization page, you can read this [thesis](https://jscholarship.library.jhu.edu/handle/1774.2/66820) by former graduate student [Michael Breshock](https://mbreshock.github.io/) @breshock_expanding_2021.
 
-## Session info
-
-
-```
-## R version 4.3.2 (2023-10-31)
-## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 22.04.4 LTS
-## 
-## Matrix products: default
-## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
-## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
-## 
-## locale:
-##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
-##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
-## 
-## time zone: Etc/UTC
-## tzcode source: system (glibc)
-## 
-## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  methods   base     
-## 
-## loaded via a namespace (and not attached):
-##  [1] compiler_4.3.2  fastmap_1.1.1   bookdown_0.43   cli_3.6.2      
-##  [5] htmltools_0.5.7 tools_4.3.2     yaml_2.3.10     rmarkdown_2.25 
-##  [9] knitr_1.50      digest_0.6.34   xfun_0.52       rlang_1.1.6    
-## [13] evaluate_1.0.4
-```

@@ -1,34 +1,33 @@
 
 
 
-# Use of Open Case Studies
+# Use of DaSEH
 
 ## Learning Objectives
 
 
-This chapter will provide guidance on how to use Open Case Studies for instruction. 
+This chapter will provide guidance on how to use DaSEH resources for instruction. 
 
-- We will give a coarse guide on which case studies include material appropriate for beginner, intermediate, or advanced learners.
-- We will describe ways that instructors can use full case studies, part of a case study, or just the data.
-- We will present ways in which others have used the case studies.
-- We will present some examples of extensions that can accompany the case studies and can serve as a template for homework assignments or independent student exploration. 
+- We will give a information on what material is appropriate for beginner, intermediate, or advanced learners.
+- We will describe ways that instructors can use the full set of DaSEH resources, some of the modules, or just the data.
+- We will present some examples of extensions that can accompany the materials and can serve as a template for homework assignments or independent student exploration. 
 
-The examples presented in this chapter are merely suggestions - modifications to the case studies to fit student needs are expected and encouraged! If you come up with a different way to use the case studies, please [let us know](https://www.opencasestudies.org/#contact) what you come up with so that other educators may be inspired by your creativity. 
+The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know]https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
 
-#### Public Health Subject Matter
+#### Environmental Health Subject Matter
  
-The case studies in Open Case Studies generally deal with topics in public health. We do not require any prior knowledge on the public health subjects examined in the case studies. The Getting Started section in each case study (specifically, the case study context) will present the subject material relevant to understanding the data and the case study implications. 
+The materials in DaSEH use data related to environmental health. There is no requirement for any prior knowledge on environmental health. The resources are also applicable for those interested in data science for other uses. 
 
 #### Statistics
 
-The case studies cover a range of statistical approaches and skillsets. Some case studies will build on more foundational statistical concepts. The Experience Level categorization for each case study (see the [case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)) will indicate the expected prior skills that the case study will expect. Furthermore, the exact skills that the case study will use are listed in the Case Study Search Tool under the Objectives column. 
+The DaSEH materials do expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course.
 
 #### Coding/Data Science
 
-All case studies use the R statistical programming language for data analysis. Some familiarity with R basics is expected for effective use of the case studies. However, depending on the data used and the extent to which it needs to be cleaned and processed before analysis, each case study may require experience with additional programming and data wrangling skills. This will be indicated by the Experience Level designation for the case study ([case study recommendation section](https://www.opencasestudies.org/OCS_Guide/use-of-open-case-studies.html#case-study-recommendations)).  
+All materials for DaSEH use the R statistical programming language for data analysis. No familiarity with R basics is expected for learners.  
 
 #### Software 
 
@@ -47,51 +46,54 @@ The table below explains how we define the beginner, intermediate, and advanced 
 
 Typically, most middle/high school and first year undergraduate students will fit in the beginner category. Upperclassmen undergraduates and some graduate students are often at the intermediate level. Most advanced level students will be at the graduate level. However, this is a generalization, and a student may be considered beginner, intermediate, or advanced at any academic level depending on their independent studies and experiences. 
 
-## Open Case Studies in the Classroom
+## DaSEH in the Classroom
 
-The case studies are structured to support both partial and full use of a case study. Educators are also free to use case study data by itself.  
+The DaSEH materials are structured in a modular manner to support both partial and full use of our materials. Educators are also free to use the DaSEH data by itself.  
 
-### Teaching a Full Case Study
+### Teaching the full set of materials
 
-The case studies are written to provide a cohesive story that simulates data science in the real world. Reading through an entire case study is an excellent exercise for students to experience a standard data science workflow and learn the best practices of today from start to finish. The following list provides a few examples of how educators have used a full case study in the past: 
+The DaSEH materials are written to provide a comprehensive introduction to enviornmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the mateirals: 
 
-- Converted the case study into a [slide deck](https://cogs137.github.io/website/lecslides/16-cs2-data.html#1) ([Practical Data Science in R](https://cogs137.github.io/website/) taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara)
-- Assigned students to read the case study and write a report as homework ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework9))
-- Assigned students to extend analysis beyond case study ([Advanced Data Science course at Johns Hopkins ](https://github.com/advdatasci/homework11))
+- Use our full set of slides as lecture and materials as we have used them
+- Do a flipped classroom approach and assigned students to read the slides as homework and do labs in the class together
+- Assign students to extend analysis beyond what is shown in our lecture or lab materials to dive deeper or provide more homework 
 
 
-**Case Study Reading Time and Readability Index**
+#### Duration
 
-The reading time and readability index were calculated for each case study with [koRpus](https://github.com/unDocUMeantIt/koRpus). A readability index estimates the reading difficulty level of a particular text. The following table lists the reading time and the Flesch-Kincaid readability index for each case study. This information may be useful for deciding which case study to use in your curriculum. Based on the course taught by Dr. Ellis, in which the case studies were used for lecture material, it appears that for intermediate level data science students, a 10 week course could cover 2 longer case studies or 3 shorter case studies. How long a case study will take however, will depend on the experience level of the students.
+DaSEH was designed to fit the duration of an intensive two week short course for 3.5 hours a day for roughly 32 hours of instruction time. However, the materials could also be spread out to fit a semester 16 week long course.
 
-| **Case Study** | **Reading Time** (minutes) | Readability Index (Flesch-Kincaid) |
-| -------------------- | --------- | ---------------- |
-| [School Shootings in the United States](https://www.opencasestudies.org/ocs-bp-school-shootings-dashboard) | 110 | Grade 9, Age 14 |
-| [Disparities in Youth Disconnection](https://www.opencasestudies.org/ocs-bp-youth-disconnection) | 85 | Grade 8, Age 13 |
-| [Opioids in United States](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban) | 90 | Grade 9, Age 14 |
-| [Vaping Behaviors in American Youth](https://www.opencasestudies.org/ocs-bp-vaping-case-study) | 75 | Grade 10, Age 15 |
-| [Mental Health of American Youth](https://www.opencasestudies.org/ocs-bp-youth-mental-health) | 90 | Grade 8, Age 13 |
-| [Exploring global patterns of obesity across rural and urban regions](https://www.opencasestudies.org/ocs-bp-rural-and-urban-obesity) | 70 | Grade 9, Age 14 |
-| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 1](https://www.opencasestudies.org/ocs-bp-RTC-wrangling) | 55 | Grade 9, Age 14 |
-| [Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws Part 2](https://www.opencasestudies.org/ocs-bp-RTC-analysis) | 60 | Grade 11, Age 16 |
-| [Exploring CO2 emissions across time](https://www.opencasestudies.org/ocs-bp-co2-emissions) | 70 | Grade 9, Age 14 |
-| [Exploring global patterns of dietary behaviors associated with health risk](https://www.opencasestudies.org/ocs-bp-diet) | 100 | Grade 10, Age 15 |
-| [Predicting Annual Air Pollution](https://www.opencasestudies.org/ocs-bp-air-pollution) | 100 | Grade 10, Age 15 |
 
-### Teaching Part of a Case Study
+### Teaching Part of the DaSEH Materials
 
-Some educators may find that only certain sections of a case study are relevant to their course learning objectives. For these educators the case studies are structured to allow for modular use. The case study [GitHub repositories](https://github.com/opencasestudies) provide the appropriate data files to be used at the start of each section. These data files can be downloaded directly from GitHub or with the [OCSdata](https://github.com/opencasestudies/OCSdata) package (see the [OCSdata section](https://www.opencasestudies.org/OCS_Guide/open-case-study-infrastructure.html#ocsdata) in chapter 2). The following table describes which data folder contains the corresponding data for each case study section. An example use for each data type is provided as well. 
+Some educators may find that only certain modules are relevant to their course learning objectives. Each provides information about how to access the appropriate data. Note that you may have to add some introduction to explain any functions that were explained in a previous module. 
 
+
+* For a data visualization course, the following modules could be helpful:
+
+   - Basic R (only if students don't have familiarity with R)
+   - RStudio  (only if students don't have familiarity with R)
+   - Manipulating Data in R (to convert data from wide to long format to facilitate data visualization)
+   - Intro to Data Visualization
+   - Data Visualization
+   - Factors
+
+* For a data wrangling course, the following modules could be helpful:
+
+    - Basic R
+    - RStudio  (only if students don't have familiarity with R)
+    - Subsetting Data in R
+    - Data Classes
+    - Data Cleaning
+    - Manipulating Data in R
+    - Factors
+
+* For a reproducibility course the following modules could be 
+  
 <br>
 
 
-| Data Folder | Case Study Section | Example Use |
-| ------- | --------- | ------------------------ |
-| raw | Data Import | Assigning public health students to read through a case study starting from the beginning |
-| imported | Data Exploration, Data Wrangling | Data science students practicing wrangling methods with in class exercises |
-| wrangled | Data Visualization, Data Analysis | Statistics course practicing analysis methods with real data as a live lesson |
-| simpler_import | Data Import | Introductory data science instructor wants students to practice data import without over-complication |
-| extra | Not Used in Case Study | Public health course assigns homework to practice case study methods with similar but new data | 
+
 
 
 ### Teaching With Case Study Data Only
@@ -241,18 +243,18 @@ We would like to thank the following people for generously sharing the ways in w
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] jsonlite_1.8.8   dplyr_1.1.4      compiler_4.3.2   gitcreds_0.1.2  
-##  [5] promises_1.2.1   tidyselect_1.2.0 Rcpp_1.0.12      xml2_1.3.6      
+##  [1] jsonlite_2.0.0   dplyr_1.1.4      compiler_4.3.2   gitcreds_0.1.2  
+##  [5] promises_1.2.1   tidyselect_1.2.0 Rcpp_1.0.12      xml2_1.5.1      
 ##  [9] webshot2_0.1.2   stringr_1.5.1    jquerylib_0.1.4  later_1.3.2     
-## [13] tidyr_1.3.1      yaml_2.3.10      fastmap_1.1.1    readr_2.1.5     
-## [17] R6_2.5.1         generics_0.1.3   knitr_1.50       tibble_3.3.0    
-## [21] bookdown_0.43    rprojroot_2.1.0  bslib_0.6.1      pillar_1.9.0    
+## [13] tidyr_1.3.1      yaml_2.3.12      fastmap_1.1.1    readr_2.1.5     
+## [17] R6_2.6.1         generics_0.1.3   knitr_1.50       tibble_3.3.0    
+## [21] bookdown_0.46    rprojroot_2.1.1  bslib_0.6.1      pillar_1.9.0    
 ## [25] tzdb_0.4.0       rlang_1.1.6      utf8_1.2.4       websocket_1.4.4 
-## [29] cachem_1.0.8     stringi_1.8.3    xfun_0.52        sass_0.4.8      
-## [33] cli_3.6.2        magrittr_2.0.3   ps_1.7.6         digest_0.6.34   
-## [37] rvest_1.0.4      processx_3.8.3   hms_1.1.3        lifecycle_1.0.4 
-## [41] chromote_0.5.1   vctrs_0.6.5      ottrpal_2.0.0    evaluate_1.0.4  
-## [45] glue_1.7.0       spelling_2.3.1   fansi_1.0.6      rmarkdown_2.25  
+## [29] cachem_1.0.8     stringi_1.8.3    xfun_0.55        sass_0.4.8      
+## [33] cli_3.6.5        magrittr_2.0.3   ps_1.9.1         digest_0.6.34   
+## [37] rvest_1.0.5      processx_3.8.6   hms_1.1.3        lifecycle_1.0.4 
+## [41] chromote_0.5.1   vctrs_0.6.5      ottrpal_2.0.0    evaluate_1.0.5  
+## [45] glue_1.7.0       spelling_2.3.2   fansi_1.0.6      rmarkdown_2.25  
 ## [49] purrr_1.0.2      httr_1.4.7       htmltools_0.5.7  tools_4.3.2     
 ## [53] pkgconfig_2.0.3
 ```

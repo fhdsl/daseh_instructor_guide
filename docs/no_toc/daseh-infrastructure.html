@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 DaSEH Infrastructure | DaSEH Instructor Guide</title>
+  <meta name="description" content="Guide for how to use DaSEH resources" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 DaSEH Infrastructure | DaSEH Instructor Guide" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Guide for how to use DaSEH resources" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 DaSEH Infrastructure | DaSEH Instructor Guide" />
+  
+  <meta name="twitter:description" content="Guide for how to use DaSEH resources" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="use-of-daseh.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<base target="_blank">
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+<link rel="stylesheet" href="assets/style_config_default.css" type="text/css" />
+<link rel="stylesheet" href="assets/style_config_custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<p><a href="https://daseh.org/"><img src="https://daseh.org/images/DaSEH_logo_transparent.png" style=" width: 80%; padding-left: 40px; padding-top: 8px; vertical-align: top"></a> </p>
+<p style="text-align: center; font-size: 20px; font-weight: bold; font-family: 'Lora', arial, sans-serif; "> Instructor Guide </p>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About this guide</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#formats"><i class="fa fa-check"></i><b>0.1</b> Formats</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#summary"><i class="fa fa-check"></i><b>0.2</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#target-audience"><i class="fa fa-check"></i><b>1.3</b> Target Audience</a></li>
+<li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#curriculum"><i class="fa fa-check"></i><b>1.4</b> Curriculum</a></li>
+<li class="chapter" data-level="1.5" data-path="introduction.html"><a href="introduction.html#daseh-philosophy"><i class="fa fa-check"></i><b>1.5</b> DaSEH Philosophy</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="introduction.html"><a href="introduction.html#what-problem-are-we-addressing"><i class="fa fa-check"></i><b>1.5.1</b> What problem are we addressing?</a></li>
+</ul></li>
+<li class="chapter" data-level="1.6" data-path="introduction.html"><a href="introduction.html#daseh-short-course-resources"><i class="fa fa-check"></i><b>1.6</b> DaSEH Short Course Resources</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="introduction.html"><a href="introduction.html#stage-1-online-instructions"><i class="fa fa-check"></i><b>1.6.1</b> Stage 1: Online Instructions</a></li>
+<li class="chapter" data-level="1.6.2" data-path="introduction.html"><a href="introduction.html#stage-2-self-directed-review-and-project-planning"><i class="fa fa-check"></i><b>1.6.2</b> Stage 2: Self-Directed Review and Project Planning</a></li>
+<li class="chapter" data-level="1.6.3" data-path="introduction.html"><a href="introduction.html#stage-3-code-a-thon"><i class="fa fa-check"></i><b>1.6.3</b> Stage 3: Code-a-thon</a></li>
+</ul></li>
+<li class="chapter" data-level="1.7" data-path="introduction.html"><a href="introduction.html#getting-started"><i class="fa fa-check"></i><b>1.7</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="1.7.1" data-path="introduction.html"><a href="introduction.html#technical-requirements"><i class="fa fa-check"></i><b>1.7.1</b> Technical Requirements</a></li>
+<li class="chapter" data-level="1.7.2" data-path="introduction.html"><a href="introduction.html#rstudio"><i class="fa fa-check"></i><b>1.7.2</b> RStudio</a></li>
+<li class="chapter" data-level="1.7.3" data-path="introduction.html"><a href="introduction.html#github"><i class="fa fa-check"></i><b>1.7.3</b> GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="introduction.html"><a href="introduction.html#website"><i class="fa fa-check"></i><b>1.8</b> Website</a></li>
+<li class="chapter" data-level="1.9" data-path="introduction.html"><a href="introduction.html#feedback"><i class="fa fa-check"></i><b>1.9</b> Feedback</a>
+<ul>
+<li class="chapter" data-level="1.9.1" data-path="introduction.html"><a href="introduction.html#survey"><i class="fa fa-check"></i><b>1.9.1</b> Survey</a></li>
+<li class="chapter" data-level="1.9.2" data-path="introduction.html"><a href="introduction.html#feedback-for-this-guide"><i class="fa fa-check"></i><b>1.9.2</b> Feedback for this Guide</a></li>
+</ul></li>
+<li class="chapter" data-level="1.10" data-path="introduction.html"><a href="introduction.html#contact-us"><i class="fa fa-check"></i><b>1.10</b> Contact Us</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html"><i class="fa fa-check"></i><b>2</b> DaSEH Infrastructure</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#daseh-website"><i class="fa fa-check"></i><b>2.2</b> DaSEH Website</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#contact-info"><i class="fa fa-check"></i><b>2.2.1</b> Contact Info</a></li>
+<li class="chapter" data-level="2.2.2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#feedback-1"><i class="fa fa-check"></i><b>2.2.2</b> Feedback</a></li>
+<li class="chapter" data-level="2.2.3" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#survey-1"><i class="fa fa-check"></i><b>2.2.3</b> Survey</a></li>
+<li class="chapter" data-level="2.2.4" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#materials"><i class="fa fa-check"></i><b>2.2.4</b> Materials</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#daseh-github-organization"><i class="fa fa-check"></i><b>2.3</b> DaSEH GitHub Organization</a></li>
+<li class="chapter" data-level="2.4" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#data"><i class="fa fa-check"></i><b>2.4</b> Data</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#adapting-materials"><i class="fa fa-check"></i><b>2.4.1</b> Adapting materials</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="use-of-daseh.html"><a href="use-of-daseh.html"><i class="fa fa-check"></i><b>3</b> Use of DaSEH</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#learning-objectives-2"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#prerequisites"><i class="fa fa-check"></i><b>3.1.1</b> Prerequisites</a></li>
+<li class="chapter" data-level="3.1.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#experience-level-descriptions"><i class="fa fa-check"></i><b>3.1.2</b> Experience Level Descriptions</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#daseh-in-the-classroom"><i class="fa fa-check"></i><b>3.2</b> DaSEH in the Classroom</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-the-full-set-of-materials"><i class="fa fa-check"></i><b>3.2.1</b> Teaching the full set of materials</a></li>
+<li class="chapter" data-level="3.2.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-part-of-the-daseh-materials"><i class="fa fa-check"></i><b>3.2.2</b> Teaching Part of the DaSEH Materials</a></li>
+<li class="chapter" data-level="3.2.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-with-case-study-data-only"><i class="fa fa-check"></i><b>3.2.3</b> Teaching With Case Study Data Only</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#case-study-recommendations"><i class="fa fa-check"></i><b>3.3</b> Case Study Recommendations</a></li>
+<li class="chapter" data-level="3.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#troubleshooting"><i class="fa fa-check"></i><b>3.4</b> Troubleshooting</a></li>
+<li class="chapter" data-level="3.5" data-path="use-of-daseh.html"><a href="use-of-daseh.html#example-use-cases"><i class="fa fa-check"></i><b>3.5</b> Example Use Cases</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#using-case-studies-as-lecture-content"><i class="fa fa-check"></i><b>3.5.1</b> Using Case Studies as Lecture Content</a></li>
+<li class="chapter" data-level="3.5.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#using-case-studies-for-assignments"><i class="fa fa-check"></i><b>3.5.2</b> Using Case Studies for Assignments</a></li>
+<li class="chapter" data-level="3.5.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#independent-study"><i class="fa fa-check"></i><b>3.5.3</b> Independent Study</a></li>
+<li class="chapter" data-level="3.5.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#interactive-case-studies"><i class="fa fa-check"></i><b>3.5.4</b> Interactive Case Studies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="use-of-daseh.html"><a href="use-of-daseh.html#examples-of-assignments"><i class="fa fa-check"></i><b>3.6</b> Examples of assignments</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#written-report"><i class="fa fa-check"></i><b>3.6.1</b> Written Report</a></li>
+<li class="chapter" data-level="3.6.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#oral-presentation"><i class="fa fa-check"></i><b>3.6.2</b> Oral Presentation</a></li>
+<li class="chapter" data-level="3.6.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#data-visualization"><i class="fa fa-check"></i><b>3.6.3</b> Data Visualization</a></li>
+<li class="chapter" data-level="3.6.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#further-exploration"><i class="fa fa-check"></i><b>3.6.4</b> Further Exploration</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="use-of-daseh.html"><a href="use-of-daseh.html#session-info"><i class="fa fa-check"></i><b>3.7</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html"><i class="fa fa-check"></i><b>4</b> Modifying open case studies</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#learning-objectives-3"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modular-use"><i class="fa fa-check"></i><b>4.2</b> Modular use</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#example-of-modular-use"><i class="fa fa-check"></i><b>4.2.1</b> Example of Modular Use</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modify-a-case-study"><i class="fa fa-check"></i><b>4.3</b> Modify a case study</a></li>
+<li class="chapter" data-level="4.4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#session-info-1"><i class="fa fa-check"></i><b>4.4</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html"><i class="fa fa-check"></i><b>5</b> New Case Studies - Building and Contributing</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#learning-objectives-4"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#create-a-case-study"><i class="fa fa-check"></i><b>5.2</b> Create a Case Study</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#template-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Template Case Study</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.3</b> Case Study Libraries</a></li>
+<li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.4</b> Submission Process</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#community-library-submissions"><i class="fa fa-check"></i><b>5.4.1</b> Community Library Submissions</a></li>
+<li class="chapter" data-level="5.4.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#official-library-submissions"><i class="fa fa-check"></i><b>5.4.2</b> Official Library Submissions</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#offical-case-study-guidelines"><i class="fa fa-check"></i><b>5.5</b> Offical Case Study Guidelines</a></li>
+<li class="chapter" data-level="5.6" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#session-info-2"><i class="fa fa-check"></i><b>5.6</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
+<li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
+<li class="divider"></li>
+<p style="text-align:center;"> <a href="https://www.ottrproject.org/" target="blank" > This content was published with</a> <a href="https://bookdown.org/" target="blank"> bookdown using</a> </p>
+<p style="text-align:center;"> <a href="https://github.com/ottrproject/OTTR_Template"> The OTTR Template by:</a></p>
+<p style="text-align:center;"> <a href="https://hutchdatascience.org//"> The Fred Hutch Data Science Lab </a></p>
+<p style="text-align:center; font-size: 12px;"> <a href="https://github.com/rstudio4edu/rstudio4edu-book/"> Style adapted from: rstudio4edu-book </a> <a href ="https://creativecommons.org/licenses/by/2.0/"> (CC-BY 2.0) </a></p>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DaSEH Instructor Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="daseh-infrastructure" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> DaSEH Infrastructure<a href="daseh-infrastructure.html#daseh-infrastructure" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives-1" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Learning Objectives<a href="daseh-infrastructure.html#learning-objectives-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this chapter we will discuss the overall infrastructure of the DaSEH Project, which includes:</p>
+<ul>
+<li><a href="https://daseh.org/">The DaSEH website</a></li>
+<li>Methods for learners to provide feedback</li>
+<li><a href="https://github.com/fhdsl/DaSEH/">The DaSEH GitHub repository</a></li>
+</ul>
+</div>
+<div id="daseh-website" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> DaSEH Website<a href="daseh-infrastructure.html#daseh-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The <a href="https://daseh.org/">DaSEH website</a> describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources.</p>
+<p>It is built using R Markdown on GitHub at this repository: <a href="https://github.com/fhdsl/daseh" class="uri">https://github.com/fhdsl/daseh</a> and includes Google Forms to gather various information from potential participants or those with interest or feedback.</p>
+<p>Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our <a href="https://forms.gle/pfX4zCPFjTinKttaA">Apply tab</a>.</p>
+<p>Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the on the Course content tab on the <a href="https://daseh.org/materials_schedule.html">Materials + Schedule page</a>.</p>
+<p>We also include links to all the data used in the course as well as additional data that could be used for projects our extra practice on our <a href="https://daseh.org/data.html">data page</a>.</p>
+<p>To help users navigate challenges, we have a page to assist with common errors on our <a href="https://daseh.org/data.html">Error FAQ page</a></p>
+<p>To provide extra resources to help learners, we also have a <a href="https://daseh.org/resources.html">Resources page</a> under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.</p>
+<div id="contact-info" class="section level3 hasAnchor" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Contact Info<a href="daseh-infrastructure.html#contact-info" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The <a href="https://daseh.org/contact.html">contact page on the website</a> contains a contact email that may be used to send a message to DaSEH to ask a question or provide suggestions.</p>
+</div>
+<div id="feedback-1" class="section level3 hasAnchor" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Feedback<a href="daseh-infrastructure.html#feedback-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We are continually striving to make our content better. Please contact us on our <a href="https://forms.gle/pfX4zCPFjTinKttaA">feedback form</a> if you have ideas for suggestions for the project.</p>
+<p>Also please let us know if you notice typos or errors, or if you are interested in getting involved.</p>
+</div>
+<div id="survey-1" class="section level3 hasAnchor" number="2.2.3">
+<h3><span class="header-section-number">2.2.3</span> Survey<a href="daseh-infrastructure.html#survey-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>There is also a survey available on our website that allows us to do research on DaSEH resource use.</p>
+<p>The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!</p>
+</div>
+<div id="materials" class="section level3 hasAnchor" number="2.2.4">
+<h3><span class="header-section-number">2.2.4</span> Materials<a href="daseh-infrastructure.html#materials" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We have the following modules on various topics related to data science for environmental public health.</p>
+<p>Each one has lecture slides built using ioslides and as well as lab activities built using R Markdown.</p>
+<p>The rendered version of the slides, as well as the raw Rmd file are available on the website or our GitHub repository. In addition, the rendered and raw versions of the both the lab and the lab key are also available.</p>
+<p>We also include cheatsheets so that learners can review the functions that they learned that day.</p>
+<p><img src="02-daseh_infrastructure_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3a4b18ec263_0_0.png" alt="image of the materials and schedule table on the DaSEH website which shows the module name, the lecture links available in HTML, PDF, and the raw Rmd file, the lab activity links including the Rmd file and  html rendered version, as well as for the key version which includes the answers and finally additional resources like cheatsheets" width="100%" style="display: block; margin: auto;" /></p>
+<ol style="list-style-type: decimal">
+<li><strong>An Introduction to R</strong></li>
+</ol>
+<p>This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.</p>
+<p>This module does not have a lab associated with it.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Basic R</strong></li>
+</ol>
+<p>This module includes how to assign objects, how to create vectors, and how to perform simple calculations.</p>
+<p>The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical operations, assigning vectors, and checking the class and length of vectors.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>RStudio</strong></li>
+</ol>
+<p>This module includes a tour of RStudio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.</p>
+<p>The lab activity involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Reproducibility</strong></li>
+</ol>
+<p>This module introduces concepts related to repeatability, reproducibility, and replicability. It introduces best practices for improving transparency in our code.</p>
+<p>The lab activity features tasks like cleaning the environment, using the <code>set.seed()</code> function to generate the same random numbers each time, and using the <code>sessionInfo()</code> function to list packages and versions used.</p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Data Input</strong></li>
+</ol>
+<p>This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.</p>
+<p>The lab activity covers using the point-and-click option within RStudio and using code with <code>readr</code>.</p>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>Data Subsetting</strong></li>
+</ol>
+<p>This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using <code>rename</code> from the <code>dplyr</code> package and <code>clean_names</code> from the <code>janitor</code> package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the <code>mutate()</code> function.</p>
+<p>The lab activity covers functions like <code>rename()</code>, <code>rename_with()</code>, <code>pull()</code>, <code>select()</code>, <code>filter()</code> so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with <code>mutate()</code>.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>Data Summarization</strong></li>
+</ol>
+<p>This module covers how to apply mathematical functions to get summary statistics from data including, mean, standard deviation, range, max, and min. We show how we can pull the data out as a vector to use these functions or we can use the <code>summarize()</code> function on columns of a data to create a new data frame with summary statistics. We also talk about the <code>summary()</code> function to find quantiles of data quickly.</p>
+<p>In the lab activity, learners find the dimensions of the data, use the <code>count</code> function to summarize the data, use <code>pull</code> and mathematical functions like <code>sum</code> to calculate summaries of columns, as well as use the <code>summarize()</code> function to summarize the data.</p>
+<ol start="8" style="list-style-type: decimal">
+<li><strong>Data Cleaning</strong></li>
+</ol>
+<p>This module covers how to find and work with missing data using the <code>naniar</code> package and <code>count</code>, how to recode missing data or recode data as <code>NA</code>, how to recode specific values of a column or create a new column based on conditions of other columns using the <code>case_when()</code> function. We also cover how to separate or unite columns and how to use <code>stringr</code> functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.</p>
+<p>In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, “n, N, and”No” to indicate no exposure.</p>
+<ol start="9" style="list-style-type: decimal">
+<li><strong>Manipulating Data</strong></li>
+</ol>
+<p>This module covers how to rearrange data so that it is either in long or wide format. We discuss how wide format can be useful for human interpretation and how long format is useful for R to use the data for analyses and data visualizations. We also discuss how to join different datasets together and describe why one might want to do this.</p>
+<p>In the lab activity, learners use functions like <code>pivot_longer</code> and <code>pivot_wider</code> to change the shape of a dataset. They also practice doing joins of datasets together and comparing how the different joining functions work.</p>
+<ol start="10" style="list-style-type: decimal">
+<li><strong>Intro to Data Visualization</strong></li>
+</ol>
+<p>This module gives learners a taste of making data visualizations by using the point-and-click option of the <code>esquisse</code> package so that learners can quickly attempt data visualizations and get the code for generating such visualizations.</p>
+<p>In the lab activity, learners get to try out creating different plots with <code>esquisse</code>.</p>
+<ol start="11" style="list-style-type: decimal">
+<li><strong>Data Visualization</strong></li>
+</ol>
+<p>This module dives deeper into best practices for data visualization, how to make a <code>ggplot2</code> plot, and more customization options for creating data visualizations such as using <code>themes</code>, how to spot common issues in visualizations and fix them, as well as how to make plots interactive or how to combine plots using other packages like <code>plotly</code> and <code>patchwork</code>.</p>
+<p>In the lab activity, learners practice making plots directly with <code>ggplot2</code> and practice applying new themes to their plots and faceting their plots.</p>
+<ol start="12" style="list-style-type: decimal">
+<li><strong>Factors</strong></li>
+</ol>
+<p>In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations show data in the proper order. We show how to use the <code>forecats</code> package to reorder a factor variable based on the values of another variable.</p>
+<p>In the lab activity, learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.</p>
+<ol start="13" style="list-style-type: decimal">
+<li><strong>Statistics</strong></li>
+</ol>
+<p>In this module, we describe how statistical tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.</p>
+<p>In the lab activity, learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).</p>
+<ol start="14" style="list-style-type: decimal">
+<li><strong>Data Output</strong></li>
+</ol>
+<p>In this module, learners discover that they can save their processed data as RDS (R native) or csv files so that they don’t have to rerun processing on data (especially if it is large) or if they want to share data with others.</p>
+<p>In the lab activity, learners write a csv and RDS file as well as read back in an RDS file.</p>
+<ol start="15" style="list-style-type: decimal">
+<li><strong>Functions</strong></li>
+</ol>
+<p>In this final module, learners discover the power of writing their own functions. They also learn about using the <code>apply</code> functions and <code>across()</code> function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code.</p>
+<p>In the lab activity, learners create their own simple functions and use the <code>across</code> function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.</p>
+</div>
+</div>
+<div id="daseh-github-organization" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> DaSEH GitHub Organization<a href="daseh-infrastructure.html#daseh-github-organization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our <a href="https://github.com/fhdsl/daseh">course and website repository</a>.</p>
+<p>This diagram explains the folder structure of our materials:</p>
+<p><img src="02-daseh_infrastructure_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b1c31cfa63_0_80.png" alt="The folders on github of our resources, it shows that the main folders of interests are the data folder, which has all the data from the course, and the modules folder which has all the labs, lectures, and homework content, in addition, most of the free files make up the website pages, beyond that there are other folders that help in creating the website or rendering the content, including the docker folder for creating the environment to render everything on GitHub, the  github workflows folder has files for building the website from the OTTR project, the docs, site_libs, and help_files folders have files from rendering, the images folder has images for the course and website content, the resources plage has files for helping wwith settings for rendering, like the dictionary for checking spelling, the scripts page has scripts for automating aspects like making lab files for students without the answer form the key" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="data" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Data<a href="daseh-infrastructure.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>All of the data used in the modules are also included in the <a href="https://github.com/fhdsl/daseh">GitHub repository</a> within the data folder. This data can be reused separately outside of our our module materials for other uses.</p>
+<p>To use the DaSEH data, you can either:</p>
+<ol style="list-style-type: decimal">
+<li>Download the full <a href="https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip">DaSEH GitHub repository</a> and find the data in the folder or directory called data.</li>
+<li>Directly download individual files by searching through our <a href="https://github.com/fhdsl/DaSEH/tree/main/data">data directory on GitHub</a>, clicking on a data file and the clicking the download raw file button.</li>
+</ol>
+<p><img src="02-daseh_infrastructure_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3a4b18ec263_0_11.png" alt="Visual showing the download raw file button on github for one of the data files" width="100%" style="display: block; margin: auto;" /></p>
+<p>Information about the which modules the data is used in and information about the data sources can be found here: <a href="https://daseh.org/data.html" class="uri">https://daseh.org/data.html</a>. This page also includes other relevant datasets which can be used to develop or adapt course materials, such as for homework assignments, extra practice, or projects.</p>
+<div id="adapting-materials" class="section level3 hasAnchor" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Adapting materials<a href="daseh-infrastructure.html#adapting-materials" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you do either of the following:</p>
+<ol style="list-style-type: decimal">
+<li>Download the full <a href="https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip">DaSEH GitHub repository</a> and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.</li>
+</ol>
+<p>Different slides are indicated by the double hashtag <code>##</code> in the document on a new line.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Directly download individual files by searching through our <a href="https://github.com/fhdsl/DaSEH/tree/main/modules">module directory on GitHub</a>, clicking on a data file and the clicking the download raw file button.</li>
+</ol>
+
+</div>
+</div>
+</div>
+<hr>
+<center> 
+  <div class="footer">
+      <img class= "hero-image" src= "assets/dasehs.png">
+
+      All illustrations <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY. </a>
+      <br>
+      All other materials <a href= "https://creativecommons.org/licenses/by/4.0/"> CC-BY </a> unless noted otherwise.
+  </div>
+</center>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="use-of-daseh.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

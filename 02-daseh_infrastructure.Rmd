@@ -177,7 +177,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 ## Codeathon Resources
 
-In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. 
+In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. This link also includes our introduction, conclusion slides, and slides about running [standups](https://docs.google.com/presentation/d/1aWREGApMHZokexnh5NG9ttvSGtE5TDQcEneuAa35vvk/edit?usp=sharing) to get people talking about their work. 
 
 These include resources about:
 

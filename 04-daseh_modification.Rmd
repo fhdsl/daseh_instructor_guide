@@ -77,7 +77,7 @@ This allows you to run the GitHub actions that we use safely.
  - Confirm your access with any two factor authentication if you have that set up
  - Name your token GH_PAT in the "Note" section
  
- Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes
+ Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
  
  - Underneath Select Scopes (where the check boxes are), check repo (so everything under it is checked) and workflow
  

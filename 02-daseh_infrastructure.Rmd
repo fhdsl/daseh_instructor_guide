@@ -222,9 +222,9 @@ If you are interested in creating a similar website from our course materials or
 
 1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
 
-Different slides are indicated by the double hashtag `##` in the document on a new line. 
 
 
 2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
 
+More information about how to adjust the individual files will be described in the DaSEH modification chapter.

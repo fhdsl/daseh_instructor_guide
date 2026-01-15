@@ -20,11 +20,11 @@ If you would like to make a copy of our website to modify for your own use, ther
 
 1) You can "fork" our repository so that you can keep track of changes that we make and send us suggestions if you'd like. This also allows you to use the same infrastructure that we did to create our website. Please be sure to update the website so that it is clear who ultimately made your site and please indicate that you are using our resources or a modified version of our resources. 
 
-2) You can copy the files from our repository into your own website - to access the contents of the files, go to [our respository on GitHub](https://github.com/fhdsl/daseh). This allows you to use whatever website setup you would like. 
+2) You can copy the files from our repository into your own website - to access the contents of the files, go to [our repository on GitHub](https://github.com/fhdsl/daseh). This allows you to use whatever website setup you would like. 
 
 ### Creating a fork of our repository
 
-To create what is called a "fork" of our repository (which allows you to make your own version based off of ours) then look for the fork button on the upper right corner of our respository on GitHub.
+To create what is called a "fork" of our repository (which allows you to make your own version based off of ours) then look for the fork button on the upper right corner of our repository on GitHub.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of the fork button on GitHub", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b693ca2b53_0_0#slide=id.g3b693ca2b53_0_0')
@@ -79,7 +79,7 @@ This allows you to run the GitHub actions that we use safely.
  
  Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
  
- - Underneath Select Scopes (where the check boxes are), check repo (so everything under it is checked) and workflow
+ - Underneath Select Scopes (where the check boxes are), check repository (so everything under it is checked) and workflow
  
  - Click the green Generate Token button at the bottom
  - Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. Do not store it anywhere public.)
@@ -91,12 +91,12 @@ This allows you to run the GitHub actions that we use safely.
 Now that your secret is ready we will add it back to our website repository that we created from the DaSEH repository.
 
 - Go to Settings at the top menu of your repository
-- Go to Secrets and variables in the left sid menu
+- Go to Secrets and variables in the left side menu
 - Click on Actions
-- Under Repository secrets, click on the green New repository secrets button
+- Under Repository secrets, click on the green "New repository secrets" button
 - Under name, enter GH_PAT
 - For the secret section paste the secret that you copied
-- Click the green add secret botton. 
+- Click the green "Add secret" button. 
 
 Note that GitHub sometimes changes their website, so this process might slightly change. We will try to keep this information up-to-date however.
 
@@ -297,7 +297,7 @@ become, respectively:
 
 #### Manually Download Data from GitHub:
 
- 1) Download the .Rmd files found in the [modules directory of the GitHub repostiory](https://github.com/fhdsl/DaSEH/tree/main/modules) (and any relevant data files from the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data)).
+ 1) Download the .Rmd files found in the [modules directory of the GitHub repository](https://github.com/fhdsl/DaSEH/tree/main/modules) (and any relevant data files from the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data)).
 
 The list of corresponding lectures is available on the [materials and schedule page](https://daseh.org/materials_schedule.html) of the DaSEH website and the data files are listed on [our data page](https://daseh.org/data.html).
 

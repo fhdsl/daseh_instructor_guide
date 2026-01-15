@@ -186,7 +186,7 @@ These include resources about:
   It includes how to make a new repository, how to upload files to GitHub like data or code, how to set up usage of Git on your local computer, and how to push changes from your local computer to GitHub. 
   
 - [Open Data](https://docs.google.com/presentation/d/1csCTr4sWBbWfi_JTNGKLF3J-AeFx_yronVnNC-1mg4k/edit?usp=sharing)
-  This resouce covers places to find data to perform environmental health data science research.
+  This resource covers places to find data to perform environmental health data science research.
 
 - [Code Review ](https://docs.google.com/presentation/d/11-lcYCrqhVJJzZVPTh5nUSlyg6MPD7sYrehbur7FRIw/edit?usp=sharing)
   This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.

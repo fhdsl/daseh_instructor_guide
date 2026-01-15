@@ -54,7 +54,7 @@ The DaSEH materials are structured in a modular manner to support both partial a
 
 ### Teaching the full set of materials
 
-The DaSEH materials are written to provide a comprehensive introduction to enviornmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the mateirals: 
+The DaSEH materials are written to provide a comprehensive introduction to environmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the materials: 
 
 - Use our full set of slides as lecture and materials as we have used them
 - Do a flipped classroom approach and assigned students to read the slides as homework and do labs in the class together
@@ -135,7 +135,7 @@ A table of which data is used in which materials is available here: https://dase
 
 ## DaSEH Module Recommendations
 
-Overall the DaSEH materials are intended for anyone with zero to minimal familiarity with R, altough we have had learners with more intermediate levels of experience who have reported getting alot out of the material. 
+Overall the DaSEH materials are intended for anyone with zero to minimal familiarity with R, although we have had learners with more intermediate levels of experience who have reported getting a lot out of the material. 
 
 Across the program, the modules also involve different levels of skill, as some would be fine on their own for beginners, while others may require some basic familiarity. Below we provide broad categorizations of each module in terms of the skill levels required (beginner, intermediate, or advanced).
 

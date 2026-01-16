@@ -11,9 +11,13 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss the overall infrastructure of the DaSEH Project, which includes:
 
-- [The DaSEH website](https://daseh.org/)
-- Methods for learners to provide feedback
+- [The DaSEH website resources](https://daseh.org/)
+   - Topics included in modules (lectures and labs)
+   - Methods for feedback
 - [The DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/)
+- The DaSEH Codeathon Resources
+- Data used for DaSEH
+
 
 
 ## DaSEH Website

@@ -1,9 +1,9 @@
 url	chapt_title	img_path
 https://hutchdatascience.org/daseh_instructor_guide/index.html	About this guide	./resources/chapt_screen_images/index.png
-https://hutchdatascience.org/daseh_instructor_guide/introduction.html	1 Introduction	./resources/chapt_screen_images/introduction.png
-https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html	2 DaSEH Infrastructure	./resources/chapt_screen_images/daseh-infrastructure.png
-https://hutchdatascience.org/daseh_instructor_guide/use-of-daseh.html	3 Use of DaSEH	./resources/chapt_screen_images/use-of-daseh.png
-https://hutchdatascience.org/daseh_instructor_guide/modifying-open-case-studies.html	4 Modifying open case studies	./resources/chapt_screen_images/modifying-open-case-studies.png
-https://hutchdatascience.org/daseh_instructor_guide/new-case-studies---building-and-contributing.html	5 New Case Studies - Building and Contributing	./resources/chapt_screen_images/new-case-studies---building-and-contributing.png
+https://hutchdatascience.org/daseh_instructor_guide/introduction.html	1 Introduction 	./resources/chapt_screen_images/introduction.png
+https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html	2 DaSEH Infrastructure 	./resources/chapt_screen_images/daseh-infrastructure.png
+https://hutchdatascience.org/daseh_instructor_guide/using-daseh-materials.html	3 Using DaSEH Materials 	./resources/chapt_screen_images/using-daseh-materials.png
+https://hutchdatascience.org/daseh_instructor_guide/modifying-daseh-materials.html	4 Modifying DaSEH Materials 	./resources/chapt_screen_images/modifying-daseh-materials.png
+https://hutchdatascience.org/daseh_instructor_guide/running-a-program-like-daseh.html	5 Running a program like DaSEH 	./resources/chapt_screen_images/running-a-program-like-daseh.png
 https://hutchdatascience.org/daseh_instructor_guide/about-the-authors.html	About the Authors	./resources/chapt_screen_images/about-the-authors.png
 https://hutchdatascience.org/daseh_instructor_guide/references.html	6 References	./resources/chapt_screen_images/references.png

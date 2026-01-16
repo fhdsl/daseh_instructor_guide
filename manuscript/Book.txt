@@ -1,8 +1,0 @@
-1-Introduction.md
-2-DaSEH-Infrastructure.md
-3-Use-of-DaSEH.md
-4-Modifying-open-case-studies.md
-5-New-Case-Studies---Building-and-Contributing.md
-6-References.md
-About-this-guide.md
-About-the-Authors.md

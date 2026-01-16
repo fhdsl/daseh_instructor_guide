@@ -44,7 +44,7 @@ teaching-the-full-set-of-materials
 duration
 teaching-part-of-the-daseh-materials
 teaching-with-daseh-data-only
-daseh-module-recommendations
+daseh-level-recommendations
 troubleshooting
 additional-use-cases
 additional-resources
@@ -63,6 +63,7 @@ create-gifs
 modifying-labs
 how-does-the-lab-file-cleanup-work
 manually-download-data-from-github
+modify-codeathon-materials
 distribute-your-modified-content-as-you-please
 session-info-1
 running-a-program-like-daseh

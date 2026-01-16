@@ -8,13 +8,14 @@ ottrpal::set_knitr_image_path()
 ## Learning Objectives
 
 
-This chapter will provide guidance on how to use DaSEH resources for instruction. 
+This chapter will provide guidance on how to use DaSEH resources for instruction including how to:
 
-- We will give a information on what material is appropriate for beginner, intermediate, or advanced learners.
-- We will describe ways that instructors can use the full set of DaSEH resources, some of the modules, or just the data.
-- We will present some examples of extensions that can accompany the materials and can serve as a template for homework assignments or independent student exploration. 
+- Determine prerequisite knowledge and skills
+- Identify what material is appropriate for beginner, intermediate, or advanced learners.
+- Use the full set of DaSEH resources, some of the modules, or just the data for different kinds of instruction.
+- Extened the materials to serve as a template for homework assignments or independent student exploration. 
 
-The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know]https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
+The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
@@ -138,7 +139,7 @@ A table of which data is used in which materials is available here: https://dase
 
 
 
-## DaSEH Module Recommendations
+## DaSEH Level Recommendations
 
 Overall the DaSEH materials are intended for anyone with zero to minimal familiarity with R, although we have had learners with more intermediate levels of experience who have reported getting a lot out of the material. 
 
@@ -148,11 +149,11 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 
 <br>
 
-| Skill Level | Data Import | Data Wrangling | Data Visualization | Statistics | 
-| ------- | --------- | --------- | ------- | --------- |
-| Beginner | No experience with importing data into any programming language | No experience wrangling and cleaning raw data in any programming language | No experience visualizing data in any programming language | No experience with statistical concepts |
-| Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language | Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language | Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language | Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test) |
-| Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges | Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges | Experience with creating complex data visualizations in R and comfort with visualization challenges | Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques |
+| Level | Skills | 
+| ------- | ------------------ |
+| Beginner | No experience with importing data into any programming language. No experience wrangling and cleaning raw data in any programming language. No experience visualizing data in any programming language. No experience with statistical concepts. |
+| Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language. Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language. Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language. Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test). |
+| Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges. Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges. Experience with creating complex data visualizations in R and comfort with visualization challenges.Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques. |
 
 
 
@@ -177,6 +178,11 @@ The following table lists a few example case studies that would be suitable for 
 | Statistics | Beginner * Note that we do not focus on statistical theory, but rather on using R to perform tests |
 | Data Output | Beginner |
 | Functions | Intermediate and Advanced if a new topic|
+| Version Control (codeathon resource) | Intermediate and Advanced if a new topic|
+| Open Data | Beginner |
+| Code Review | All levels if new topic|
+| Data Ethics | All levels |
+| Mapping mini-module | Intermediate |
 
 ## Troubleshooting
 

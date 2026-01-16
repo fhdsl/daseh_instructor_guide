@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>DaSEH Instructor Guide</title>
+  <title>Chapter 4 Modifying DaSEH Materials  | DaSEH Instructor Guide</title>
   <meta name="description" content="Guide for how to use DaSEH resources" />
   <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="DaSEH Instructor Guide" />
+  <meta property="og:title" content="Chapter 4 Modifying DaSEH Materials  | DaSEH Instructor Guide" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Guide for how to use DaSEH resources" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="DaSEH Instructor Guide" />
+  <meta name="twitter:title" content="Chapter 4 Modifying DaSEH Materials  | DaSEH Instructor Guide" />
   
   <meta name="twitter:description" content="Guide for how to use DaSEH resources" />
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-
-<link rel="next" href="introduction.html"/>
+<link rel="prev" href="using-daseh-materials.html"/>
+<link rel="next" href="running-a-program-like-daseh.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -264,28 +264,229 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">DaSEH Instructor Guide</h1>
-<p class="date"><em>January, 2026</em></p>
+<div id="modifying-daseh-materials" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Modifying DaSEH Materials <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"><a href="modifying-daseh-materials.html#modifying-daseh-materials" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives-3" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Learning Objectives<a href="modifying-daseh-materials.html#learning-objectives-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This chapter will cover how to modify the DaSEH resources to suit your own needs using the following methods:</p>
+<ul>
+<li>Modify the website</li>
+<li>Modify module lecture slides</li>
+<li>Modify module labs and lab keys</li>
+<li>Modify codeathon resources</li>
+</ul>
 </div>
-<div id="about-this-guide" class="section level1 unnumbered hasAnchor">
-<h1>About this guide<a href="index.html#about-this-guide" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="formats" class="section level2 hasAnchor" number="0.1">
-<h2><span class="header-section-number">0.1</span> Formats<a href="index.html#formats" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>You can find an online version of this guide at: <a href="https://hutchdatascience.org/daseh_instructor_guide/" class="uri">https://hutchdatascience.org/daseh_instructor_guide/</a></p>
-<p>The GitHub repository is available here: <a href="https://github.com/fhdsl/daseh_instructor_guide" class="uri">https://github.com/fhdsl/daseh_instructor_guide</a></p>
-<!-- PDF versions are available at Leanpub. -->
-</div>
-<div id="summary" class="section level2 hasAnchor" number="0.2">
-<h2><span class="header-section-number">0.2</span> Summary<a href="index.html#summary" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The <a href="https://daseh.org/">Data Science for Environmental Health Short Course (DaSEH)</a>, developed at the <a href="https://hutchdatascience.org/">Fred Hutch Data Science Lab</a>, combines online learning and an in-person project-focused intensive. DaSEH is tailored for beginners and novices in R programming, offering instruction on importing, wrangling, visualizing, and analyzing data. It provides hands-on training in using R for statistical computing, a widely-used open-source tool for data analysis and visualization.</p>
-<p>This training initiative is funded by National Institute of Environmental Health Sciences 1R25ES035590-01.</p>
-<p>DaSEH guides can be used:</p>
+<div id="modify-the-website" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Modify the website<a href="modifying-daseh-materials.html#modify-the-website" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>If you would like to make a copy of our website to modify for your own use, there are a couple of options.</p>
 <ol style="list-style-type: decimal">
-<li><p>As a course or to add to a curriculum (either onsite or online) by engaging students to actively participate in data science education for environmental health.</p></li>
-<li><p>Outside of the classroom by providing an archive of examples code for data science best practices for self-learning.</p></li>
+<li><p>You can “fork” our repository so that you can keep track of changes that we make and send us suggestions if you’d like. This also allows you to use the same infrastructure that we did to create our website. Please be sure to update the website so that it is clear who ultimately made your site and please indicate that you are using our resources or a modified version of our resources.</p></li>
+<li><p>You can copy the files from our repository into your own website - to access the contents of the files, go to <a href="https://github.com/fhdsl/daseh">our repository on GitHub</a>. This allows you to use whatever website setup you would like.</p></li>
 </ol>
-<p>To help guide educators on how to most effectively use the DaSEH resources (either in or outside of the classroom), this guide documents various entry points to using the materials, examples of how to use the materials, how to modify and adapt components of the resources for the classroom, and how to contribute our resources.</p>
+<div id="creating-a-fork-of-our-repository" class="section level3 hasAnchor" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Creating a fork of our repository<a href="modifying-daseh-materials.html#creating-a-fork-of-our-repository" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To create what is called a “fork” of our repository (which allows you to make your own version based off of ours) then look for the fork button on the upper right corner of our repository on GitHub.</p>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_0.png" alt="image of the fork button on GitHub" width="100%" style="display: block; margin: auto;" /></p>
+<p>Once you click this, you will be taken to a new page where it will ask you what you would like to call your new repository.</p>
+<p>You will likely want to change the name for your course/use.</p>
+<p>You can also optionally select to have your repository as part of a GitHub organization (if you are part of one) instead of just using your personal account.</p>
+<p>Please also change the description to explain what your use is and that are modifying our files.</p>
+<p>Ensure that the copy the main branch only is selected.</p>
+<p>Then click the green “Create fork” button.</p>
+<p>Here is what the page looks like:</p>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_7.png" alt="image of the page after you create a fork on GitHub" width="100%" style="display: block; margin: auto;" /></p>
+<p>Next to set up the website deployment you will need to do a few steps.</p>
+<ol style="list-style-type: decimal">
+<li>Setting up the website</li>
+</ol>
+<ul>
+<li>First go to the “Settings” page (top menu)</li>
+<li>Then scroll down to the “Pages” (on the left menu)</li>
+<li>Next configure your website to use the main branch (where it says “none”) and the root folder and press save</li>
+</ul>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_21.png" alt="image of the configuration for the main branch and the root folder for the github website" width="100%" style="display: block; margin: auto;" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Create a secret (to give you the right permissions)</li>
+</ol>
+<p>This allows you to run the GitHub actions that we use safely.</p>
+<ul>
+<li>Click on your profile photo in the upper right corner</li>
+<li>Scroll down to Settings in the menu that pops up and right click to open it in a new tab</li>
+<li>Scroll all the way down on the left menu to the bottom where it says Developer Settings</li>
+<li>Score down on the left side menu and click on Personal Access Tokens</li>
+<li>Select Tokens (classic)</li>
+<li>Click the Generate new token button that is in the upper right</li>
+<li>Select Generate new token (classic)</li>
+<li>Confirm your access with any two factor authentication if you have that set up</li>
+<li>Name your token GH_PAT in the “Note” section</li>
+</ul>
+<p>Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This <a href="https://www.ottrproject.org/cheatsheets/ottr_token.html">cheatsheet</a> may also be helpful.</p>
+<ul>
+<li><p>Underneath Select Scopes (where the check boxes are), check repository (so everything under it is checked) and workflow</p></li>
+<li><p>Click the green Generate Token button at the bottom</p></li>
+<li><p>Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. Do not store it anywhere public.)</p></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Add your secret to your repository</li>
+</ol>
+<p>Now that your secret is ready we will add it back to our website repository that we created from the DaSEH repository.</p>
+<ul>
+<li>Go to Settings at the top menu of your repository</li>
+<li>Go to Secrets and variables in the left side menu</li>
+<li>Click on Actions</li>
+<li>Under Repository secrets, click on the green “New repository secrets” button</li>
+<li>Under name, enter GH_PAT</li>
+<li>For the secret section paste the secret that you copied</li>
+<li>Click the green “Add secret” button.</li>
+</ul>
+<p>Note that GitHub sometimes changes their website, so this process might slightly change. We will try to keep this information up-to-date however.</p>
+<p>Nice! Now you are ready to modify your new website. You can find your rendered website under the repository settings tab (top menu) and scrolling down to pages (left menu) again.</p>
+<p>You will see that the page now lists a link for your new website. You can click “Visit site” to see your website or copy and paste the link. This is the link you can share with students/learners.</p>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_30.png" alt="image of the pages site after the website is set up" width="100%" style="display: block; margin: auto;" /></p>
+<p>Currently your website should look exactly like ours. Now you are ready to actually modify some files. To do so go to the main page of your repository.</p>
+<p>You can either click the green code button to clone the repository to work on your local machine (say on RStudio) which is trickier but recommended as you can actually test any changes to your code on your machine or you can modify the files directly on GitHub.</p>
+<p>Please see this guide on how to make changes with either method: <a href="https://www.ottrproject.org/editing_website.html" class="uri">https://www.ottrproject.org/editing_website.html</a>.</p>
+<p>Note that lecture slides and lab files will be within the modules folder and organized by topic.</p>
+<p>We will now talk about how to modify these files.</p>
+</div>
+</div>
+<div id="modify-module-slides" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Modify module slides<a href="modifying-daseh-materials.html#modify-module-slides" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The modules are written in <a href="https://rmarkdown.rstudio.com/">R Markdown</a> documents and developed within an RStudio project. R Markdown documents are denoted with the file extension “.Rmd” and allow for the inclusion of code chunks and outputs in a written report. They are written using <a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf">Markdown syntax</a>. RStudio projects are used to organize files. The <a href="https://yihui.org/knitr/">knitr</a> package “knits” the case study written in R Markdown and outputs the document as an HTML file. DaSEH uses these HTML files to post the materials online.</p>
+<p>See the above sections about modifying the website to get the files that were used for the module lectures.</p>
+<p>Each of the lectures can be found within the <a href="https://github.com/fhdsl/DaSEH/tree/main/modules">modules directory</a> of our DaSEH GitHub repository.</p>
+<p>Each module folder contains the lecture slides within the .Rmd file.</p>
+<p>To edit a lecture, locate the appropriate directory within <code>modules</code> and edit the <code>.Rmd</code> file. For example, if you want to edit the Statistics lecture, you’d edit <code>Statistics.Rmd</code> in the <code>modules/Statistics/</code> directory.</p>
+<p>** Do not edit the html or pdf files. These are automatically generated by GitHub Actions. **</p>
+<p>However, sometimes workflows don’t complete, so it’s always good to double check that htmls and pdfs are appearing as expected on the website once your PR is merged to main.</p>
+<p>You will notice that <code>##</code> is used throughout the file. This indicates where the start of a new slide is.</p>
+<p>A single <code>#</code> indicates a new section slide, which will be a slide that looks like this:</p>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3ba67d8997e_0_2.png" alt="image of the pages site after the website is set up" width="100%" style="display: block; margin: auto;" /></p>
+<div id="emojis-in-slides" class="section level3 hasAnchor" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Emojis in slides<a href="modifying-daseh-materials.html#emojis-in-slides" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We recommend copying and pasting from <a href="https://gist.github.com/rxaviers/7360908">here</a>.</p>
+</div>
+<div id="smaller-text-font-per-slide" class="section level3 hasAnchor" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Smaller text font per slide<a href="modifying-daseh-materials.html#smaller-text-font-per-slide" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If you want to change the style of a slide, modify the <code>style.css</code> file.</p>
+<p>For example - this is how you can make slides with smaller font:</p>
+<p>In the <code>style .css</code> file is the following- which creates smaller font:</p>
+<pre><code>.small {
+   font-size: 0.8em;
+}
+</code></pre>
+<p>To change the font of a single slide you can putt {.small} next to a slide title like so:</p>
+<p><code>## slide name {.small}</code></p>
+</div>
+<div id="smaller-code-font-per-slide" class="section level3 hasAnchor" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Smaller code font per slide<a href="modifying-daseh-materials.html#smaller-code-font-per-slide" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In the <code>style .css</code> file is the following- which creates smaller font:</p>
+<pre><code>.codesmall pre {
+    font-size: 16px;
+}</code></pre>
+<p>This can be applied to a slide by putting {.codesmall} next to a slide title like so:</p>
+<p><code>## slide name {.codesmall}</code></p>
+</div>
+<div id="add-color-to-slide-text" class="section level3 hasAnchor" number="4.3.4">
+<h3><span class="header-section-number">4.3.4</span> Add color to slide text<a href="modifying-daseh-materials.html#add-color-to-slide-text" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<pre><code>:::{style=&quot;color: red;&quot;&quot;}
+RED STUFF!
+:::</code></pre>
+<p>or like this:</p>
+<p><code>Integer</code> is a special subset of <code>numeric</code> that contains only <span style="color: red;">whole numbers.</span></p>
+</div>
+<div id="add-background-color-to-code-chunk-describe-general-syntax-for-code" class="section level3 hasAnchor" number="4.3.5">
+<h3><span class="header-section-number">4.3.5</span> Add background color to code chunk describe general syntax for code<a href="modifying-daseh-materials.html#add-background-color-to-code-chunk-describe-general-syntax-for-code" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In the <code>styles.css</code> file is the following:</p>
+<pre><code>.codeexample pre{
+  background-color: lightgreen;
+}</code></pre>
+<p>To add this to a chunk use this in the Rmd file before and after the chunk:</p>
+<pre><code>&lt;div class = &quot;codeexample&quot;&gt;
+
+``` r
+#some code
+```
+&lt;/div&gt;</code></pre>
+</div>
+<div id="create-gifs" class="section level3 hasAnchor" number="4.3.6">
+<h3><span class="header-section-number">4.3.6</span> Create gifs<a href="modifying-daseh-materials.html#create-gifs" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To create video gifs first <a href="https://www.hellotech.com/guide/for/how-to-screen-record-on-mac">record your screen</a> like so (note this is for Mac users):</p>
+<ol style="list-style-type: decimal">
+<li>Command + Shift + 5</li>
+<li>Select either entire screen - or more likely a portion of the screen button</li>
+<li>Click record</li>
+</ol>
+<p>Next convert the video to a gif using <a href="https://ezgif.com/video-to-gif" class="uri">https://ezgif.com/video-to-gif</a>.</p>
+<p>Be sure that you select gif as the output.</p>
+<p>These slides are made with something called ioslides. See [this website for additional help with ioslides] (<a href="https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html" class="uri">https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html</a>).</p>
+</div>
+</div>
+<div id="modifying-labs" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Modifying Labs<a href="modifying-daseh-materials.html#modifying-labs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Within each module directory, there is a subdirectory called <code>lab</code>. Locate the <code>lab</code> subdirectory within the appropriate module directory and edit the <code>_Key.Rmd</code> file. For example, if you want to edit the Statistics lab, you’d edit <code>Statistics_Lab_Key.Rmd</code> in the <code>modules/Statistics/lab/</code> directory.</p>
+<p>** Only edit the <code>_Key.Rmd</code>. Do not edit the html or pdf files, or the <code>_Lab.Rmd</code> file. These are automatically generated by GitHub Actions. ** The <code>_Lab.Rmd</code> file is automatically cleaned up for students to fill in during class.</p>
+<div id="how-does-the-lab-file-cleanup-work" class="section level4 hasAnchor" number="4.4.0.1">
+<h4><span class="header-section-number">4.4.0.1</span> How does the lab file cleanup work?<a href="modifying-daseh-materials.html#how-does-the-lab-file-cleanup-work" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>When creating the lab key, you will write the answer to the questions in the key. However, for the file that the students see, we want the answers to be removed.</p>
+<p>To make sure this happens correctly, the chunks you want to clean must have a <code>label</code> ending with <code>response</code>. Chunks without a label following this pattern will be ignored and reproduced exactly for the students.</p>
+<p><img src="04-daseh_modification_files/figure-html/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3ba9e61ea01_0_0.png" alt="image of chunks named response1 for the key and the lab file for students for the key the answer is filled in and for the lab there file for students there is now code" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="manually-download-data-from-github" class="section level4 hasAnchor" number="4.4.0.2">
+<h4><span class="header-section-number">4.4.0.2</span> Manually Download Data from GitHub:<a href="modifying-daseh-materials.html#manually-download-data-from-github" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Download the .Rmd files found in the <a href="https://github.com/fhdsl/DaSEH/tree/main/modules">modules directory of the GitHub repository</a> (and any relevant data files from the <a href="https://github.com/fhdsl/DaSEH/tree/main/data">data directory</a>).</li>
+</ol>
+<p>The list of corresponding lectures is available on the <a href="https://daseh.org/materials_schedule.html">materials and schedule page</a> of the DaSEH website and the data files are listed on <a href="https://daseh.org/data.html">our data page</a>.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Move the data files from your ‘Downloads’ folder to your R session’s current working directory (you can see what this is with <code>getwd()</code>). Open the files that you wish to modify in RStudio or wherever you like to work.</li>
+</ol>
+</div>
+</div>
+<div id="distribute-your-modified-content-as-you-please" class="section level2 hasAnchor" number="4.5">
+<h2><span class="header-section-number">4.5</span> Distribute your modified content as you please!<a href="modifying-daseh-materials.html#distribute-your-modified-content-as-you-please" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>You can share HTML, PDF and Word files directly with your students or you can host your website for free on GitHub using <a href="https://pages.github.com/">GitHub pages</a> <span class="citation">(<a href="#ref-pages_github"><strong>pages_github?</strong></a>)</span> as described above.</p>
+<p>If you are new to GitHub, also be sure to check out <a href="https://happygitwithr.com/">Happy Git with R</a> <span class="citation">(<a href="#ref-happygitwithr"><strong>happygitwithr?</strong></a>)</span>.</p>
+</div>
+<div id="session-info-1" class="section level2 hasAnchor" number="4.6">
+<h2><span class="header-section-number">4.6</span> Session info<a href="modifying-daseh-materials.html#session-info-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>## R version 4.3.2 (2023-10-31)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 22.04.4 LTS
+## 
+## Matrix products: default
+## BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+## LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## time zone: Etc/UTC
+## tzcode source: system (glibc)
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] jsonlite_2.0.0   dplyr_1.1.4      compiler_4.3.2   gitcreds_0.1.2  
+##  [5] promises_1.2.1   tidyselect_1.2.0 Rcpp_1.0.12      webshot2_0.1.2  
+##  [9] xml2_1.5.1       stringr_1.5.1    tidyr_1.3.1      later_1.3.2     
+## [13] jquerylib_0.1.4  yaml_2.3.12      fastmap_1.1.1    readr_2.1.5     
+## [17] R6_2.6.1         generics_0.1.3   curl_7.0.0       knitr_1.50      
+## [21] tibble_3.3.0     bookdown_0.46    rprojroot_2.1.1  tzdb_0.4.0      
+## [25] bslib_0.6.1      pillar_1.9.0     rlang_1.1.6      utf8_1.2.4      
+## [29] websocket_1.4.4  stringi_1.8.3    cachem_1.0.8     xfun_0.55       
+## [33] sass_0.4.8       cli_3.6.5        magrittr_2.0.3   ps_1.9.1        
+## [37] digest_0.6.34    rvest_1.0.5      processx_3.8.6   hms_1.1.3       
+## [41] lifecycle_1.0.4  chromote_0.5.1   vctrs_0.6.5      ottrpal_2.0.0   
+## [45] evaluate_1.0.5   glue_1.7.0       spelling_2.3.2   fansi_1.0.6     
+## [49] purrr_1.0.2      rmarkdown_2.25   httr_1.4.7       tools_4.3.2     
+## [53] pkgconfig_2.0.3  htmltools_0.5.7</code></pre>
 
 </div>
 </div>
@@ -304,8 +505,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="using-daseh-materials.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="running-a-program-like-daseh.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

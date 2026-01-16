@@ -6,7 +6,10 @@ BIPOC
 Bloomberg
 Bookdown
 chapt
+cheatsheet
 cheatsheets
+codeathon
+codesmall
 Coursera
 creativecommons
 css
@@ -14,6 +17,7 @@ csv
 Datatrail
 DataTrail
 DaSEH
+daseh
 DISCOVERABLE
 Dockerfile
 Dockerhub
@@ -60,8 +64,12 @@ OTTR
 ottrpal
 ottrproject
 Pandoc
+Peng
 png
 pre
+readr
+recode
+replicability
 reproducibility
 rmarkdown
 RMarkdown
@@ -72,6 +80,9 @@ Savonen
 sexualized
 skillsets
 socio
+standups
+Stata
+Summarization
 synched
 thon
 tidyverse

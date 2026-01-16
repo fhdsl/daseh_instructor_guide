@@ -4,17 +4,12 @@ ottrpal::set_knitr_image_path()
 ```
 
 
+# Introduction <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;">
 
-# Introduction
-<div class="img-wrap" style="max-width:320px;margin:0 auto;">
-  <img
-    src="https://hutchdatascience.org/daseh_instructor_guide/assets/leaf.png"
-    alt="Leaf"
-    loading="lazy"
-    style="width:10%;height:auto;display:block;"
-    onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png';">
-</div>
 ***
+
+
+
 
 
 ## Learning Objectives
@@ -249,7 +244,4 @@ If you have feedback for this guide about how we can improve the content, please
 
 ## Contact Us 
 
-If you have any questions, suggestions for improvement for individual resources, ideas, or thoughts, you can contact us through email at daseh at fredhutch.org. add info
-
-
-You can also find us XYZ avocado add
+If you have any questions, suggestions for improvement for individual resources, ideas, or thoughts, you can contact us through email at daseh at fredhutch.org. 

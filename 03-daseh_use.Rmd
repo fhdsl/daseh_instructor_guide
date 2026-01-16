@@ -3,7 +3,7 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Use of DaSEH
+# Using DaSEH Materials <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;">
 
 ## Learning Objectives
 
@@ -54,7 +54,7 @@ The DaSEH materials are structured in a modular manner to support both partial a
 
 ### Teaching the full set of materials
 
-The DaSEH materials are written to provide a comprehensive introduction to enviornmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the mateirals: 
+The DaSEH materials are written to provide a comprehensive introduction to environmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the materials: 
 
 - Use our full set of slides as lecture and materials as we have used them
 - Do a flipped classroom approach and assigned students to read the slides as homework and do labs in the class together
@@ -71,7 +71,7 @@ DaSEH was designed to fit the duration of an intensive two week short course for
 Some educators may find that only certain modules are relevant to their course learning objectives. Each provides information about how to access the appropriate data. Note that you may have to add some introduction to explain any functions that were explained in a previous module. 
 
 
-* For a data visualization course, the following modules could be helpful:
+* For a data visualization course, the following modules could be useful:
 
    - Basic R (only if students don't have familiarity with R)
    - RStudio  (only if students don't have familiarity with R)
@@ -80,7 +80,7 @@ Some educators may find that only certain modules are relevant to their course l
    - Data Visualization
    - Factors
 
-* For a data wrangling course, the following modules could be helpful:
+* For a data wrangling course, the following modules could be useful:
 
     - Basic R
     - RStudio  (only if students don't have familiarity with R)
@@ -90,7 +90,18 @@ Some educators may find that only certain modules are relevant to their course l
     - Manipulating Data in R
     - Factors
 
-* For a reproducibility course the following modules could be 
+* For a reproducibility course the following modules could be useful:
+
+    - Reproducibility
+    - Data Input
+    - Data Output
+    - Functions
+
+* For a data ethics course the following materials could be useful:
+
+    - Reproducibility
+    - Version Control (from the codeathon materials)
+    - Data ethics (from the codeathon materials)
   
 <br>
 
@@ -98,14 +109,40 @@ Some educators may find that only certain modules are relevant to their course l
 
 
 
-### Teaching With Case Study Data Only
+### Teaching With DaSEH Data Only
 
-Educators can use the data available with the case studies without using the case study as a whole. The data is available on GitHub and can be accessed using the `OCSdata` R package. 
+Educators can use the data available with the DaSEH without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data). See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
+
+The data can also be accessed in R by updating the path of daseh.org/data/ with the name of the data file in the URL like the following examples:
+
+```{r, eval = FALSE}
+library(readr)
+er <- 
+  read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
+
+er_visits_age <- read_csv("https://daseh.org/data/CO_ER_heat_visits_by_age.csv")
+
+Denver_heat_Data.csv <- ("https://daseh.org/data/Denver_heat_data.csv")
+```
+
+Be careful to make sure that the name of the file matches exactly include the case of the letters:
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of the data directory files and an example URL for one of the files like the examples above", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b78c177085_0_0#slide=id.g3b78c177085_0_0')
+```
 
 
-## Case Study Recommendations
+A table of which data is used in which materials is available here: https://daseh.org/data.html
 
-Each case study demonstrates an entire data analysis starting from data import and wrangling and continuing to statistical analysis and data visualization. This means that individual case studies can often incorporate different skill levels for different stages of the analyses. For example, a case study can use advanced data wrangling approaches but only need beginner level statistical analysis methods. Below we provide broad categorizations of each of the case studies in terms of the skill levels required (beginner, intermediate, or advanced) for each of the general stages of the case studies (data wrangling, data visualization, and statistics). More details on the specific skills taught in each case study can be found in the [Case Study Search Tool](https://www.opencasestudies.org/#searchtab) or in the Learning Objectives section in each case study. 
+
+
+
+
+## DaSEH Module Recommendations
+
+Overall the DaSEH materials are intended for anyone with zero to minimal familiarity with R, although we have had learners with more intermediate levels of experience who have reported getting a lot out of the material. 
+
+Across the program, the modules also involve different levels of skill, as some would be fine on their own for beginners, while others may require some basic familiarity. Below we provide broad categorizations of each module in terms of the skill levels required (beginner, intermediate, or advanced).
 
 Here, we are using the following interpretations of "beginner", "intermediate", and "advanced":  
 
@@ -122,99 +159,59 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 The following table lists a few example case studies that would be suitable for each experience level. 
 
 
-| Case Study | Data Import | Data Wrangling | Data Visualization | Statistics | 
-| ------- | --------- | --------- | ------- | --------- |
-| School Shootings in the United States | Intermediate | Beginner | Advanced | Beginner | 
-| Disparities in Youth Disconnection | Intermediate | Beginner | Beginner | Beginner | 
-| Opioids in United States | Intermediate | Beginner | Beginner | Intermediate | 
-| Vaping Behaviors in American Youth | Beginner | Beginner | Beginner | Intermediate | 
-| Mental Health of American Youth | Advanced | Beginner | Beginner | Beginner | 
-| Exploring global patterns of obesity across rural and urban regions | Intermediate | Beginner | Beginner | Beginner | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 1 | Beginner | Advanced | NA | NA | 
-| Influence of Multicollinearity on Measured Impact of Right-to-Carry Gun Laws - Part 2 | NA | NA | Intermediate | Advanced | 
-| Exploring CO2 emissions across time | Beginner | Beginner | Beginner | Beginner | 
-| Exploring global patterns of dietary behaviors associated with health risk | Intermediate | Intermediate | Intermediate | Intermediate | 
-| Predicting Annual Air Pollution | Beginner | Beginner | Intermediate | Advanced | 
-| Exploring health expenditure using state-level data in the United States | Beginner | Beginner | Beginner | Beginner | 
+| Module | Skill Level| 
+| ------- | --------- | 
+| Intro |  Beginner | 
+| Basic R | Beginner | 
+| RStudio | Beginner |
+| Reproducibility| Beginner but also appropriate for Intermediate or Advanced audiences that are new to this topic| 
+| Data Input | Beginner | 
+| Subsetting Data in R | Intermediate |
+| Data Summarization | Intermediate |
+| Data Classes | Beginner|
+| Data Cleaning | Intermediate |
+| Manipulating Data in R | Intermediate |
+| Intro to Data Visualization | Beginner |
+| Data Visualization| Intermediate |
+| Factors | Intermediate |
+| Statistics | Beginner * Note that we do not focus on statistical theory, but rather on using R to perform tests |
+| Data Output | Beginner |
+| Functions | Intermediate and Advanced if a new topic|
 
 ## Troubleshooting
 
-You may encounter errors trying to render our case studies. 
-
-In which case, we suggest that you check the "Session Info" section under the "Additional Information "section of the case study to see what versions of packages we used. 
+You may encounter errors trying to render our materials. 
 
 R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.
 
-If you encounter an error, this is likely the reason. We try to update our case studies when we can, but we can't always update the information in a timely manner as this is currently a passion project. You can either use the error message from trying to knit the case study to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information), or you can use the versions of the packages that are shown in our Session Info section and load the versions that we used, following the directions [here](https://search.r-project.org/CRAN/refmans/remotes/html/install_version.html). 
+If you encounter an error, this is likely the reason. We try to update our materials when we can, but updates to packages may happen in the meantime. You can either use the error message from trying to knit the Rmd file to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information).
 
-## Example Use Cases
+## Additional Use Cases
 
-Because the case studies were developed to be modular and stand-alone, they can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how case studies have been used previously. If you use Open Case Studies in a new way, we would love to [hear](https://www.opencasestudies.org/#contact) about it! 
+Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, we would love to [hear](https://daseh.org/contact.html) about it! 
 
-### Using Case Studies as Lecture Content
+ 1. Using materials for assignments 
 
-[Practical Data Science in R](https://cogs137.github.io/website/) is a 10-week intermediate undergraduate course taught by [Dr. Shannon Ellis](https://www.shanellis.com/) at University of California Santa Barbara. In 2021, Dr. Ellis taught the course using three Open Case Studies and used them to illustrate how foundational data science skills and statistical concepts taught throughout the course can be applied to real data. 
+ Assignments could include: 
+  - Scientific writing like [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the the data
+  - [Extending analyses](https://github.com/advdatasci/homework11) based on results presented in the lectures and labs. 
+ - Additional data visualization
+ - Presentations
 
-Here you can see how the course used the `OCSdata` package:
+Our final project guidelines could also be expanded to create a more involved project.
 
+ 
+ 1. Independent Study
 
-
-[Dr. Ellis](https://www.shanellis.com/) incorporated labs and homework assignments into the course, which had guided coding and analysis exercises related to the concepts discussed in lecture which used content from the case studies in a slide format. She also assigned written reports where students presented the analysis they conducted related to the case study in the format of a scientific article (see example assignment below). 
-
-### Using Case Studies for Assignments
-
-[Advanced Data Science](http://jtleek.com/ads2020/) was a semester-long graduate data science course taught by [Dr. Jeff Leek](https://jtleek.com/) and [Dr. Roger Peng](https://rdpeng.org/) in 2020 at Johns Hopkins Bloomberg School of Public Health, primarily for PhD students. This course is designed for students to gain experience in designing and communicating data analyses effectively and critically analyzing analyses. Assignments included [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the case studies and [extending analyses](https://github.com/advdatasci/homework11) based on results presented in the case study. 
-
-### Independent Study
-
-Case studies can be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the case study by running the analyses independently, exploring the data beyond what is presented in the case study, and extending the analyses by to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
-
-### Interactive Case Studies
-
-Some of the case studies also have interactive versions. These versions allow students to write and run code in the browser interactively, with hints and answers available for students to check their progress as they go through the case study. Interactive case studies could be appropriate for independent learning or for in class labs, as they provide real time feedback and can reduce demands on the educator to provide intensive personalized feedback. Please see the following video for a demonstration on how to use the interactive case studies:   
+Our materials and recordings be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
 
 
+## Additional Resources
 
-## Examples of assignments 
+See [here](http://jtleek.com/ads2020/week-5.html) guidelines about considerations for effective and ethical data visualizations from the [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
 
-Educators are not limited to having the students go through the case study in their current format. Case studies can be a spring board for further exploration and additional assignments. For example, in addition to helping students develop data analysis skills, we hope that the case studies can also help students develop their curiosity, technical writing and communication skills. Additional assignments can include but is not limited to data visualization and presentation, written reports, and oral presentations. Below we provide a few examples of potential assignments that educators can use to tailor instruction to the desired learning objectives. See [here](http://jtleek.com/ads2020/week-5.html) guidelines about considerations for effective and ethical data visualizations from the [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
+We also include a resource for drafting and evaluating scientific writing [here](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
-### Written Report 
-
-Below is an example of a scientific-style paper written based on the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question). We also include an example rubric by which this paper can be evaluated adapted from [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
-
-- [OCS Opioid Use in the US Example Report](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report.pdf)
-
-- [OCS Opioid Use in the US Example Report Rubric](https://raw.githubusercontent.com/opencasestudies/OCS_Guide/main/assets/OCS_Opioids_Example_Report_Rubric.pdf)
-
-### Oral Presentation 
-
-Below is an example of a presentation based on the [Vaping Behaviors in American Youth Case Study](https://www.opencasestudies.org/ocs-bp-vaping-case-study/). This presentation focuses on the context of the study and the methods used in the analysis. Assignments for presentations can be modified to emphasize presenting results and conclusions or to emphasize communication to different audiences (e.g. policy makers, other researchers, the public, etc. ).  
-
-- [OCS Vaping Case Study Oral Presentation Assignment Example](https://github.com/advdatasci/homework12)
-- [OCS Vaping Case Study Oral Presentation Example](https://www.youtube.com/watch?v=noWLCSipKEU)
-
-
-### Data Visualization
-
-The data visualizations included in the case studies are not the only way to present the data used within the analyses. While the principles of effective data visualization are a focus of the case studies, the data included as well as the study questions can be used to guide students through the design choices that are commonly considered when determining how to best present data. Students can be assigned to create a new visualization beyond what is included in the case studies that emphasizes different aspects in the data.
-
-### Further Exploration
-
-Several case studies have additional data that is not discussed. This can be used for further exploration of the subject area that was discussed in the case study. This can be guided by the questions included in the Homework section of the case studies. Case studies that have additional data include the [Opioid Use Case Study](https://www.opencasestudies.org/ocs-bp-opioid-rural-urban/#Main_Question), the [Right to Carry Case Study](https://www.opencasestudies.org/ocs-bp-RTC-analysis/), and the [CO2 Emissions Case Study](https://www.opencasestudies.org/ocs-bp-co2-emissions/).
-
-Below is an example of an assignment assigned to students in the [Advanced Data Science Course at Johns Hopkins](http://jtleek.com/ads2020/). In this assignment students were asked to create a simpler machine learning analysis based on the case study. They were also asked to share their analysis with another student and write a summary and critique of the other student's analysis. This provides an opportunity for the student to try out analysis skills with their own analysis work, and also work on their comprehension skills of reading other people's work. It also shows how we can get different results with minor changes in our analyses.:
-
- - [OCS Air Pollution Extension Assignment Example](https://github.com/advdatasci/homework12)
-
-
-*Acknowledgments*
-
-We would like to thank the following people for generously sharing the ways in which they used Open Case Studies materials in their teaching:  
-
-- [Dr. Shannon Ellis](https://www.shanellis.com/)
-- [Dr. Jeff Leek](https://jtleek.com/)
-- [Dr. Roger Peng](https://rdpeng.org/)
 
 
 

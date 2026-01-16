@@ -3,7 +3,7 @@
 
 
   
-# DaSEH Infrastructure
+# DaSEH Infrastructure  <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;">
 
 ## Learning Objectives
 
@@ -167,6 +167,29 @@ This diagram explains the folder structure of our materials:
 
 <img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b1c31cfa63_0_80.png" alt="The folders on github of our resources, it shows that the main folders of interests are the data folder, which has all the data from the course, and the modules folder which has all the labs, lectures, and homework content, in addition, most of the free files make up the website pages, beyond that there are other folders that help in creating the website or rendering the content, including the docker folder for creating the environment to render everything on GitHub, the  github workflows folder has files for building the website from the OTTR project, the docs, site_libs, and help_files folders have files from rendering, the images folder has images for the course and website content, the resources plage has files for helping wwith settings for rendering, like the dictionary for checking spelling, the scripts page has scripts for automating aspects like making lab files for students without the answer form the key" width="100%" style="display: block; margin: auto;" />
 
+
+## Codeathon Resources
+
+In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. This link also includes our introduction, conclusion slides, and slides about running [standups](https://docs.google.com/presentation/d/1aWREGApMHZokexnh5NG9ttvSGtE5TDQcEneuAa35vvk/edit?usp=sharing) to get people talking about their work. 
+
+These include resources about:
+
+- [Version Control](https://docs.google.com/presentation/d/11IAptwDXRRgAoPY57daW6r4OHHk_ca2chWqkoX1iEpw/edit?usp=sharing)
+  This resources discusses the basics of using GitHub/Git and R.
+  It includes how to make a new repository, how to upload files to GitHub like data or code, how to set up usage of Git on your local computer, and how to push changes from your local computer to GitHub. 
+  
+- [Open Data](https://docs.google.com/presentation/d/1csCTr4sWBbWfi_JTNGKLF3J-AeFx_yronVnNC-1mg4k/edit?usp=sharing)
+  This resource covers places to find data to perform environmental health data science research.
+
+- [Code Review ](https://docs.google.com/presentation/d/11-lcYCrqhVJJzZVPTh5nUSlyg6MPD7sYrehbur7FRIw/edit?usp=sharing)
+  This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.
+  
+- [Data Ethics](https://docs.google.com/presentation/d/1PqAAaQL2xZYs_WAb8_Y3gsOwon-rW7Zl5DjGvKrGz1g/edit?usp=sharing)
+  This covers information about AI use, data protection, data privacy, data provenance and more. 
+  
+- [Mapping mini-module](https://daseh.org/resources/Mapping.html)
+  This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
+
 ## Data
 
 
@@ -186,13 +209,13 @@ Information about the which modules the data is used in and information about th
 
 ### Adapting materials
 
-If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you do either of the following:
+If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you can do either of the following:
 
 1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
 
-Different slides are indicated by the double hashtag `##` in the document on a new line. 
 
 
 2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
 
+More information about how to adjust the individual files will be described in the DaSEH modification chapter.

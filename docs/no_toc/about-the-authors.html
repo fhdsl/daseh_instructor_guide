@@ -28,7 +28,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
-<link rel="prev" href="new-case-studies---building-and-contributing.html"/>
+<link rel="prev" href="running-a-program-like-daseh.html"/>
 <link rel="next" href="references.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -53,6 +53,70 @@
 <base target="_blank">
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,7 +147,7 @@
 <li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#formats"><i class="fa fa-check"></i><b>0.1</b> Formats</a></li>
 <li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#summary"><i class="fa fa-check"></i><b>0.2</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"></a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
@@ -113,7 +177,7 @@
 </ul></li>
 <li class="chapter" data-level="1.10" data-path="introduction.html"><a href="introduction.html#contact-us"><i class="fa fa-check"></i><b>1.10</b> Contact Us</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html"><i class="fa fa-check"></i><b>2</b> DaSEH Infrastructure</a>
+<li class="chapter" data-level="2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html"><i class="fa fa-check"></i><b>2</b> DaSEH Infrastructure <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"></a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#learning-objectives-1"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="2.2" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#daseh-website"><i class="fa fa-check"></i><b>2.2</b> DaSEH Website</a>
@@ -124,67 +188,57 @@
 <li class="chapter" data-level="2.2.4" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#materials"><i class="fa fa-check"></i><b>2.2.4</b> Materials</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#daseh-github-organization"><i class="fa fa-check"></i><b>2.3</b> DaSEH GitHub Organization</a></li>
-<li class="chapter" data-level="2.4" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#data"><i class="fa fa-check"></i><b>2.4</b> Data</a>
+<li class="chapter" data-level="2.4" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#codeathon-resources"><i class="fa fa-check"></i><b>2.4</b> Codeathon Resources</a></li>
+<li class="chapter" data-level="2.5" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#data"><i class="fa fa-check"></i><b>2.5</b> Data</a>
 <ul>
-<li class="chapter" data-level="2.4.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#adapting-materials"><i class="fa fa-check"></i><b>2.4.1</b> Adapting materials</a></li>
+<li class="chapter" data-level="2.5.1" data-path="daseh-infrastructure.html"><a href="daseh-infrastructure.html#adapting-materials"><i class="fa fa-check"></i><b>2.5.1</b> Adapting materials</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="use-of-daseh.html"><a href="use-of-daseh.html"><i class="fa fa-check"></i><b>3</b> Use of DaSEH</a>
+<li class="chapter" data-level="3" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html"><i class="fa fa-check"></i><b>3</b> Using DaSEH Materials <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"></a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#learning-objectives-2"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a>
+<li class="chapter" data-level="3.1" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#learning-objectives-2"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a>
 <ul>
-<li class="chapter" data-level="3.1.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#prerequisites"><i class="fa fa-check"></i><b>3.1.1</b> Prerequisites</a></li>
-<li class="chapter" data-level="3.1.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#experience-level-descriptions"><i class="fa fa-check"></i><b>3.1.2</b> Experience Level Descriptions</a></li>
+<li class="chapter" data-level="3.1.1" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#prerequisites"><i class="fa fa-check"></i><b>3.1.1</b> Prerequisites</a></li>
+<li class="chapter" data-level="3.1.2" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#experience-level-descriptions"><i class="fa fa-check"></i><b>3.1.2</b> Experience Level Descriptions</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#daseh-in-the-classroom"><i class="fa fa-check"></i><b>3.2</b> DaSEH in the Classroom</a>
+<li class="chapter" data-level="3.2" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#daseh-in-the-classroom"><i class="fa fa-check"></i><b>3.2</b> DaSEH in the Classroom</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-the-full-set-of-materials"><i class="fa fa-check"></i><b>3.2.1</b> Teaching the full set of materials</a></li>
-<li class="chapter" data-level="3.2.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-part-of-the-daseh-materials"><i class="fa fa-check"></i><b>3.2.2</b> Teaching Part of the DaSEH Materials</a></li>
-<li class="chapter" data-level="3.2.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#teaching-with-case-study-data-only"><i class="fa fa-check"></i><b>3.2.3</b> Teaching With Case Study Data Only</a></li>
+<li class="chapter" data-level="3.2.1" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#teaching-the-full-set-of-materials"><i class="fa fa-check"></i><b>3.2.1</b> Teaching the full set of materials</a></li>
+<li class="chapter" data-level="3.2.2" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#teaching-part-of-the-daseh-materials"><i class="fa fa-check"></i><b>3.2.2</b> Teaching Part of the DaSEH Materials</a></li>
+<li class="chapter" data-level="3.2.3" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#teaching-with-daseh-data-only"><i class="fa fa-check"></i><b>3.2.3</b> Teaching With DaSEH Data Only</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#case-study-recommendations"><i class="fa fa-check"></i><b>3.3</b> Case Study Recommendations</a></li>
-<li class="chapter" data-level="3.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#troubleshooting"><i class="fa fa-check"></i><b>3.4</b> Troubleshooting</a></li>
-<li class="chapter" data-level="3.5" data-path="use-of-daseh.html"><a href="use-of-daseh.html#example-use-cases"><i class="fa fa-check"></i><b>3.5</b> Example Use Cases</a>
+<li class="chapter" data-level="3.3" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#daseh-module-recommendations"><i class="fa fa-check"></i><b>3.3</b> DaSEH Module Recommendations</a></li>
+<li class="chapter" data-level="3.4" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#troubleshooting"><i class="fa fa-check"></i><b>3.4</b> Troubleshooting</a></li>
+<li class="chapter" data-level="3.5" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#additional-use-cases"><i class="fa fa-check"></i><b>3.5</b> Additional Use Cases</a></li>
+<li class="chapter" data-level="3.6" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#additional-resources"><i class="fa fa-check"></i><b>3.6</b> Additional Resources</a></li>
+<li class="chapter" data-level="3.7" data-path="using-daseh-materials.html"><a href="using-daseh-materials.html#session-info"><i class="fa fa-check"></i><b>3.7</b> Session info</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html"><i class="fa fa-check"></i><b>4</b> Modifying DaSEH Materials <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"></a>
 <ul>
-<li class="chapter" data-level="3.5.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#using-case-studies-as-lecture-content"><i class="fa fa-check"></i><b>3.5.1</b> Using Case Studies as Lecture Content</a></li>
-<li class="chapter" data-level="3.5.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#using-case-studies-for-assignments"><i class="fa fa-check"></i><b>3.5.2</b> Using Case Studies for Assignments</a></li>
-<li class="chapter" data-level="3.5.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#independent-study"><i class="fa fa-check"></i><b>3.5.3</b> Independent Study</a></li>
-<li class="chapter" data-level="3.5.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#interactive-case-studies"><i class="fa fa-check"></i><b>3.5.4</b> Interactive Case Studies</a></li>
-</ul></li>
-<li class="chapter" data-level="3.6" data-path="use-of-daseh.html"><a href="use-of-daseh.html#examples-of-assignments"><i class="fa fa-check"></i><b>3.6</b> Examples of assignments</a>
+<li class="chapter" data-level="4.1" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#learning-objectives-3"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.2" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#modify-the-website"><i class="fa fa-check"></i><b>4.2</b> Modify the website</a>
 <ul>
-<li class="chapter" data-level="3.6.1" data-path="use-of-daseh.html"><a href="use-of-daseh.html#written-report"><i class="fa fa-check"></i><b>3.6.1</b> Written Report</a></li>
-<li class="chapter" data-level="3.6.2" data-path="use-of-daseh.html"><a href="use-of-daseh.html#oral-presentation"><i class="fa fa-check"></i><b>3.6.2</b> Oral Presentation</a></li>
-<li class="chapter" data-level="3.6.3" data-path="use-of-daseh.html"><a href="use-of-daseh.html#data-visualization"><i class="fa fa-check"></i><b>3.6.3</b> Data Visualization</a></li>
-<li class="chapter" data-level="3.6.4" data-path="use-of-daseh.html"><a href="use-of-daseh.html#further-exploration"><i class="fa fa-check"></i><b>3.6.4</b> Further Exploration</a></li>
+<li class="chapter" data-level="4.2.1" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#creating-a-fork-of-our-repository"><i class="fa fa-check"></i><b>4.2.1</b> Creating a fork of our repository</a></li>
 </ul></li>
-<li class="chapter" data-level="3.7" data-path="use-of-daseh.html"><a href="use-of-daseh.html#session-info"><i class="fa fa-check"></i><b>3.7</b> Session info</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html"><i class="fa fa-check"></i><b>4</b> Modifying open case studies</a>
+<li class="chapter" data-level="4.3" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#modify-module-slides"><i class="fa fa-check"></i><b>4.3</b> Modify module slides</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#learning-objectives-3"><i class="fa fa-check"></i><b>4.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="4.2" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modular-use"><i class="fa fa-check"></i><b>4.2</b> Modular use</a>
-<ul>
-<li class="chapter" data-level="4.2.1" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#example-of-modular-use"><i class="fa fa-check"></i><b>4.2.1</b> Example of Modular Use</a></li>
+<li class="chapter" data-level="4.3.1" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#emojis-in-slides"><i class="fa fa-check"></i><b>4.3.1</b> Emojis in slides</a></li>
+<li class="chapter" data-level="4.3.2" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#smaller-text-font-per-slide"><i class="fa fa-check"></i><b>4.3.2</b> Smaller text font per slide</a></li>
+<li class="chapter" data-level="4.3.3" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#smaller-code-font-per-slide"><i class="fa fa-check"></i><b>4.3.3</b> Smaller code font per slide</a></li>
+<li class="chapter" data-level="4.3.4" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#add-color-to-slide-text"><i class="fa fa-check"></i><b>4.3.4</b> Add color to slide text</a></li>
+<li class="chapter" data-level="4.3.5" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#add-background-color-to-code-chunk-describe-general-syntax-for-code"><i class="fa fa-check"></i><b>4.3.5</b> Add background color to code chunk describe general syntax for code</a></li>
+<li class="chapter" data-level="4.3.6" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#create-gifs"><i class="fa fa-check"></i><b>4.3.6</b> Create gifs</a></li>
 </ul></li>
-<li class="chapter" data-level="4.3" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#modify-a-case-study"><i class="fa fa-check"></i><b>4.3</b> Modify a case study</a></li>
-<li class="chapter" data-level="4.4" data-path="modifying-open-case-studies.html"><a href="modifying-open-case-studies.html#session-info-1"><i class="fa fa-check"></i><b>4.4</b> Session info</a></li>
+<li class="chapter" data-level="4.4" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#modifying-labs"><i class="fa fa-check"></i><b>4.4</b> Modifying Labs</a></li>
+<li class="chapter" data-level="4.5" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#distribute-your-modified-content-as-you-please"><i class="fa fa-check"></i><b>4.5</b> Distribute your modified content as you please!</a></li>
+<li class="chapter" data-level="4.6" data-path="modifying-daseh-materials.html"><a href="modifying-daseh-materials.html#session-info-1"><i class="fa fa-check"></i><b>4.6</b> Session info</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html"><i class="fa fa-check"></i><b>5</b> New Case Studies - Building and Contributing</a>
+<li class="chapter" data-level="5" data-path="running-a-program-like-daseh.html"><a href="running-a-program-like-daseh.html"><i class="fa fa-check"></i><b>5</b> Running a program like DaSEH <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;"></a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#learning-objectives-4"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="5.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#create-a-case-study"><i class="fa fa-check"></i><b>5.2</b> Create a Case Study</a>
-<ul>
-<li class="chapter" data-level="5.2.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#template-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Template Case Study</a></li>
-</ul></li>
-<li class="chapter" data-level="5.3" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#case-study-libraries"><i class="fa fa-check"></i><b>5.3</b> Case Study Libraries</a></li>
-<li class="chapter" data-level="5.4" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#submission-process"><i class="fa fa-check"></i><b>5.4</b> Submission Process</a>
-<ul>
-<li class="chapter" data-level="5.4.1" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#community-library-submissions"><i class="fa fa-check"></i><b>5.4.1</b> Community Library Submissions</a></li>
-<li class="chapter" data-level="5.4.2" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#official-library-submissions"><i class="fa fa-check"></i><b>5.4.2</b> Official Library Submissions</a></li>
-</ul></li>
-<li class="chapter" data-level="5.5" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#offical-case-study-guidelines"><i class="fa fa-check"></i><b>5.5</b> Offical Case Study Guidelines</a></li>
-<li class="chapter" data-level="5.6" data-path="new-case-studies---building-and-contributing.html"><a href="new-case-studies---building-and-contributing.html#session-info-2"><i class="fa fa-check"></i><b>5.6</b> Session info</a></li>
+<li class="chapter" data-level="5.1" data-path="running-a-program-like-daseh.html"><a href="running-a-program-like-daseh.html#learning-objectives-4"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2" data-path="running-a-program-like-daseh.html"><a href="running-a-program-like-daseh.html#planning-a-short-course"><i class="fa fa-check"></i><b>5.2</b> Planning a short course</a></li>
+<li class="chapter" data-level="5.3" data-path="running-a-program-like-daseh.html"><a href="running-a-program-like-daseh.html#tips-for-codeathons"><i class="fa fa-check"></i><b>5.3</b> Tips for codeathons</a></li>
+<li class="chapter" data-level="5.4" data-path="running-a-program-like-daseh.html"><a href="running-a-program-like-daseh.html#session-info-2"><i class="fa fa-check"></i><b>5.4</b> Session info</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
@@ -353,7 +407,7 @@
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       Etc/UTC
-##  date     2026-01-09
+##  date     2026-01-16
 ##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
@@ -458,7 +512,7 @@ For JHU courses, You will need to add Ira as a credit:
           </div>
         </div>
       </div>
-<a href="new-case-studies---building-and-contributing.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="running-a-program-like-daseh.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>

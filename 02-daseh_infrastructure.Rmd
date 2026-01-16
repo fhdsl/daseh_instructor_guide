@@ -9,7 +9,7 @@ ottrpal::set_knitr_image_path()
 
 ## Learning Objectives
 
-In this chapter we will desscribe the overall infrastructure of the DaSEH Project, which includes:
+In this chapter we will describe the overall infrastructure of the DaSEH Project, which includes:
 
 - [The DaSEH website resources](https://daseh.org/)
    - Topics included in modules (lectures and labs)

@@ -218,7 +218,7 @@ Information about the which modules the data is used in and information about th
 
 ### Adapting materials
 
-If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you do either of the following:
+If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you can do either of the following:
 
 1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
 

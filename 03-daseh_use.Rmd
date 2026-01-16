@@ -210,7 +210,7 @@ Our materials and recordings be used for learners to gain experience in statisti
 
 See [here](http://jtleek.com/ads2020/week-5.html) guidelines about considerations for effective and ethical data visualizations from the [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
 
-We also include an example rubric for evaluating scientific writing [here](https://ocw.mit.edu/courses/biological-engineering/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/assignments/guidelines-for-writing-up-your-research/#Evaluation). 
+We also include a resource for drafting and evaluating scientific writing [here](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
 
 

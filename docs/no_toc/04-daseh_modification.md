@@ -258,7 +258,11 @@ The list of corresponding lectures is available on the [materials and schedule p
 
 
 
+## Modify Codeathon materials
 
+Our codeathon materials are Google Slide presentations which are available to view by the public. This allows for copying and pasting content within the slides.
+
+If you would like access to the raw slides, please reach out to us at daseh@fredhutch.org. 
 
 
 

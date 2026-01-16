@@ -28,7 +28,7 @@ The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.o
 
 This training initiative is funded by National Institute of Environmental Health Sciences 1R25ES035590-01.
 
-DaSEH guides can be used:
+DaSEH resources can be used:
 
 1) As a course or to add to a curriculum (either onsite or online) by engaging students to actively participate in data science education for environmental health.
 

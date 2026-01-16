@@ -3,7 +3,7 @@
 ottrpal::set_knitr_image_path()
 ```
 
-# Modifying DaSEH Materials
+# Modifying DaSEH Materials  <img src="https://raw.githubusercontent.com/fhdsl/daseh_instructor_guide/1afbe6783430718ae6a63c607da6e457a73a90ff/assets/leaf.png" alt="Leaf" loading="lazy" style="width:10%; height:auto; vertical-align: middle; display: inline;">
 
 ## Learning Objectives
 
@@ -214,7 +214,7 @@ To add this to a chunk use this in the Rmd file before and after the chunk:
 
 ````
 <div class = "codeexample">
-```{r}
+```{r, eval = FALSE}
 #some code
 ```
 </div>
@@ -249,50 +249,16 @@ Within each module directory, there is a subdirectory called `lab`. Locate the `
 
 #### How does the lab file cleanup work?
 
-When creating the lab key, there will be certain chunks that you'll want to clear out for the students to fill in on their own. For example, question 1 in the key might be:
+When creating the lab key, you will write the answer to the questions in the key. However, for the file that the students see, we want the answers to be removed. 
 
-````
-```{r 1response}
-seq(0, 100, 5)
+
+To make sure this happens correctly, the chunks you want to clean must have a `label` ending with `response`. Chunks without a label following this pattern will be ignored and reproduced exactly for the students. 
+
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of chunks named response1 for the key and the lab file for students for the key the answer is filled in and for the lab there file for students there is now code", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3ba9e61ea01_0_0#slide=id.g3ba9e61ea01_0_0')
 ```
-````
-but you want students to see:
-
-````
-```{r 1response}
- 
-```
-````
-
-To make sure this happens correctly, the chunks you want to clean must have a `label` ending with `response` or `response'`. Chunks without a label following this pattern will be ignored and reproduced exactly for the students. For example:
-
-````
-```{r 1response}
-seq(0, 100, 5)
-```
-````
-or
-````
-```{r label = '1response'}
-seq(0, 100, 5)
-```
-````
-become, respectively:
-````
-```{r 1response}
- 
-```
-````
-
-````
-```{r label = '1response'}
- 
-```
-````
-
-
-
-
 
 
 #### Manually Download Data from GitHub:

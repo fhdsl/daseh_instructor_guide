@@ -2,7 +2,7 @@
 
 This Guide was created from [this GitHub template](https://github.com/ottrproject/OTTR_Template).
 
-You can see the rendered course material here: https://hutchdatascience.org/daseh_instructor_guide/
+You can see the rendered guide material here: https://hutchdatascience.org/daseh_instructor_guide/
 
 If you would like to use the same template, take a look at the [OTTR documentation](https://www.ottrproject.org/).
 

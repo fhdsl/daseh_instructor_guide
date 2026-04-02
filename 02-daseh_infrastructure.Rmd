@@ -205,6 +205,8 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_18#slide=id.g3d44163d3ed_0_18')
 ```
 
+For Gut Checks it is good to keep the question very simple and fundamental. That makes people feel successful as they work engage with the lecture and helps reinforce the most fundamental information. 
+
 1. Examples using more simple data
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how to maninuplate the data to reformat it from wide to long using the pivot longer function with a small dataset", out.width="100%"}

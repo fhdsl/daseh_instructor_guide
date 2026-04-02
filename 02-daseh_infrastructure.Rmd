@@ -189,7 +189,9 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. This link also includes our introduction, conclusion slides, and slides about running [standups](https://docs.google.com/presentation/d/1aWREGApMHZokexnh5NG9ttvSGtE5TDQcEneuAa35vvk/edit?usp=sharing) to get people talking about their work. 
 
-These include resources about:
+### Codeathon Slides
+
+Our codeathon slides include resources about:
 
 - [Version Control](https://docs.google.com/presentation/d/11IAptwDXRRgAoPY57daW6r4OHHk_ca2chWqkoX1iEpw/edit?usp=sharing)
   This resources discusses the basics of using GitHub/Git and R.
@@ -207,10 +209,27 @@ These include resources about:
 - [Mapping mini-module](https://daseh.org/resources/Mapping.html)
   This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
   
-  
+ 
+### Codeathon Schedule
+
 Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing) from one of our past DaSEH codeathons.
 
 <iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="672" height="400px"></iframe>
+
+
+### Stand ups
+
+To facilitate participants communicating with us and one another, we had what we called "stand ups" throughout the codeathon. These are opportunites for participants to pause and reflect on how their work is going and share that information with others. 
+
+We had participants stand up from their desks and stand in a large circle where they would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
+
+We often discovered that many of the participants would have common interests or challenges that they would sometimes decide to tackle together or share resources on the topic.
+
+This also allowed us as instructors to determine who might need extra assistance and what kind of resources we might share with them. 
+
+Importantly, it also helped participants get to know one another and to take a break from their work to think about what their next steps should be and if they needed to pivot what they were working on. This decision making process is exactly what happens in real research labs, and was a very imporant skill to discuss. 
+
+Feedback from participants suggested that they really enjoyed the stand up process. 
 
 
 ## Data

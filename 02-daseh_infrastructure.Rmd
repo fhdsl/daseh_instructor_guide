@@ -36,11 +36,13 @@ To help users navigate challenges, we have a page to assist with common errors o
 
 To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
 
-We like to share recordings of our lectures with the students right after we record to:
+We like to share recordings of our lectures (using Zoom) with the students right after we record to:
 
 - allow students who have other commitments to still participate
 - allow learners to watch the materials again even if they were present during the live course, to help them review
 - allow learners to look back at the material in the future for a refresher 
+
+Recordings also allow independent learners to use the other materials more effectively, as well as supports potential teaching assistants who may need to learn or refresh their knowledge on a topic. 
 
 ### Contact Info
 

@@ -1,8 +1,0 @@
-1-Introduction.md
-2-DaSEH-Infrastructure.md
-3-Using-DaSEH-Materials.md
-4-Modifying-DaSEH-Materials.md
-5-Running-a-program-like-DaSEH.md
-6-References.md
-About-this-guide.md
-About-the-Authors.md

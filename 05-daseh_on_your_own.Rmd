@@ -12,19 +12,70 @@ In this chapter we will discuss how to:
 - List tips for running a codeathon
 
 
-## Planning a short course 
+## Planning a DaSEH course 
+
+We have created a [checklist of tasks](https://docs.google.com/spreadsheets/d/1FGPiE5y4qUXLWMOrpa18xmeFTr_8UL6ja_vzWwTwjbg/edit?usp=drive_link) for those who wish to use our materials for an academic course or short course program. 
+
+<iframe src="https://docs.google.com/spreadsheets/d/1FGPiE5y4qUXLWMOrpa18xmeFTr_8UL6ja_vzWwTwjbg/edit?usp=drive_link" width="672" height="400px"></iframe>
 
 
-## Tips for codeathons
+## Tips for Logistics
 
-templates to include? make templates form registration form?
-welcome email
+The following are more extensive details and tips about the logistical aspects of planning courses, codeathons and learning programs that we learned from our experience teaching DaSEH and other educational activities. 
 
-adverstizing email templates: https://docs.google.com/document/d/11Rg05ACUSrA29e-Ua-5VUBgezlA3mKGMXOZ0TqbVm8k/edit?usp=sharing
+### Scheduling Considerations
 
-schedule link: https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=drive_link
+Our materials could be used as we have for a [9 day online course](https://daseh.org/materials_schedule.html) and [3 day codeathon](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=drive_link)), or they could be used for an academic 8 or 16 week course, or some other configuration to suite your needs. 
 
-Do we want to share an old flier?
+
+### Considerations for Event Spaces
+
+There are 3 major things to consider for a DaSEH event space, if it is for an in person course or codeathon:
+
+1. Make sure the space that has adequate WIFI that you can make accessible to the participants. 
+
+2. Make sure there are tabletops available for participants to place their laptops - or perhaps use a computer lab that has designated computers.
+
+3. Make sure there are enough outlets in the room or a plan for extension cords that will allow for learners to plug in their laptops.
+
+
+### Virtual Set Up Considerations
+
+We personally like Zoom for teaching, but other virtual options could also work.
+
+If using Zoom or another platform, consider the following:
+
+1. Set up and send out your link in advance so you can ensure learners know where to go. See this [documentation on scheduling Zoom meetings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060700) for guidance. 
+
+  Pro tip: Reshare the link with email and Slack or other platforms to connect with learners right before and the day of as well to help them know where to go. Also share it in the calendar invite.
+
+2. Use adequate security measures so that uninvited guests do not join your virtual space. 
+
+  Not sharing your link publicly can be especially effective, but you may also want to use a password, if you do so, ensure that learners know where to find the password.
+  
+3. Set up settings ahead of time if possible
+
+  Zoom allows you to set up settings like automatic recordings ahead of time. 
+  
+4. Have a plan for breakout rooms ahead of time.
+
+  If you plan to have breakout rooms for labs or other purposes, you can set these up in advance.
+  We highly suggest that you set them up with the option for people to change rooms. See Zoom's [documentation on breakout rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061353) or this [video on breakout rooms](https://share.google/BHESeIKN8GWuAfbXm).
+  
+  Be sure to provide guidance to learners about [changing rooms](https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=3838) if you make this an option. 
+  
+5. Set up polls ahead of time if possible
+
+We often poll our learners on the first day to learn about their experience with topics and to learn about their interests. These can be set up in advance to save time. See this [video about setting up polls ahead of time.](https://share.google/KSqtsRtHTadUrYCiI)
+
+Pro tip: We suggest that you share your recordings on a Google Drive, so that you only have to share one link where people can find recordings, as you upload them to the drive. 
+  
+
+
+
+
+
+
 
 
 ### Making certificates

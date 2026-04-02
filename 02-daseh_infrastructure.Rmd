@@ -54,7 +54,7 @@ Also please let us know if you notice typos or errors, or if you are interested 
 
 ### Survey
 
-There is also a survey available on our website that allows us to do research on DaSEH resource use. 
+There will also be a survey available on our website that allows us to do research on DaSEH resource use. 
 
 The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
 
@@ -65,7 +65,7 @@ The survey should take no more than 10 minutes to complete. Your feedback helps 
 
 We have the following modules on various topics related to data science for environmental public health. 
 
-Each one has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) as well as lab activities built using [R Markdown](https://rmarkdown.rstudio.com/).
+Each one has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) and [R Markdown](https://rmarkdown.rstudio.com/), as well as lab activities also built using [R Markdown](https://rmarkdown.rstudio.com/).
 
 The rendered version of the slides, as well as the raw R Markdown files (called Rmd files) are available on the website or our [GitHub repository](https://github.com/fhdsl/DaSEH/). In addition, the rendered and raw versions of the both the lab and the lab key are also available.
 

@@ -77,6 +77,8 @@ We also include cheatsheets so that learners can review the functions that they 
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_0#slide=id.g3a4b18ec263_0_0')
 ```
 
+
+
 1) **An Introduction to R**
 
 This module includes the history of how R came to be and how it differs from other options like [Python](https://www.python.org/) or [Stata](https://www.stata.com/). It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, and object.
@@ -172,6 +174,69 @@ In the lab activity, learners write a csv and RDS file, as well as read back in 
 In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code. 
 
 In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
+
+## Slide Structure
+
+Overall our slide structure involves the following components:
+
+1. A recap of the previous day (where appropriate)
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a recap slide which shows previous functions, syntax, and general principles or practices", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_6#slide=id.g3d44163d3ed_0_6')
+```
+
+1. Context about why the particular topic matters or why someone might need to know the material
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a context slide which shows why it is useful to learn about the dplyr package and why it is named dplyr", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_12#slide=id.g3d44163d3ed_0_12')
+```
+
+
+1. Overviews of functions and the typical command structure to use such functions
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a general structure summary for the mutate function showing what each part of a command using function might include", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_24#slide=id.g3d44163d3ed_0_24')
+```
+
+1. Gut Checks to help gauge student comprehension and to help learners stay engaged
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a gut check from the basic R lecture that says What function would ne useful for gettina vector version of a column, a pull or b select", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_18#slide=id.g3d44163d3ed_0_18')
+```
+
+1. Examples using more simple data
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how to maninuplate the data to reformat it from wide to long using the pivot longer function with a small dataset", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_65#slide=id.g3d44163d3ed_0_65')
+```
+
+
+
+1. Applied examples with real data (where possible)
+  Sometimes it is difficult to get a dataset that suits all your needs. In those cases we make it clear that the data was created by us and then we share it on our website for easy access and use.
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how to maninuplate real data to reformat it from wide to long using the pivot longer function with a more complicated dataset", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_70#slide=id.g3d44163d3ed_0_70')
+```
+1. Cautionary examples of what can go wrong
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how using quotes around column names in filter can have unexpected results", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_43#slide=id.g3d44163d3ed_0_43')
+```
+
+1. A summary of what we discussed
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of an example summary slide which shows functions from part of the subsetting lecture with simple explanations such as select and filter, it also includes cautions about avoiding quotes when using filter", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')
+```
+
+1. Links to course resources and potentially other resources such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing links to the website, lab, day 3 cheatsheet, and posit's dplyr cheatsheet", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')
+```
+
 
 ## DaSEH GitHub Organization
 

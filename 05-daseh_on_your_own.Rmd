@@ -47,7 +47,7 @@ If using Zoom or another platform, consider the following:
 
 1. Set up and send out your link in advance so you can ensure learners know where to go. See this [documentation on scheduling Zoom meetings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060700) for guidance. 
 
-  Pro tip: Reshare the link with email and Slack or other platforms to connect with learners right before and the day of as well to help them know where to go. Also share it in the calendar invite.
+  Pro tip: Share the link in an email and on Slack or other platforms to connect with learners right before and the day of as well to help them know where to go. Also share it in the calendar invite.
 
 2. Use adequate security measures so that uninvited guests do not join your virtual space. 
 
@@ -80,7 +80,7 @@ Pro tip: We suggest that you share your recordings on a Google Drive, so that yo
 
 ### Making certificates
 
-Certificates are generated in R using the [`certificate` package](https://forwards.github.io/certificate/) and the [`googlesheets4` package](https://googlesheets4.tidyverse.org/) to programatically generate certificates for each participant reading in a google sheet with all of their names. 
+Certificates are generated in R using the [`certificate` package](https://forwards.github.io/certificate/) and the [`googlesheets4` package](https://googlesheets4.tidyverse.org/) to programmatically generate certificates for each participant reading in a google sheet with all of their names. 
 
 These are then manually signed. 
 

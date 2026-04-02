@@ -296,7 +296,7 @@ Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1
 
 ### Stand ups
 
-To facilitate participants communicating with us and one another, we had what we called "stand ups" throughout the codeathon. These are opportunites for participants to pause and reflect on how their work is going and share that information with others. 
+To facilitate participants communicating with us and one another, we had what we called "stand ups" throughout the codeathon. These are opportunities for participants to pause and reflect on how their work is going and share that information with others. 
 
 We had participants stand up from their desks and stand in a large circle where they would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
 
@@ -304,7 +304,7 @@ We often discovered that many of the participants would have common interests or
 
 This also allowed us as instructors to determine who might need extra assistance and what kind of resources we might share with them. 
 
-Importantly, it also helped participants get to know one another and to take a break from their work to think about what their next steps should be and if they needed to pivot what they were working on. This decision making process is exactly what happens in real research labs, and was a very imporant skill to discuss. 
+Importantly, it also helped participants get to know one another and to take a break from their work to think about what their next steps should be and if they needed to pivot what they were working on. This decision making process is exactly what happens in real research labs, and was a very important skill to discuss. 
 
 Feedback from participants suggested that they really enjoyed the stand up process. 
 

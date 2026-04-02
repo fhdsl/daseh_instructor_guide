@@ -1,6 +1,6 @@
 ---
 title: "DaSEH Instructor Guide"
-date: "March, 2026"
+date: "April, 2026"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib

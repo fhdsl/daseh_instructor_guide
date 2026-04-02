@@ -11,12 +11,27 @@ In this chapter we will discuss how to:
 - Plan a short course like daseh 
 - List tips for running a codeathon
 
+
 ## Planning a short course 
 
 
 ## Tips for codeathons
 
+templates to include? make templates form registration form?
+welcome email
 
+adverstizing email templates: https://docs.google.com/document/d/11Rg05ACUSrA29e-Ua-5VUBgezlA3mKGMXOZ0TqbVm8k/edit?usp=sharing
+
+schedule link: https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=drive_link
+
+Do we want to share an old flier?
+
+
+### Making certificates
+
+Certificates are generated in R using the [`certificate` package](https://forwards.github.io/certificate/) and the [`googlesheets4` package](https://googlesheets4.tidyverse.org/) to programatically generate certificates for each participant reading in a google sheet with all of their names. 
+
+These are then manually signed. 
 
 ## Session info
 

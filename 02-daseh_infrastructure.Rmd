@@ -206,6 +206,12 @@ These include resources about:
   
 - [Mapping mini-module](https://daseh.org/resources/Mapping.html)
   This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
+  
+  
+Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing) from one of our past DaSEH codeathons.
+
+<iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="672" height="400px"></iframe>
+
 
 ## Data
 

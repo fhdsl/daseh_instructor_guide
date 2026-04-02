@@ -67,6 +67,7 @@ Pandoc
 Peng
 png
 pre
+programmatically
 readr
 recode
 replicability

@@ -28,15 +28,19 @@ It is built using R Markdown on GitHub at this repository: https://github.com/fh
 
 Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our [Apply tab](https://forms.gle/pfX4zCPFjTinKttaA).
 
-Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
+Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
 
-We also include links to all the data used in the course as well as additional data that could be used for projects our extra practice on our [data page](https://daseh.org/data.html).
+We also include links to all the data used in the course, as well as additional data that could be used for projects our extra practice, on our [data page](https://daseh.org/data.html).
 
 To help users navigate challenges, we have a page to assist with common errors on our [Error FAQ page](https://daseh.org/data.html)
 
 To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
 
+We like to share recordings of our lectures with the students right after we record to:
 
+- allow students who have other commitments to still participate
+- allow learners to watch the materials again even if they were present during the live course, to help them review
+- allow learners to look back at the material in the future for a refresher 
 
 ### Contact Info
 
@@ -61,9 +65,9 @@ The survey should take no more than 10 minutes to complete. Your feedback helps 
 
 We have the following modules on various topics related to data science for environmental public health. 
 
-Each one has lecture slides built using ioslides and as well as lab activities built using R Markdown.
+Each one has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) as well as lab activities built using [R Markdown](https://rmarkdown.rstudio.com/).
 
-The rendered version of the slides, as well as the raw Rmd file are available on the website or our GitHub repository. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
+The rendered version of the slides, as well as the raw R Markdown files (called Rmd files) are available on the website or our [GitHub repository](https://github.com/fhdsl/DaSEH/). In addition, the rendered and raw versions of the both the lab and the lab key are also available.
 
 We also include cheatsheets so that learners can review the functions that they learned that day.
 
@@ -73,7 +77,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 1) **An Introduction to R**
 
-This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.
+This module includes the history of how R came to be and how it differs from other options like [Python](https://www.python.org/) or [Stata](https://www.stata.com/). It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, and object.
 
 This module does not have a lab associated with it.
 
@@ -97,13 +101,13 @@ The lab activity features tasks like cleaning the environment, using the `set.se
 
 5) **Data Input**
 
-This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
+This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the `readr` package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
 
 The lab activity covers using the point-and-click option within RStudio and using code with `readr`.
 
 6) **Data Subsetting**
 
-This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
+This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition, we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
 
 The lab activity covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
 
@@ -118,7 +122,7 @@ In the lab activity, learners find the dimensions of the data, use the `count` f
 
 This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to separate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
 
-In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate no exposure. 
+In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate "no exposure". 
 
 9) **Manipulating Data**
 
@@ -144,7 +148,7 @@ In the lab activity, learners practice making plots directly with `ggplot2` and 
 
 12) **Factors**
 
-In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations show data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
+In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations showing data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
 
 In the lab activity, learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.
 
@@ -159,7 +163,7 @@ In the lab activity, learners perform a correlation test between two vectors, pe
 
 In this module, learners discover that they can save their processed data as RDS (R native) or csv files so that they don't have to rerun processing on data (especially if it is large) or if they want to share data with others.
 
-In the lab activity, learners write a csv and RDS file as well as read back in an RDS file.
+In the lab activity, learners write a csv and RDS file, as well as read back in an RDS file.
 
 15) **Functions**
 
@@ -169,7 +173,7 @@ In the lab activity, learners create their own simple functions and use the `acr
 
 ## DaSEH GitHub Organization
 
-GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course and website repository](https://github.com/fhdsl/daseh). 
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course website repository](https://github.com/fhdsl/daseh). 
 
 This diagram explains the folder structure of our materials:
 

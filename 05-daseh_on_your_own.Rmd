@@ -17,7 +17,7 @@ In this chapter we will discuss how to:
 
 We have created a [checklist of tasks](https://docs.google.com/spreadsheets/d/1FGPiE5y4qUXLWMOrpa18xmeFTr_8UL6ja_vzWwTwjbg/edit?usp=drive_link) for those who wish to use our materials for an academic course or short course program. 
 
-<iframe src="https://docs.google.com/spreadsheets/d/1FGPiE5y4qUXLWMOrpa18xmeFTr_8UL6ja_vzWwTwjbg/edit?usp=drive_link" width="672" height="400px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1FGPiE5y4qUXLWMOrpa18xmeFTr_8UL6ja_vzWwTwjbg/edit?usp=drive_link" width="800px" height="1200px"></iframe>
 
 
 ## Tips for Logistics

@@ -8,6 +8,7 @@ ottrpal::set_knitr_image_path()
 ## Learning Objectives
 
 In this chapter we will discuss how to:
+
 - Plan a short course like daseh 
 - List tips for running a codeathon
 

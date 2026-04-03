@@ -6,8 +6,9 @@
 ## Learning Objectives
 
 In this chapter we will discuss how to:
-- Plan a short course like daseh 
-- List tips for running a codeathon
+
+- Plan the logistics for an academic or shortcourse using DaSEH materials
+- List tips for running a DaSEH program
 
 
 ## Planning a DaSEH course 

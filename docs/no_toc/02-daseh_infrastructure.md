@@ -26,15 +26,21 @@ It is built using R Markdown on GitHub at this repository: https://github.com/fh
 
 Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our [Apply tab](https://forms.gle/pfX4zCPFjTinKttaA).
 
-Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
+Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
 
-We also include links to all the data used in the course as well as additional data that could be used for projects our extra practice on our [data page](https://daseh.org/data.html).
+We also include links to all the data used in the course, as well as additional data that could be used for projects our extra practice, on our [data page](https://daseh.org/data.html).
 
 To help users navigate challenges, we have a page to assist with common errors on our [Error FAQ page](https://daseh.org/data.html)
 
 To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
 
+We like to share recordings of our lectures (using Zoom) with the students right after we record to:
 
+- allow students who have other commitments to still participate
+- allow learners to watch the materials again even if they were present during the live course, to help them review
+- allow learners to look back at the material in the future for a refresher 
+
+Recordings also allow independent learners to use the other materials more effectively, as well as supports potential teaching assistants who may need to learn or refresh their knowledge on a topic. 
 
 ### Contact Info
 
@@ -48,7 +54,7 @@ Also please let us know if you notice typos or errors, or if you are interested 
 
 ### Survey
 
-There is also a survey available on our website that allows us to do research on DaSEH resource use. 
+There will also be a survey available on our website that allows us to do research on DaSEH resource use. 
 
 The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
 
@@ -59,113 +65,172 @@ The survey should take no more than 10 minutes to complete. Your feedback helps 
 
 We have the following modules on various topics related to data science for environmental public health. 
 
-Each one has lecture slides built using ioslides and as well as lab activities built using R Markdown.
+Each one has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) and [R Markdown](https://rmarkdown.rstudio.com/), as well as lab activities also built using [R Markdown](https://rmarkdown.rstudio.com/).
 
-The rendered version of the slides, as well as the raw Rmd file are available on the website or our GitHub repository. In addition, the rendered and raw versions of the both the lab and the lab key are also available.
+The rendered version of the slides, as well as the raw R Markdown files (called Rmd files) are available on the website or our [GitHub repository](https://github.com/fhdsl/DaSEH/). In addition, the rendered and raw versions of the both the lab and the lab key are also available.
 
 We also include cheatsheets so that learners can review the functions that they learned that day.
 
 <img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3a4b18ec263_0_0.png" alt="image of the materials and schedule table on the DaSEH website which shows the module name, the lecture links available in HTML, PDF, and the raw Rmd file, the lab activity links including the Rmd file and  html rendered version, as well as for the key version which includes the answers and finally additional resources like cheatsheets" width="100%" style="display: block; margin: auto;" />
 
-1) **An Introduction to R**
 
-This module includes the history of how R came to be and how it differs from other options like Python or Stata. It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, object.
+### Modules
+
+1) [**An Introduction to R**](https://daseh.org/modules/Intro/Intro.html)
+
+This module includes the history of how R came to be and how it differs from other options like [Python](https://www.python.org/) or [Stata](https://www.stata.com/). It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, and object.
 
 This module does not have a lab associated with it.
 
-2) **Basic R**
+2) [**Basic R**](https://daseh.org/modules/Basic_R/Basic_R.html)
 
 This module includes how to assign objects, how to create vectors, and how to perform simple calculations.
 
-The lab activity which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical operations, assigning vectors, and checking the class and length of vectors.
+The [lab activity](https://daseh.org/modules/Basic_R/lab/Basic_R_Lab_Key.html) which is just an html webpage (as learners are not yet introduced to Rmd files) involves performing simple mathematical operations, assigning vectors, and checking the class and length of vectors.
 
-3) **RStudio**
+3) [**RStudio**](https://daseh.org/modules/RStudio/RStudio.html#1)
 
 This module includes a tour of RStudio, how to write code that can be saved or how to write interactive code, for instance for installing a package where the user may have to answer questions.
 
-The lab activity involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.
+The [lab activity](https://daseh.org/modules/RStudio/lab/RStudio_Lab_Key.html) involves knitting the Rmd file, running code chunks in the Rmd file, running all previous chunks, creating new chunks, and adding headers.
 
-4) **Reproducibility**
+4) [**Reproducibility**](https://daseh.org/modules/Reproducibility/Reproducibility.html#1)
 
 This module introduces concepts related to repeatability, reproducibility, and replicability. It introduces best practices for improving transparency in our code.
 
-The lab activity features tasks like cleaning the environment, using the `set.seed()` function to generate the same random numbers each time, and using the `sessionInfo()` function to list packages and versions used.
+The [lab activity](https://daseh.org/modules/Reproducibility/lab/Reproducibility_Lab_Key.html) features tasks like cleaning the environment, using the `set.seed()` function to generate the same random numbers each time, and using the `sessionInfo()` function to list packages and versions used.
 
-5) **Data Input**
+5) [**Data Input**](https://daseh.org/modules/Data_Input/Data_Input.html)
 
-This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the readr package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
+This module describes how to import data using point-and-click methods within RStudio as well as through using functions of the `readr` package. We cover import of csv files and other delimited files like tab delimited files, as well as tools for importing excel files and SAS, SPSS, and Stata files. We also cover methods for checking your imported data.
 
-The lab activity covers using the point-and-click option within RStudio and using code with `readr`.
+The [lab activity](https://daseh.org/modules/Data_Input/lab/Data_Input_Lab_Key.html) covers using the point-and-click option within RStudio and using code with `readr`.
 
-6) **Data Subsetting**
+6) [**Data Subsetting**](https://daseh.org/modules/Subsetting_Data_in_R/Subsetting_Data_in_R.html)
 
-This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We also discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
+This module includes information about how to access specific parts of our data that we are interested including using options to select for specific columns or filter for specific rows. In doing so we cover and and or logic for applying conditions for filtering. We also cover renaming columns (using `rename` from the `dplyr` package and `clean_names` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition, we cover how to arrange data based on a specific order of interest, how to remove columns, and how to create columns using the `mutate()` function.
 
-The lab activity covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
+The [lab activity](https://daseh.org/modules/Subsetting_Data_in_R/lab/Subsetting_Data_in_R_Lab_Key.html) covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out the vector version of columns, selecting specific columns, and filtering data based on thresholds or other conditions of specific columns. Learners also practice creating new columns with `mutate()`.
 
 
-7) **Data Summarization**
+7) [**Data Summarization**](https://daseh.org/modules/Data_Summarization/Data_Summarization.html)
 
 This module covers how to apply mathematical functions to get summary statistics from data including, mean, standard deviation, range, max, and min. We show how we can pull the data out as a vector to use these functions or we can use the `summarize()` function on columns of a data to create a new data frame with summary statistics. We also talk about the `summary()` function to find quantiles of data quickly.
 
-In the lab activity, learners find the dimensions of the data, use the `count` function to summarize the data, use `pull` and mathematical functions like `sum` to calculate summaries of columns, as well as use the `summarize()` function to summarize the data. 
+In the [lab activity](https://daseh.org/modules/Data_Summarization/lab/Data_Summarization_Lab_Key.html), learners find the dimensions of the data, use the `count` function to summarize the data, use `pull` and mathematical functions like `sum` to calculate summaries of columns, as well as use the `summarize()` function to summarize the data. 
 
-8) **Data Cleaning**
+8)[**Data Classes**](https://daseh.org/modules/Data_Classes/Data_Classes.html)
+
+This module covers information about different types of data classes and how to coerce data from one data type to another.
+
+We cover numerical data, character data, logical data, Double precision data, integer data, factors, and dates. We also touch on what lists and matrices are. 
+
+In the [lab activity](https://daseh.org/modules/Data_Classes/lab/Data_Classes_Lab_Key.html), check the class of several vectors including those that look very similar, such as a character and logical version of "TRUE" and "FALSE", conversion of a vector to a different data type, and conversion of a column to a new data type within a data table.
+
+
+8) [**Data Cleaning**](https://daseh.org/modules/Data_Cleaning/Data_Cleaning.html)
 
 This module covers how to find and work with missing data using the `naniar` package and `count`, how to recode missing data or recode data as `NA`, how to recode specific values of a column or create a new column based on conditions of other columns using the `case_when()` function. We also cover how to separate or unite columns and how to use `stringr` functions to help modify values or find specific values based on patterns within the values as opposed to perfect matches.
 
-In the lab activity, learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate no exposure. 
+In the [lab activity](https://daseh.org/modules/Data_Cleaning/lab/Data_Cleaning_Lab_Key.html), learners evaluate the missing data within a dataset and recode data within a dataset that has many different values for the same measurement. For example, "n, N, and "No" to indicate "no exposure". 
 
-9) **Manipulating Data**
+9) [**Manipulating Data**](https://daseh.org/modules/Manipulating_Data_in_R/Manipulating_Data_in_R.html)
 
 This module covers how to rearrange data so that it is either in long or wide format. We discuss how wide format can be useful for human interpretation and how long format is useful for R to use the data for analyses and data visualizations. We also discuss how to join different datasets together and describe why one might want to do this.
 
 
-In the lab activity, learners use functions like `pivot_longer` and `pivot_wider` to change the shape of a dataset. They also practice doing joins of datasets together and comparing how the different joining functions work.
+In the [lab activity](https://daseh.org/modules/Manipulating_Data_in_R/lab/Manipulating_Data_in_R_Lab_Key.html), learners use functions like `pivot_longer` and `pivot_wider` to change the shape of a dataset. They also practice doing joins of datasets together and comparing how the different joining functions work.
 
 
-10) **Intro to Data Visualization**
+10) [**Intro to Data Visualization**](https://daseh.org/modules/Esquisse_Data_Visualization/Esquisse_Data_Visualization.html)
 
 This module gives learners a taste of making data visualizations by using the point-and-click option of the `esquisse` package so that learners can quickly attempt data visualizations and get the code for generating such visualizations.
 
-In the lab activity, learners get to try out creating different plots with `esquisse`.
+In the [lab activity](https://daseh.org/modules/Esquisse_Data_Visualization/lab/Esquisse_Data_Visualization_Lab_Key.html), learners get to try out creating different plots with `esquisse`.
 
 
-11) **Data Visualization**
+11) [**Data Visualization**](https://daseh.org/modules/Data_Visualization/Data_Visualization.html)
 
 This module dives deeper into best practices for data visualization, how to make a `ggplot2` plot, and more customization options for creating data visualizations such as using `themes`, how to spot common issues in visualizations and fix them, as well as how to make plots interactive or how to combine plots using other packages like `plotly` and `patchwork`.
 
-In the lab activity, learners practice making plots directly with `ggplot2` and practice applying new themes to their plots and faceting their plots.
+In the [lab activity](https://daseh.org/modules/Data_Visualization/lab/Data_Visualization_Lab_Key.html), learners practice making plots directly with `ggplot2` and practice applying new themes to their plots and faceting their plots.
 
 
-12) **Factors**
+12) [**Factors**](https://daseh.org/modules/Factors/Factors.html)
 
-In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations show data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
+In this module learners discover why factors are a unique type of data that requires special care to make summaries, data analysis results, and visualizations showing data in the proper order. We show how to use the `forecats` package to reorder a factor variable based on the values of another variable.
 
-In the lab activity, learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.
+In the [lab activity](https://daseh.org/modules/Factors/lab/Factors_Lab_Key.html), learners convert a variable to a factor class and specify new levels for the variable. They also discover how this changes the order of the variable values within data summaries and plots, as compared to the data just being a categorical variable instead of a factor.
 
 
-13) **Statistics**
+13) [**Statistics**](https://daseh.org/modules/Statistics/Statistics.html)
 
 In this module, we describe how statistical tests like t-tests, correlation, and regression are performed within R. We do not focus on the statistical interpretation, but rather how one can use R tools to perform statistical test and get the results.
 
-In the lab activity, learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).
+In the [lab activity](https://daseh.org/modules/Statistics/lab/Statistics_Lab_Key.html), learners perform a correlation test between two vectors, perform a t-test, and perform regressions (including a logistic regression).
 
-14) **Data Output**
+14) [**Data Output**](https://daseh.org/modules/Data_Output/Data_Output.html)
 
 In this module, learners discover that they can save their processed data as RDS (R native) or csv files so that they don't have to rerun processing on data (especially if it is large) or if they want to share data with others.
 
-In the lab activity, learners write a csv and RDS file as well as read back in an RDS file.
+In the [lab activity](https://daseh.org/modules/Data_Output/lab/Data_Output_Lab_Key.html), learners write a csv and RDS file, as well as read back in an RDS file.
 
-15) **Functions**
+15) [**Functions**](https://daseh.org/modules/Functions/Functions.html)
 
 In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code. 
 
-In the lab activity, learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
+In the [lab activity](https://daseh.org/modules/Functions/lab/Functions_Lab_Key.html), learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
+
+## Slide Structure
+
+Overall our slide structure involves the following components:
+
+1. A recap of the previous day (where appropriate)
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_6.png" alt="An example of a recap slide which shows previous functions, syntax, and general principles or practices" width="100%" style="display: block; margin: auto;" />
+
+1. Context about why the particular topic matters or why someone might need to know the material
+
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_12.png" alt="An example of a context slide which shows why it is useful to learn about the dplyr package and why it is named dplyr" width="100%" style="display: block; margin: auto;" />
+
+
+1. Overviews of functions and the typical command structure to use such functions
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_24.png" alt="An example of a general structure summary for the mutate function showing what each part of a command using function might include" width="100%" style="display: block; margin: auto;" />
+
+1. Gut Checks to help gauge student comprehension and to help learners stay engaged
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_18.png" alt="image of a gut check from the basic R lecture that says What function would ne useful for gettina vector version of a column, a pull or b select" width="100%" style="display: block; margin: auto;" />
+
+For Gut Checks it is good to keep the question very simple and fundamental. That makes people feel successful as they work engage with the lecture and helps reinforce the most fundamental information. 
+
+1. Examples using more simple data
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_65.png" alt="image of a slide showing how to maninuplate the data to reformat it from wide to long using the pivot longer function with a small dataset" width="100%" style="display: block; margin: auto;" />
+
+
+
+1. Applied examples with real data (where possible)
+  Sometimes it is difficult to get a dataset that suits all your needs. In those cases we make it clear that the data was created by us and then we share it on our website for easy access and use.
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_70.png" alt="image of a slide showing how to maninuplate real data to reformat it from wide to long using the pivot longer function with a more complicated dataset" width="100%" style="display: block; margin: auto;" />
+1. Cautionary examples of what can go wrong
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_43.png" alt="image of a slide showing how using quotes around column names in filter can have unexpected results" width="100%" style="display: block; margin: auto;" />
+
+1. A summary of what we discussed
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_36.png" alt="image of an example summary slide which shows functions from part of the subsetting lecture with simple explanations such as select and filter, it also includes cautions about avoiding quotes when using filter" width="100%" style="display: block; margin: auto;" />
+
+1. Links to course resources and potentially other resources such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
+
+<img src="02-daseh_infrastructure_files/figure-html//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d44163d3ed_0_36.png" alt="image of a slide showing links to the website, lab, day 3 cheatsheet, and posit's dplyr cheatsheet" width="100%" style="display: block; margin: auto;" />
+
 
 ## DaSEH GitHub Organization
 
-GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course and website repository](https://github.com/fhdsl/daseh). 
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course website repository](https://github.com/fhdsl/daseh). 
 
 This diagram explains the folder structure of our materials:
 
@@ -176,7 +241,9 @@ This diagram explains the folder structure of our materials:
 
 In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. This link also includes our introduction, conclusion slides, and slides about running [standups](https://docs.google.com/presentation/d/1aWREGApMHZokexnh5NG9ttvSGtE5TDQcEneuAa35vvk/edit?usp=sharing) to get people talking about their work. 
 
-These include resources about:
+### Codeathon Slides
+
+Our codeathon slides include resources about:
 
 - [Version Control](https://docs.google.com/presentation/d/11IAptwDXRRgAoPY57daW6r4OHHk_ca2chWqkoX1iEpw/edit?usp=sharing)
   This resources discusses the basics of using GitHub/Git and R.
@@ -193,6 +260,29 @@ These include resources about:
   
 - [Mapping mini-module](https://daseh.org/resources/Mapping.html)
   This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
+  
+ 
+### Codeathon Schedule
+
+Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing) from one of our past DaSEH codeathons.
+
+<iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="672" height="400px"></iframe>
+
+
+### Stand ups
+
+To facilitate participants communicating with us and one another, we had what we called "stand ups" throughout the codeathon. These are opportunities for participants to pause and reflect on how their work is going and share that information with others. 
+
+We had participants stand up from their desks and stand in a large circle where they would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
+
+We often discovered that many of the participants would have common interests or challenges that they would sometimes decide to tackle together or share resources on the topic. We would encourage learners to help others, as this process can really solidify understanding of a topic. This can also lead to new collaborations between attendees. 
+
+This also allowed us as instructors to determine who might need extra assistance and what kind of resources we might share with them. 
+
+Importantly, it also helped participants get to know one another and to take a break from their work to think about what their next steps should be and if they needed to pivot what they were working on. This decision making process is exactly what happens in real research labs, and was a very important skill to discuss. 
+
+Feedback from participants suggested that they really enjoyed the stand up process. 
+
 
 ## Data
 

@@ -27,8 +27,13 @@ contact-info
 feedback-1
 survey-1
 materials
+modules
+slide-structure
 daseh-github-organization
 codeathon-resources
+codeathon-slides
+codeathon-schedule
+stand-ups
 data
 adapting-materials
 using-daseh-materials
@@ -68,7 +73,11 @@ distribute-your-modified-content-as-you-please
 session-info-1
 running-a-program-like-daseh
 learning-objectives-4
-planning-a-short-course
-tips-for-codeathons
+planning-a-daseh-course
+tips-for-logistics
+scheduling-considerations
+considerations-for-event-spaces
+virtual-set-up-considerations
+making-certificates
 session-info-2
 references

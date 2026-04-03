@@ -10,7 +10,7 @@ ottrpal::set_knitr_image_path()
 In this chapter we will discuss how to:
 
 - Plan the logistics for an academic or shortcourse using DaSEH materials
-- List tips for running a codeathon
+- List tips for running a DaSEH program
 
 
 ## Planning a DaSEH course 

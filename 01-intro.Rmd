@@ -26,6 +26,13 @@ In this chapter we will:
 The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/),  is an education platform that provides open-source teaching materials using real-world examples for active experiences of introductory concepts in environmental health data analyses. The intention of this guide is to provide instructors more information about how to make the most of our resources.
 
 
+All of our materials are licensed with [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) for free reuse as long as:
+
+- the materials attribute our original work (and include information about any changes made)
+- the reuse is not for commercial purposes
+- if you distribute resources that build on our materials, you use the same license
+
+
 ## Target Audience  
 
 This guide is intended for educators who are interested in using DaSEH materials for instruction.

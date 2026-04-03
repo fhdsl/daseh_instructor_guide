@@ -32,8 +32,8 @@ DaSEH resources can be used:
 
 1) As a course or to add to a curriculum (either onsite or online) by engaging students to actively participate in data science education for environmental health.
 
-2) Outside of the classroom by providing an archive of  examples code for data science best practices for self-learning. 
+2) Outside of the classroom by providing an archive of example code for data science best practices for self-learning. 
 
-To help guide educators on how to most effectively use the DaSEH resources (either in or outside of the classroom), this guide documents various entry points to using the materials, examples of how to use the materials, how to modify and adapt components of the resources for the classroom, and how to contribute our resources. 
+To help guide educators on how to most effectively use the DaSEH resources (either in or outside of the classroom (or both!)), this guide documents various entry points to using the materials, examples of how to use the materials, how to modify and adapt components of the resources for the classroom, and how to contribute to our resources. 
 
 

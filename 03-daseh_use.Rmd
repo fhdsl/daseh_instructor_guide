@@ -137,7 +137,7 @@ A table of which data is used in which materials is available here: https://dase
 
 
 
-
+A paper about how to consider what data to use for teaching may also be useful to read called:[How to be “Choosy”: Wrangling big datasets for the classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/test.70022).
 
 ## DaSEH Level Recommendations
 
@@ -207,7 +207,7 @@ Our materials can be used in a variety of ways that cater to the learner's goals
 Our final project guidelines could also be expanded to create a more involved project.
 
  
- 1. Independent Study
+ 2. Independent Study
 
 Our materials and recordings be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
 

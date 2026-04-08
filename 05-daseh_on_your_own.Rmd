@@ -9,7 +9,7 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will discuss how to:
 
-- Plan the logistics for an academic or shortcourse using DaSEH materials
+- Plan the logistics for an academic or short course using DaSEH materials
 - List tips for running a DaSEH program
 
 
@@ -27,6 +27,8 @@ The following are more extensive details and tips about the logistical aspects o
 ### Scheduling Considerations
 
 Our materials could be used as we have for a [9 day online course](https://daseh.org/materials_schedule.html) and [3 day codeathon](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=drive_link)), or they could be used for an academic 8 or 16 week course, or some other configuration to suite your needs. 
+
+See the [duration section ](https://hutchdatascience.org/daseh_instructor_guide/using-daseh-materials.html#duration) for more details on using DaSEH materials with an 8 or 16 week configuration. 
 
 
 ### Considerations for Event Spaces

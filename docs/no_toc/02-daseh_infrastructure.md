@@ -266,7 +266,7 @@ Our codeathon slides include resources about:
 
 Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing) from one of our past DaSEH codeathons.
 
-<iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="672" height="400px"></iframe>
+<iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="800" height="1200px"></iframe>
 
 
 ### Stand ups

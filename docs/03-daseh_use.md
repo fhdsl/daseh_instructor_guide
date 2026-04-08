@@ -62,8 +62,16 @@ The DaSEH materials are written to provide a comprehensive introduction to envir
 
 #### Duration
 
-DaSEH was designed to fit the duration of an intensive two week short course for 3.5 hours a day for roughly 32 hours of instruction time. However, the materials could also be spread out to fit a semester 16 week long course.
+DaSEH was designed to fit the duration of an intensive two week short course for 3.5 hours a day for roughly 32 hours of instruction time. However, the materials could also be spread out to fit an 8 week or  16 week long course.
 
+
+![](03-daseh_use_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d507fbfd91_0_0.png){width=100%}
+
+[See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_0#slide=id.g3d507fbfd91_0_0)
+
+![](03-daseh_use_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3d507fbfd91_0_4.png){width=100%}
+
+[See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_4#slide=id.g3d507fbfd91_0_4)
 
 ### Teaching Part of the DaSEH Materials
 

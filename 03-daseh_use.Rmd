@@ -64,8 +64,20 @@ The DaSEH materials are written to provide a comprehensive introduction to envir
 
 #### Duration
 
-DaSEH was designed to fit the duration of an intensive two week short course for 3.5 hours a day for roughly 32 hours of instruction time. However, the materials could also be spread out to fit a semester 16 week long course.
+DaSEH was designed to fit the duration of an intensive two week short course for 3.5 hours a day for roughly 32 hours of instruction time. However, the materials could also be spread out to fit an 8 week or  16 week long course.
 
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of how the schedule could be for a 8 week course, with each week for 4 hours of instruction having week one cover introduction material, basic R, RStudio, and reproducibility, week 2 coveriving data input and subsetting, week 3 covering summarization, classes, and part of the cleaning module, week 4 covering more of the cleaning module and mainpulating data  week 5 covering intro to data viz and data viz, week 6 covering factors, statistics, and data output, week 7 covering functions, github and projects, and week 8 covering mapping, projects, and lightning talks of projects", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_0#slide=id.g3d507fbfd91_0_0')
+```
+
+[See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_0#slide=id.g3d507fbfd91_0_0)
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of how the schedule could be for a 16 week course, with week 1 covering the introductory module and basic R, week 2 covering RStudio and Reproducibility, week 3 with data input and first half osf subsetting, week 4 with more subsetting, week 5 with summarization, week 6 with data classes and data cleaning, week 7 with more cleaning, week 8 with manipulating data, week 9 with an introduction to data viz, week 10 with deeper data viz, week 11 with gactors and the first half of statistics, week 12 with statistics and output, week 13 with functions, week 14 covering github and projects, week 15 covering mapping and projects, week 16 more project time and lightning talks of projects. ", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_4#slide=id.g3d507fbfd91_0_4')
+```
+
+[See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_4#slide=id.g3d507fbfd91_0_4)
 
 ### Teaching Part of the DaSEH Materials
 

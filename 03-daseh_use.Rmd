@@ -226,10 +226,15 @@ Our materials and recordings be used for learners to gain experience in statisti
 
 ## Additional Resources
 
-See [here](http://jtleek.com/ads2020/week-5.html) guidelines about considerations for effective and ethical data visualizations from the [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
+- Considerations for effective and ethical [data visualization](http://jtleek.com/ads2020/week-5.html) 
+- [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
+- Resource on [writing and evaluating scientific writing](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
-We also include a resource for drafting and evaluating scientific writing [here](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
+Resources for GitHub, Code Review, and Reproducibility:
 
+- Guide to [code review](https://hutchdatascience.org/code_review/)
+- [Introduction to reproducibility course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
+- [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
 
 
 

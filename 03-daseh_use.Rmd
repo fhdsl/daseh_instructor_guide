@@ -228,7 +228,7 @@ Our materials and recordings be used for learners to gain experience in statisti
 
 - Considerations for effective and ethical [data vizulization](http://jtleek.com/ads2020/week-5.html) 
 - [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
-- Resource on [writing and evlauting scientific writing](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
+- Resource on [writing and evaluating scientific writing](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
 Resources for GitHub, Code Review, and Reproducibility:
 

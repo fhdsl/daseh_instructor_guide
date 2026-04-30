@@ -9,7 +9,7 @@
 .RData
 .httr-oauth
 docker/git_token.txt
-.Rproj
+*.Rproj
 .Rproj.user
 
 # don't sync

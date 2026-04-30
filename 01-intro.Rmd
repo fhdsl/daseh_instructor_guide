@@ -8,10 +8,6 @@ ottrpal::set_knitr_image_path()
 
 ***
 
-
-
-
-
 ## Learning Objectives
 
 In this chapter we will:
@@ -20,6 +16,7 @@ In this chapter we will:
 - Discuss what you can expect in this guide
 - Introduce the [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/)
 - Introduce the resources that make up this project
+
 
 ## Motivation
 
@@ -64,6 +61,7 @@ And can be applied to courses or materials in:
 
 ... and more
 
+
 ## Curriculum  
 
 This guide documents:
@@ -92,26 +90,19 @@ Our materials are modular and flexible enough for standalone/bonus assignments o
 
 We hope you find our resources useful!
 
-
-
 ### What problem are we addressing?
 
 Despite a growing interest in data science and environmental health, instructors do not always have time to create related materials. These resources are intended to support instructors who want to bring environmental health data science education to their students. Ultimately, this will facilitate more research and scientific breakthroughs in this important field of public health. 
 
 
- 
 ## DaSEH Short Course Resources
 
-
-
-```{r, fig.align='center', echo = FALSE, fig.alt = "Illustration of DaSEH short course, where there are 4 main stages: 1. Online synchronous instruction with hads-on labs for week one and 2 covering topics in reproducibility, basic R, subsetting, summarizing, cleaning, manipulation visualization, statistics, and functions, 2. self-directed time for review and for finding data for code-a-thon project 3. Code-a-thon for 3 days in person coverign topics about GitHub, ethics, mapping, and appling what was learned earlier to a project. We also evaluate learner experiences and skills before the online course, after the online course, and after the code-a-thon", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt = "Illustration of DaSEH short course, where there are 4 main stages: 1. Online synchronous instruction with hads-on labs for week one and 2 covering topics in reproducibility, basic R, subsetting, summarizing, cleaning, manipulation visualization, statistics, and functions, 2. self-directed time for review and for finding data for codeathon project 3. Codeathon for 3 days in person coverign topics about GitHub, ethics, mapping, and appling what was learned earlier to a project. We also evaluate learner experiences and skills before the online course, after the online course, and after the codeathon", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_0#slide=id.g38d50c20f17_0_0')
 ```
 
-The DaSEH Short Course has 3 main stages, described below.
+The DaSEH Short Course has 3 main stages: online instruction, self-directed learning, and the codeathon.
 
-  
-  
 ### Stage 1: Online Instruction
 
 In the first stage, learners participate in a synchronous online course where they watch didactic lectures and live demos on a particular topic, followed by hands-on lab activities. 
@@ -133,7 +124,6 @@ For labs, we provide learners with 3 options via Zoom Breakout Rooms:
 - Room 1: Instructor waits briefly for each question and then walks through the exercises with learners.
 - Room 2: Instructor allows learners time to work through all exercises. Students then share their work and challenges with guidance and troubleshooting from the instructor.
 - Room 3: A room where the teaching assistant helps those who need one-on-one support.
-
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_88#slide=id.g38d50c20f17_0_88')
@@ -160,59 +150,55 @@ Week two:
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_98#slide=id.g38d50c20f17_0_98')
 ```
 
-
 ```{r, fig.align='center', echo = FALSE, fig.alt = " Week two day 1 includes manipulating data to reshape it or join it, as well as using a point and click option to create visualizations, the next day incldues covering the basics of a famous package called ggplot2, extensions to make interactive plots, combined plots or labeled plots, as well as best practices for visualizing data,as well as an introduction to factors and how to reorder levels, the next day includes statistcs for correlation, t-tests and regression, followed by data output to save csv and Rda files, finally we end with writing functions to make work more efficient and to apply tasks to multiple columns of a dataframe. ", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_105#slide=id.g38d50c20f17_0_105')
 ```
 
 Students have access to [our website](https://daseh.org) for course resources which includes lecture slides, lab exercises, cheatsheets to remind them about important functions, homework assignments, and additional resources.
 
-
-
 ### Stage 2: Self-Directed Review and Project Planning
 
-In this stage, learners can complete homework problems for extra practice or watch recordings of the lectures and labs from the previous week. This stage also lasts at least a week. It also gives learners time to digest what they learned and catch up on other work and personal responsibilities before the code-a-thon.
+In this stage, learners can complete homework problems for extra practice, rewatch lecture and lab recordings, and catch up on other responsibilities before the codeathon (Stage 3). This stage lasts at least a week, giving learners time to digest and consolidate what they've learned.
 
+Learners are also encouraged to [find public data](https://daseh.org/data.html) or bring their own, so that they can identify a research question for their project in the codeathon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
 
-Learners are also encouraged to find data and are given resources on where one can [find public data](https://daseh.org/data.html), so that they can identify a research question for their project in the code-a-thon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [project template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
+### Stage 3: Codeathon
 
+In the final stage of the short course, learners participate in a 3 day codeathon to apply what they learned. Learners choose a topic of interest, get in person assistance from peers and instructors, ask more in-depth questions, and learn about some more advanced topics in reproducibility and data ethics.
 
-
-
-### Stage 3: Code-a-thon
-
-In the final stage of the short course, learners participate in a 3 day code-a-thon, which allows them to apply what they learned to a topic of interest, get peer and instructor in person assistance, ask more extensive questions, and learn about some more advanced topics in reproducibility and data ethics.  
-
-
-See this [code-a-thon schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more details.
-
+See this [codeathon schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?tab=t.0) for more details.
 
 
 ## Getting Started
 
-DaSEH materials are designed to be beginner friendly. Users can work through our materials with no prerequisite knowledge in programming, environmental health, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is helpful. This section will detail what learners and instructors will need to be able to jump into our resources. 
+DaSEH materials are designed to be beginner friendly. Learners can work through our materials with no prerequisite knowledge in programming, environmental health, public health, or statistics. However, the appropriate technology, software, and a basic familiarity with R Studio is helpful. This section will detail what learners and instructors will need. 
 
 ### Technical Requirements 
 
-Our materials the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement, we recommend that instructors have all learners use the same version (typically the most recent version of R).
+Our materials use the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement, we recommend that instructors have all learners use the same version (typically the most recent version of R).
 
-Additional R packages are also required including:
+Additional [R packages](https://en.wikipedia.org/wiki/R_package) are also required, including:
 
-- tidyverse
-- naniar
-- janitor
-- esquisse
+- `tidyverse`
+- `naniar`
+- `janitor`
+- `esquisse`
 
 Cheatsheets detailing how to use common packages and functions are available at the [RStudio website](https://www.rstudio.com/resources/cheatsheets/).  
 
+::: {.notice}
 Please note that to install R version 3.5 and higher you will need to have a [web browser](https://en.wikipedia.org/wiki/Web_browser) and a compatible [operating system](https://en.wikipedia.org/wiki/Operating_system). See this [link](https://cran.r-project.org/) for more information.
-
+:::
 
 ### RStudio
 
-To work with R, we recommend the RStudio Integrated Development Environment. RStudio includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server. More information and program installation instruction are available at the [RStudio website](https://www.rstudio.com/products/rstudio/).
+To work with R, we recommend the RStudio [Integrated Development Environment](https://en.wikipedia.org/wiki/Integrated_development_environment). RStudio includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server. More information and program installation instruction are available at the [RStudio website](https://www.rstudio.com/products/rstudio/).
 
-For reproducible data analyses and easy publishing of reports and presentations, we recommend using RMarkdown. More information about RMarkdown is also available at the [RStudio website](https://rmarkdown.rstudio.com/index.html).  
+For reproducible data analyses and easy publishing of reports and presentations, we recommend using RMarkdown. More information about RMarkdown is also available at the [RStudio website](https://rmarkdown.rstudio.com/index.html).
+
+::: {.notice}
+RStudio is one of the most widely used development environments among R programmers. Other options can be explored [here](https://www.coursera.org/articles/ide-for-r-programming).
+:::
 
 ### GitHub  
 

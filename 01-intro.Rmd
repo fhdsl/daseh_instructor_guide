@@ -26,11 +26,20 @@ In this chapter we will:
 The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/),  is an education platform that provides open-source teaching materials using real-world examples for active experiences of introductory concepts in environmental health data analyses. The intention of this guide is to provide instructors more information about how to make the most of our resources.
 
 
-All of our materials are licensed with [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) for free reuse as long as:
+## Reuse and Licensing
 
-- the materials attribute our original work (and include information about any changes made)
-- the reuse is not for commercial purposes
-- if you distribute resources that build on our materials, you use the same license
+All of our materials are licensed with [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+This means you are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+
+- **Attribution** — You must give [appropriate credit](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-appropriate-credit), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-indicate-changes). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for [commercial purposes](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-commercial-purposes).
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-nc-sa/4.0/#ref-same-license) as the original.
 
 
 ## Target Audience  

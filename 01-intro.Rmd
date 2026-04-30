@@ -132,7 +132,7 @@ For labs, we provide learners with 3 options via Zoom Breakout Rooms:
 
 - Room 1: Instructor waits briefly for each question and then walks through the exercises with learners.
 - Room 2: Instructor allows learners time to work through all exercises. Students then share their work and challenges with guidance and troubleshooting from the instructor.
-- Room 3: A room where the teaching assistant helps those who need one-on-one support
+- Room 3: A room where the teaching assistant helps those who need one-on-one support.
 
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}

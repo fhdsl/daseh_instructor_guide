@@ -23,7 +23,7 @@ In this chapter we will:
 
 ## Motivation
 
-The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/),  is an education platform that provides open-source teaching materials using real-world examples for active experiences of introductory concepts in environmental health data analyses. The intention of this guide is to provide instructors more information about how to make the most of our resources.
+The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/), is a NIH Short Course program that provides open-source teaching materials for introductory environmental health data analyses in R. The intention of this guide is to provide instructors more information about how to make the most of our resources.
 
 
 ## Reuse and Licensing
@@ -53,7 +53,7 @@ Elements of our materials can be helpful for instructors who teach:
 - Graduate students
 - Professionals (researchers and public health practitioners)
 
-Elements of the case studies can assist with teaching courses about the following topics:
+And can be applied to courses or materials in:
 
 - Environmental Health
 - Data science
@@ -70,25 +70,25 @@ This guide documents:
 
 - The DaSEH philosophy 
 - The general structure of the short course
-- Various entry points to using the short course materials (including our hands-on lab exercises, homework ideas and more)
+- Various entry points to using the short course materials (including our hands-on lab exercises, homework ideas, and more)
 - Examples of how to use the materials in the classroom 
-- Instructions on how to modify and adapt components of our materials for the classroom
+- Instructions on how to modify/adapt our materials
 - Guidelines for contributing to our materials or creating your own short course
 
 
 ## DaSEH Philosophy
 
-The DaSEH short course is an educational resource that educators can use in the classroom to teach students how to effectively derive knowledge from data in real-world challenges about environmental health.
+The DaSEH short course is an educational resource that educators can use for environmental health data science education. Our goal is teaching students how gain insights from data in real-world challenges about environmental health.
 
-We provide independent learners and educators with resources for environmental health data science education. Most of the examples use real data from sources that are used for actual research or public health initiatives in an effort to make the material more engaging and relevant. 
+Most of DaSEH's examples use real environmental health data from public sources in an effort to make the material more engaging and relevant. 
 
-Our resources are not intended to show all aspects of the research process, however they are intended to introduce beginners, demonstrate the decision making process of real data analyses, the basic challenges of analyses, to show examples of applications of data methods, and to provide context for when such methods could be applied to glean information from data. We hope to demonstrate best practices for mindful data cleaning, reproducibility, and effective data science communication. 
+Our materials focus on the decision making process of real data analyses, basic challenges of analyses, applications of data methods, and context for when to use different approaches. We emphasize best practices for mindful data cleaning, reproducibility, and science communication. 
 
-We emphasize learning the concepts of best practices as well as how to troubleshoot and look up documentation to support continued learning, rather than memorization of small coding details. For more information on our teaching philosophy see our [paper about teaching R](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012018).
+We also focus on troubleshooting and looking up documentation to support continued learning, rather than memorization of small coding details. For more information on our teaching philosophy see our [paper about teaching R](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012018).
 
-All DaSEH materials are open source and free and available at our [GitHub Repository](https://github.com/fhdsl/DaSEH). We provide transparency about where the data came from and where possible how it was produced. We also cover data method limitations and ethical considerations.
+All DaSEH materials are open source and available at our [GitHub Repository](https://github.com/fhdsl/DaSEH). We provide transparency about data sources and, where possible, how it was produced. We also cover data limitations and ethical considerations.
 
-Our materials can be used for small additional assignments in a classroom setting or as the main content that educators can slowly work through with students.
+Our materials are modular and flexible enough for standalone/bonus assignments or full classroom use.
 
 We hope you find our resources useful!
 
@@ -96,7 +96,7 @@ We hope you find our resources useful!
 
 ### What problem are we addressing?
 
-Despite a growing interest in data science and environmental health on campuses, instructors do not always have time to create course content to support new courses. These resources are intended to help others support more environmental health data science education to promote more research and advancement in this important field of public health. 
+Despite a growing interest in data science and environmental health, instructors do not always have time to create related materials. These resources are intended to support instructors who want to bring environmental health data science education to their students. Ultimately, this will facilitate more research and scientific breakthroughs in this important field of public health. 
 
 
  
@@ -108,13 +108,38 @@ Despite a growing interest in data science and environmental health on campuses,
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_0#slide=id.g38d50c20f17_0_0')
 ```
 
-The DaSEH Short Course has 3 main stages:
+The DaSEH Short Course has 3 main stages, described below.
 
   
   
-### Stage 1: Online Instructions
+### Stage 1: Online Instruction
 
-In the first stage, learners participate in a synchronous online course where they watch didactic lectures on a particular topic, followed by hands-on lab activities. This last for two weeks. We cover the following topics.
+In the first stage, learners participate in a synchronous online course where they watch didactic lectures and live demos on a particular topic, followed by hands-on lab activities. 
+
+Course instruction lasts for 9 days, with 3.5 hours each day. Each day includes breaks between sessions (breakdown shown below). Each day's sessions cover one or two modules, described below. 
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "online course schedule starting at 10:30am to 11:30 for the first session, followed by a break for 1- min then another session from 11:40 - 12:40, followed by another ten minute break, concluding with a session from 12:50 to 2 pm. Each session has a lecture followed by a lab to practice exercises relevant to the topic.", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_79#slide=id.g38d50c20f17_0_79')
+```
+
+We recommend having two instructors and one TA. We have the instructors split up the module lectures for the following reasons:
+
+- to reduce instruction burden
+- to allow learners to ask questions via chat during the course without disruption
+- to provide learners with slightly different teaching styles/explanations among instructors
+
+For labs, we provide learners with 3 options via Zoom Breakout Rooms:
+
+- Room 1: Instructor waits briefly for each question and then walks through the exercises with learners.
+- Room 2: Instructor allows learners time to work through all exercises. Students then share their work and challenges with guidance and troubleshooting from the instructor.
+- Room 3: A room where the teaching assistant helps those who need one-on-one support
+
+
+```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_88#slide=id.g38d50c20f17_0_88')
+```
+
+Our modules cover the following topics:
 
 Week one:
 
@@ -131,34 +156,6 @@ Week two:
 - Statistics
 - Functions
 
-Course instruction lasts for 4 hours each day with breaks.
-
-```{r, fig.align='center', echo = FALSE, fig.alt = "online course schedule starting at 10:30am to 11:30 for the first session, followed by a break for 1- min then another session from 11:40 - 12:40, followed by another ten minute break, concluding with a session from 12:50 to 2 pm. Each session has a lecture followed by a lab to practice exercises relevant to the topic.", out.width="100%"}
-ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_79#slide=id.g38d50c20f17_0_79')
-```
-
-During each session we cover one or two modules, which include didactic lectures led by an instructor and followed by hands-on lab exercises. 
-
-We recommend having two instructors and one TA. We have the instructors split up the module lectures for the following reasons:
-
-- to reduce instruction burden
-- to allow learners the opportunity to ask chat questions during the course without slowing the rest of the course
-- to allow the learners to have instructors with slightly different teaching styles/explanations
-
-For labs we provide learners with 3 options:
-
-- A room led by one instructor who waits briefly for each question and then walks through the exercises
-- A room led by one instructor who allows students time to work through all exercises and then students share their work and challenges with guidance and troubleshooting from the instructor
-- A room where the teaching assistant helps those who need one-on-one support
-
-
-```{r, fig.align='center', echo = FALSE, fig.alt = "Overview of tasks for the personelle involved including two instructors and one teaching assistant. Each instructor teaches half of the lectures and answers chat questions while the other instructor lectures, meanwhile the TA helps look up additional resources and also helps answers chat questions. For Labs one instructor leads a group of learners by giving a brief amount of time for them to try on their own followed by walking through the steps together, the other instructor allows the learners more time to try the exercises on their own and then learners share their work and challenges with support from the instructor for added details and troubleshooting, the TA runs a lab room where learners can get one-on-one support.", out.width="100%"}
-ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_88#slide=id.g38d50c20f17_0_88')
-```
-
-
-Topics covered in each week of the online course:
-
 ```{r, fig.align='center', echo = FALSE, fig.alt = "In Week one day one includes information about the course sturcture, best practices for learning, an overview of necessary jargon, context about R, Basic R for simple calculations and assigning objects, how to navigate RStudio, how to test and save code, how to view data, Day two includes practices for reproducibility including  cleaning the environment, using reports, reporting packages and versions, as well as inputing data like csv files tab delimited files and excel. Day 3 includes subsetting data, such as filtering rows and selecting columns, day 4 includes summarizing basic stats from data and grouping variables to do so, as well as information about data classes and how to transform them. The last day includes data cleaning topics, including dealing with missing data, recoding values, and making new values based on other columns", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g38d50c20f17_0_98#slide=id.g38d50c20f17_0_98')
 ```
@@ -174,7 +171,7 @@ Students have access to [our website](https://daseh.org) for course resources wh
 
 ### Stage 2: Self-Directed Review and Project Planning
 
-In this stage, learners can complete homework problems for extra practice or watch recordings of the lectures and labs from the previous week. This stage also lasts at least a week. It also gives students time to digest what they learned and catch up on other work and personal responsibilities before the code-a-thon.
+In this stage, learners can complete homework problems for extra practice or watch recordings of the lectures and labs from the previous week. This stage also lasts at least a week. It also gives learners time to digest what they learned and catch up on other work and personal responsibilities before the code-a-thon.
 
 
 Learners are also encouraged to find data and are given resources on where one can [find public data](https://daseh.org/data.html), so that they can identify a research question for their project in the code-a-thon stage. Learners are provided with an [example project](https://daseh.org/modules/Project_Example/Project_Example.html) and a [project template R Markdown file](https://daseh.org/modules/Project_Template/Project_Template.Rmd).
@@ -197,7 +194,7 @@ DaSEH materials are designed to be beginner friendly. Users can work through our
 
 ### Technical Requirements 
 
-Our materials the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement, we recommend that instructors have all students use the same version (typically the most recent version of R).
+Our materials the R statistical programming language for data analysis. R is available for Windows, Mac, and Linux and can be downloaded from the [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). While there is no specific R version requirement, we recommend that instructors have all learners use the same version (typically the most recent version of R).
 
 Additional R packages are also required including:
 

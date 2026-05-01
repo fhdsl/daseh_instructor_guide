@@ -17,6 +17,7 @@ csv
 Datatrail
 DataTrail
 DaSEH
+DaSEH's
 daseh
 DISCOVERABLE
 Dockerfile
@@ -51,6 +52,7 @@ knitr
 LastName
 Leanpub
 Licensor
+licensor
 LICENSOR
 Markua
 mentorship
@@ -60,6 +62,7 @@ Muschelli
 naniar
 NCI
 NHGRI
+NonCommercial
 OTTR
 ottrpal
 ottrproject
@@ -72,6 +75,7 @@ readr
 recode
 replicability
 reproducibility
+rewatch
 rmarkdown
 RMarkdown
 Rmd
@@ -79,6 +83,7 @@ Rproj
 RStudio
 Savonen
 sexualized
+ShareAlike
 skillsets
 socio
 standups

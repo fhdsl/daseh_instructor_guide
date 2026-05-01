@@ -1,5 +1,7 @@
 # ignore nonsense files
 .DS_Store
+
+# R files
 .Rhistory
 .local
 .rstudio
@@ -7,5 +9,8 @@
 .RData
 .httr-oauth
 docker/git_token.txt
+*.Rproj
 .Rproj.user
+
+# don't sync
 docs/*

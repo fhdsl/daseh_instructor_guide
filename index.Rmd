@@ -26,7 +26,7 @@ The GitHub repository is available here: https://github.com/fhdsl/daseh_instruct
 
 The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.org/), developed at the [Fred Hutch Data Science Lab](https://hutchdatascience.org/), combines online learning and an in-person project-focused intensive. DaSEH is tailored for beginners and novices in R programming, offering instruction on importing, wrangling, visualizing, and analyzing data. It provides hands-on training in using R for statistical computing, a widely-used open-source tool for data analysis and visualization.
 
-This training initiative is funded by National Institute of Environmental Health Sciences 1R25ES035590-01.
+This training initiative is funded by National Institute of Environmental Health Sciences [1R25ES035590-01](https://reporter.nih.gov/search/cMEAgQFeo025gUX1DDzH9g/project-details/10746327).
 
 DaSEH resources can be used:
 

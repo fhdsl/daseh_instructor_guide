@@ -217,7 +217,7 @@ The DaSEH GitHub repository includes:
 - Cheatsheets to remind learners of packages
 - homework and lab files, including both keys and raw files
 
-While experience with GitHub is not needed to access the materials, using GitHub can streamline downloading, modifiying, and collaborating with us on our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+While experience with GitHub is not needed to access the materials, using GitHub can streamline downloading, modifying, and collaborating with us on our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
 
 
 ## Website Map

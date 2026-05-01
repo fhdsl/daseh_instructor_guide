@@ -220,18 +220,31 @@ The DaSEH GitHub repository includes:
 While experience with GitHub is not needed to access the materials, using GitHub can streamline downloading, modifiying, and collaborating with us on our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
 
 
-## Website
+## Website Map
 
-Our website has the following pages:
+[The DaSEH website](https://daseh.org/) has several relevant pages:
 
-1) An about page explaining what the course is for: https://daseh.org/index.html
-2) A page that links to a form for people to apply to the course: https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL_H65PI6U0sR1lPDjMI-DG2MtSld-1A/viewform 
-3) A page with information about how people can participate and what is required: https://daseh.org/logistics.html 
-4) A schedule with all associate materials: https://daseh.org/materials_schedule.html
-5) Resources about where to find environmental health data: https://daseh.org/data.html
-6) Resources for extra learning and help: 
-https://daseh.org/resources.html 
-7) A help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 
+1) Home: explains what the course is for: https://daseh.org/index.html
+
+2) Apply: links to a form to apply to DaSEH: (Link to Google Forms changes periodically)
+
+3) Course Content
+
+- Materials + Schedule: A schedule with all associated materials: https://daseh.org/materials_schedule.html
+- Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
+- Data: links to data used in the course and resources about where to find environmental health data: https://daseh.org/data.html
+- Error FAQ: help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 
+
+4) Support
+
+- Learning Resources: links to extra learning and help: https://daseh.org/resources.html
+- Contact Us: https://daseh.org/contact.html
+- Give Feedback: (Link to Google Forms changes periodically)
+
+5) Instructors
+
+- Instructor Workshops: Upcoming events: https://daseh.org/instructors.html
+- Instructor Guide: This resource! 
 
 
 ## Feedback

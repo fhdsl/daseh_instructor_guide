@@ -25,6 +25,12 @@ The [Data Science for Environmental Health Short Course (DaSEH)](https://daseh.o
 
 ## Reuse and Licensing
 
+<p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" height="50"/> 
+  </a> 
+</p>
+<br>
+
 All of our materials are licensed with [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This means you are free to:
@@ -202,9 +208,17 @@ RStudio is one of the most widely used development environments among R programm
 
 ### GitHub  
 
-DaSEH is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all materials through our [DaSEH GitHub repository](https://github.com/fhdsl/daseh). The repository contains all the materials needed for the case study. 
+DaSEH is hosted on GitHub. GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all materials through our [DaSEH GitHub repository](https://github.com/fhdsl/daseh). The repository contains all the materials needed for the course. We use this same repository to host our website for free via [GitHub Pages](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-pages/).
 
-This includes the slide files to be distributed to learners, data used in the examples (that aren't installed in R otherwise), cheatsheets to remind learners of packages, homework and lab files, including both keys and raw files for learners. While experience with GitHub is not needed for users to access the materials, users can use GitHub to streamline download and modification of our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+The DaSEH GitHub repository includes: 
+
+- Slides (in multiple formats)
+- Data used in the examples (that aren't installed in R otherwise)
+- Cheatsheets to remind learners of packages
+- homework and lab files, including both keys and raw files
+
+While experience with GitHub is not needed to access the materials, using GitHub can streamline downloading, modifiying, and collaborating with us on our resources. An introduction on how to get started with GitHub is available at [Happy Git](https://happygitwithr.com/index.html). 
+
 
 ## Website
 

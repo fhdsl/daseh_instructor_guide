@@ -11,7 +11,7 @@ ottrpal::set_knitr_image_path()
 
 In this chapter we will describe the overall infrastructure of the DaSEH Project, which includes:
 
-- [The DaSEH website resources](https://daseh.org/)
+- [The DaSEH website](https://daseh.org/) resources
    - Topics included in modules (lectures and labs)
    - Methods for feedback
 - [The DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/)
@@ -19,30 +19,37 @@ In this chapter we will describe the overall infrastructure of the DaSEH Project
 - Data used for DaSEH
 
 
-
 ## DaSEH Website
 
-The [DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. 
+[The DaSEH website](https://daseh.org/) describes the mission of the DaSEH project, information for learners to apply to participate, a summary of how the course works, links to our learning content, and links to additional resources. It is built using R Markdown on GitHub at this repository: https://github.com/fhdsl/daseh. It includes Google Forms to gather information or feedback from potential participants. It has several relevant pages:
 
-It is built using R Markdown on GitHub at this repository: https://github.com/fhdsl/daseh and includes Google Forms to gather various information from potential participants or those with interest or feedback.
+1) Home: explains what the course is for and our mission: https://daseh.org/index.html
 
-Our landing page describes details about the idea for DaSEH. New applicants interested in participating can apply on our [Apply tab](https://forms.gle/pfX4zCPFjTinKttaA).
+2) Apply: links to a form to apply to DaSEH -- The link to Google Forms changes periodically, but you can view a static version [here](resources/EXAMPLE_DaSEH_Application_Form_Google_Forms.pdf)
 
-Links to all of our learning modules (including lab activities and slides) can be found on the DaSEH website on the Course content tab on the [Materials + Schedule page](https://daseh.org/materials_schedule.html). 
+3) Course Content
 
-We also include links to all the data used in the course, as well as additional data that could be used for projects our extra practice, on our [data page](https://daseh.org/data.html).
+- Materials + Schedule: A schedule with links to all of our learning modules (including lab activities and slides) : https://daseh.org/materials_schedule.html
+- Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
+- Data: links to data used in the course and resources about where to find environmental health data (for projects or extra practice: https://daseh.org/data.html
+- Error FAQ: help page for common issues, common errors, navigating challenges, and how to change preferences in RStudio: https://daseh.org/help.html 
 
-To help users navigate challenges, we have a page to assist with common errors on our [Error FAQ page](https://daseh.org/data.html)
+4) Support
 
-To provide extra resources to help learners, we also have a [Resources page](https://daseh.org/resources.html) under our Support tab where one can find extra help, cheatsheets, and videos of our previous lectures.
+- Learning Resources: links to extra learning and help, including external vignettes, cheatsheets, and videos of our previous lectures: https://daseh.org/resources.html
 
-We like to share recordings of our lectures (using Zoom) with the students right after we record to:
+### Recordings
 
-- allow students who have other commitments to still participate
-- allow learners to watch the materials again even if they were present during the live course, to help them review
-- allow learners to look back at the material in the future for a refresher 
+We like to share recordings of our sessions (using Zoom) with registered learners immediately to:
 
-Recordings also allow independent learners to use the other materials more effectively, as well as supports potential teaching assistants who may need to learn or refresh their knowledge on a topic. 
+- Accommodate learners with other commitments
+- Revisit materials for review after live sessions
+- Access content in the future as a refresher
+
+Recordings also:
+
+- Accommodate independent learners more effectively
+- Support instructors who need to refresh their knowledge
 
 ### Contact Info
 
@@ -50,18 +57,15 @@ The [contact page on the website](https://daseh.org/contact.html) contains a con
 
 ### Feedback
 
-We are continually striving to make our content better. Please contact us on our [feedback form](https://forms.gle/pfX4zCPFjTinKttaA) if you have ideas for suggestions for the project.
-
-Also please let us know if you notice typos or errors, or if you are interested in getting involved.
+We are continually striving to make our content better. Please contact us on our [feedback form](https://docs.google.com/forms/d/e/1FAIpQLScfcU8TSOsdzUVWgqWDy5ucpy8CBTtboWtxKO3VJaoVabyd_g/viewform) or [create an issue on GitHub](https://github.com/fhdsl/DaSEH/issues/new) if you have ideas for suggestions for the project, notice typos or errors, or if you are interested in getting involved.
 
 ### Survey
 
-There will also be a survey available on our website that allows us to do research on DaSEH resource use. 
+<!-- avocado add link here -->
+
+There will also be a survey available on our website that allows us to do research on DaSEH resource use.
 
 The survey should take no more than 10 minutes to complete. Your feedback helps us learn more about how to improve our resources. Part of this includes getting a better understanding of who is using our resources and how so that we can better design our materials. We would greatly appreciate you filling it out if you have the time!
-
-
-
 
 ### Materials
 

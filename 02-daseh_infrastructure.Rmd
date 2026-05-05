@@ -80,7 +80,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ```
 
 
-### Modules
+### Module Summary
 
 1) [**An Introduction to R**](https://daseh.org/modules/Intro/Intro.html)
 
@@ -124,7 +124,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
     
     In the [lab activity](https://daseh.org/modules/Data_Summarization/lab/Data_Summarization_Lab_Key.html), learners find the dimensions of the data, use the `count()` function to summarize the data, use `pull()` and mathematical functions like `sum()` to calculate summaries of columns, as well as use the `summarize()` function to summarize the data. 
 
-8)[**Data Classes**](https://daseh.org/modules/Data_Classes/Data_Classes.html)
+8) [**Data Classes**](https://daseh.org/modules/Data_Classes/Data_Classes.html)
 
     This module covers information about different types of data classes and how to coerce data from one data type to another. We cover numerical data, character data, logical data, double precision data, integer data, factors, and dates. We also touch on lists and matrices. 
     

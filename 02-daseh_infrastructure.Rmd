@@ -303,15 +303,15 @@ Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1
 
 <iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="800px" height="1200px"></iframe>
 
-### Stand ups {#standups}
+### Stand-ups {#standups}
 
-To facilitate participants communicating with us and one another, we held regular "stand-ups" where participants stood in a circle and shared progress and challenges. We modeled these brief check-ins after [stand-up meetings in the software development sphere](https://en.wikipedia.org/wiki/Stand-up_meeting). 
+To facilitate participants communicating with us and one another, we held regular "**stand-ups**" where participants stood in a circle and shared progress and challenges. We modeled these brief check-ins after [stand-up meetings in the software development sphere](https://en.wikipedia.org/wiki/Stand-up_meeting). 
 
 These stand-up check-ins are opportunities for participants to pause and reflect on how their work is going and share that information with others. During the codeathon, learners would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
 
 We often discovered that many of the participants would have common interests or challenges, leading to peer support (e.g., sharing resources) or tackling a problem together. We would encourage learners to help others, as this process can really solidify understanding of a topic. We believe this can also lead to new collaborations between professional learners. 
 
-Stand ups also allowed us (the instructors) to determine who might need extra assistance and what kind of resources we might share with them. 
+Stand-ups also allowed us (the instructors) to determine who might need extra assistance and what kind of resources we might share with them. 
 
 Importantly, stand-ups also helped participants get to know one another, think about next steps, consider pivoting if needed, and take a break from mentally challenging tasks. These are key decision making skills in real environmental health settings we felt were important to discuss.
 
@@ -320,32 +320,27 @@ Feedback from participants suggests that they really enjoyed the stand-up proces
 
 ## Data
 
+All of the data used in the modules are hosted in the [GitHub repository](https://github.com/fhdsl/daseh) within the data folder. This data can be reused separately outside of our our module materials.
 
-All of the data used in the modules are also included in the [GitHub repository](https://github.com/fhdsl/daseh) within the data folder. This data can be reused separately outside of our our module materials for other uses.
+To use the DaSEH data, you can:
 
-To use the DaSEH data, you can either:
-
-1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data.
-2) Directly download individual files by searching through our [data directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/data), clicking on a data file and the clicking the download raw file button.
-
-
+1) Interface with the data in R via URL
+2) Download data via URL on the website [Data page](https://daseh.org/data.html)
+2) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the data in the folder or directory called data.
+3) Directly download individual files by searching through our [data directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/data), clicking on a data file and the clicking the download raw file button.
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "Visual showing the download raw file button on github for one of the data files", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3a4b18ec263_0_11#slide=id.g3a4b18ec263_0_11')
 ```
 
-Information about the which modules the data is used in and information about the data sources can be found here: https://daseh.org/data.html. This page also includes other relevant datasets which can be used to develop or adapt course materials, such as for homework assignments, extra practice, or projects.
+Information about the which modules certain data are used in, as well as information about the data sources, can be found [here](https://daseh.org/data.html). This page also includes other relevant datasets which can be used to develop or adapt course materials, such as for homework assignments, extra practice, or projects.
 
-
-### Adapting materials
+### Adapting Materials
 
 If you are interested in creating a similar website from our course materials or you want to take our lecture slides and adapt them, you can do either of the following:
 
 1) Download the full [DaSEH GitHub repository](https://github.com/fhdsl/DaSEH/archive/refs/heads/main.zip) and find the file ending in .Rmd in the folder or directory called Module to copy paste our code and slide comments.
 
-
-
 2) Directly download individual files by searching through our [module directory on GitHub](https://github.com/fhdsl/DaSEH/tree/main/modules), clicking on a data file and the clicking the download raw file button.
 
-
-More information about how to adjust the individual files will be described in the DaSEH modification chapter.
+More information about how to adjust the individual files will be described in the [DaSEH modification chapter](modifying-daseh-materials.html).

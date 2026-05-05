@@ -186,61 +186,77 @@ See [DaSEH in the Classroom](using-daseh-materials.html#daseh-in-the-classroom) 
 
 Overall our slide structure involves the following components:
 
-1. A recap of the previous day (where appropriate)
+1) A [recap](#recap-slide) of the previous day (where appropriate)
+
+2) [Context](#context-slide) about why the particular topic matters or why someone might need to know the material
+
+3) [Overviews](#overview-slide) of functions and the typical command structure to use such functions
+
+4) Formative [Gut Checks](#gutcheck-slide) to help gauge student comprehension and to help learners stay engaged
+
+    - For Gut Checks, it is good to keep the question very simple and fundamental. That makes people feel successful as they work engage with the lecture and helps reinforce the most fundamental information. 
+
+5) Examples using [simple data](#simpledata-slide)
+
+6) Applied examples with [real data](#realdata-slide) (where possible)
+
+    - Sometimes it is difficult to get a dataset that suits all your needs. In those cases, we make it clear that the data was created by us. This data is shared on our website for easy access and use.
+    
+7) Cautionary examples of [what can go wrong](#goingwrong-slide)
+
+8) A [summary](#summary-slide) of what we discussed
+
+9) Links to course resources and potentially other [resources](#resources-slide), such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
+
+### Example Recap Slide {#recap-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a recap slide which shows previous functions, syntax, and general principles or practices", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_6#slide=id.g3d44163d3ed_0_6')
 ```
 
-1. Context about why the particular topic matters or why someone might need to know the material
-
+### Example Context Slide {#context-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a context slide which shows why it is useful to learn about the dplyr package and why it is named dplyr", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_12#slide=id.g3d44163d3ed_0_12')
 ```
 
-
-1. Overviews of functions and the typical command structure to use such functions
+### Example Overview Slide {#overview-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "An example of a general structure summary for the mutate function showing what each part of a command using function might include", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_24#slide=id.g3d44163d3ed_0_24')
 ```
 
-1. Gut Checks to help gauge student comprehension and to help learners stay engaged
+### Example Gut Check Slide {#gutcheck-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a gut check from the basic R lecture that says What function would ne useful for gettina vector version of a column, a pull or b select", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_18#slide=id.g3d44163d3ed_0_18')
 ```
 
-For Gut Checks it is good to keep the question very simple and fundamental. That makes people feel successful as they work engage with the lecture and helps reinforce the most fundamental information. 
-
-1. Examples using more simple data
+### Example of Simple Data Slide {#simpledata-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how to maninuplate the data to reformat it from wide to long using the pivot longer function with a small dataset", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_65#slide=id.g3d44163d3ed_0_65')
 ```
 
-
-
-1. Applied examples with real data (where possible)
-  Sometimes it is difficult to get a dataset that suits all your needs. In those cases we make it clear that the data was created by us and then we share it on our website for easy access and use.
+### Example of Real Data Slide {#realdata-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how to maninuplate real data to reformat it from wide to long using the pivot longer function with a more complicated dataset", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_70#slide=id.g3d44163d3ed_0_70')
 ```
-1. Cautionary examples of what can go wrong
+
+### Example of What Can Go Wrong Slide {#goingwrong-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing how using quotes around column names in filter can have unexpected results", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_43#slide=id.g3d44163d3ed_0_43')
 ```
 
-1. A summary of what we discussed
+### Example Summary Slide {#summary-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of an example summary slide which shows functions from part of the subsetting lecture with simple explanations such as select and filter, it also includes cautions about avoiding quotes when using filter", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')
 ```
 
-1. Links to course resources and potentially other resources such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
+### Example Resources Slide {#resources-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing links to the website, lab, day 3 cheatsheet, and posit's dplyr cheatsheet", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')

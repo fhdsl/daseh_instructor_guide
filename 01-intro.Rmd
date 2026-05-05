@@ -253,11 +253,13 @@ We are continually working to improve the DaSEH resources to address learner and
 
 ### Survey
 
-Please consider participating in our user experience survey. 
+<!-- Please consider participating in our user experience survey.  -->
 
-avocado need to update for our own survey!
+<!-- avocado need to update for our own survey! -->
 
 We appreciate feedback about all aspects of the DaSEH user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the our materials in the classroom. 
+
+You can also add your name and email to the DaSEH Interest Form to be contacted about upcoming events and opportunities:
 
 ```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
 knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL_H65PI6U0sR1lPDjMI-DG2MtSld-1A/viewform")
@@ -265,7 +267,7 @@ knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL
 
 ### Feedback for this Guide
 
-If you have feedback for this guide about how we can improve the content, please see [here](https://github.com/fhdsl/daseh_instructor_guide/issues/new/choose).
+If you have feedback for this guide about how we can improve the content, please comment on our GitHub repository  [here](https://github.com/fhdsl/daseh_instructor_guide/issues/new/choose).
 
 
 ## Contact Us 

@@ -29,14 +29,14 @@ In this chapter we will describe the overall infrastructure of the DaSEH Project
 
 3) Course Content
 
-- Materials + Schedule: A schedule with links to all of our learning modules (including lab activities and slides) : https://daseh.org/materials_schedule.html
-- Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
-- Data: links to data used in the course and resources about where to find environmental health data (for projects or extra practice: https://daseh.org/data.html
-- Error FAQ: help page for common issues, common errors, navigating challenges, and how to change preferences in RStudio: https://daseh.org/help.html 
+    - Materials + Schedule: A schedule with links to all of our learning modules (including lab activities and slides) : https://daseh.org/materials_schedule.html
+    - Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
+    - Data: links to data used in the course and resources about where to find environmental health data (for projects or extra practice: https://daseh.org/data.html
+    - Error FAQ: help page for common issues, common errors, navigating challenges, and how to change preferences in RStudio: https://daseh.org/help.html 
 
 4) Support
 
-- Learning Resources: links to extra learning and help, including external vignettes, cheatsheets, and videos of our previous lectures: https://daseh.org/resources.html
+    - Learning Resources: links to extra learning and help, including external vignettes, cheatsheets, and videos of our previous lectures: https://daseh.org/resources.html
 
 ### Recordings
 
@@ -69,11 +69,11 @@ The survey should take no more than 10 minutes to complete. Your feedback helps 
 
 ### Materials
 
-We have the following modules on various topics related to data science for environmental public health. 
+Our modules teach various topics related to data science for environmental health. 
 
-Each one has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) and [R Markdown](https://rmarkdown.rstudio.com/), as well as lab activities also built using [R Markdown](https://rmarkdown.rstudio.com/).
+Each module has lecture slides built using [ioslides](https://garrettgman.github.io/rmarkdown/ioslides_presentation_format.html) and [R Markdown](https://rmarkdown.rstudio.com/). Most have lab activities built using [R Markdown](https://rmarkdown.rstudio.com/).
 
-The rendered version of the slides, as well as the raw R Markdown files (called Rmd files) are available on the website or our [GitHub repository](https://github.com/fhdsl/DaSEH/). In addition, the rendered and raw versions of the both the lab and the lab key are also available.
+Raw R Markdown files (`.Rmd` files) for each lecture session, as well as rendered HTML and PDF versions, are available on the website and our [GitHub repository](https://github.com/fhdsl/DaSEH/). Labs and lab keys are available in raw R Markdown and rendered HTML formats.
 
 We also include cheatsheets so that learners can review the functions that they learned that day.
 
@@ -86,9 +86,9 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 1) [**An Introduction to R**](https://daseh.org/modules/Intro/Intro.html)
 
-This module includes the history of how R came to be and how it differs from other options like [Python](https://www.python.org/) or [Stata](https://www.stata.com/). It also includes how students should anticipate the experience of learning in the course and suggestions for how to learn. It also introduces jargon such as variable, row, column, and object.
-
-This module does not have a lab associated with it.
+    This module includes the history of how R came to be and how it differs from other options like [Python](https://www.python.org/) or [Stata](https://www.stata.com/). It prepares students for the course experience and suggestions for how to learn. It also introduces jargon such as "variable", "row", "column", and "object".
+    
+    This module does not have a lab.
 
 2) [**Basic R**](https://daseh.org/modules/Basic_R/Basic_R.html)
 
@@ -188,6 +188,10 @@ In the [lab activity](https://daseh.org/modules/Data_Output/lab/Data_Output_Lab_
 In this final module, learners discover the power of writing their own functions. They also learn about using the `apply` functions and `across()` function to apply the same function across different columns within a data frame. We discuss why using less repetitive code can improve the quality and efficiency of their code. 
 
 In the [lab activity](https://daseh.org/modules/Functions/lab/Functions_Lab_Key.html), learners create their own simple functions and use the `across` function to summarize different columns of a dataset, as well as apply a new function on the specific columns of dataset.
+
+::: {.notice}
+See [DaSEH in the Classroom](using-daseh-materials.html#daseh-in-the-classroom) for more information about the timing/length of these modules.
+:::
 
 ## Slide Structure
 

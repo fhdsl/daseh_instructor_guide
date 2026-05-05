@@ -234,20 +234,21 @@ While experience with GitHub is not needed to access the materials, using GitHub
     - Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
     - Data: links to data used in the course and resources about where to find environmental health data: https://daseh.org/data.html
     - Error FAQ: help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 
-    <br>
 
+<br>
 4) Support
 
     - Learning Resources: links to extra learning and help: https://daseh.org/resources.html
     - Contact Us: https://daseh.org/contact.html
     - Give Feedback: (Link to Google Forms changes periodically)
-    <br>
 
+<br>
 5) Instructors
 
     - Instructor Workshops: Upcoming events: https://daseh.org/instructors.html
     - Instructor Guide: This resource! 
-    <br>
+
+<br>
 
 ## Feedback
 

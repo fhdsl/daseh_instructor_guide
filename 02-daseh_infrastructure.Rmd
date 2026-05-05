@@ -206,7 +206,7 @@ Overall our slide structure involves the following components:
 
 8) A [summary](#summary-slide) of what we discussed
 
-9) Links to course resources and potentially other [resources](#resources-slide), such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
+    - We also include links to other resources, such as [Open Case Studies](https://opencasestudies.org) or Posit Cheatsheets
 
 ### Example Recap Slide {#recap-slide}
 
@@ -253,12 +253,6 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ### Example Summary Slide {#summary-slide}
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of an example summary slide which shows functions from part of the subsetting lecture with simple explanations such as select and filter, it also includes cautions about avoiding quotes when using filter", out.width="100%"}
-ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')
-```
-
-### Example Resources Slide {#resources-slide}
-
-```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide showing links to the website, lab, day 3 cheatsheet, and posit's dplyr cheatsheet", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d44163d3ed_0_36#slide=id.g3d44163d3ed_0_36')
 ```
 

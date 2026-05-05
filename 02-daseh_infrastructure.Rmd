@@ -265,7 +265,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 ## DaSEH GitHub Organization
 
-GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course website repository](https://github.com/fhdsl/daseh). 
+GitHub is a website and cloud service that enables developers to store, manage, and track changes to their code. DaSEH uses GitHub for both development and distribution purposes. Users have complete access to all DaSEH course materials at our [course website repository](https://github.com/fhdsl/daseh), feel free to explore! 
 
 This diagram explains the folder structure of our materials:
 
@@ -277,48 +277,51 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 ## Codeathon Resources
 
-In addition to the modules, we have [resources available](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing) that are covered during our codeathon. This link also includes our introduction, conclusion slides, and slides about running [standups](https://docs.google.com/presentation/d/1aWREGApMHZokexnh5NG9ttvSGtE5TDQcEneuAa35vvk/edit?usp=sharing) to get people talking about their work. 
+In addition to the modules covered in the online course, we cover some content during our codeathon. You can find these materials on [Google Drive](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing), including our introduction, conclusion slides, and slides to accompany ["stand-ups"](#standups) to get people talking about their work. 
 
 ### Codeathon Slides
 
-Our codeathon slides include resources about:
+Our Codeathon slides cover:
 
 - [Version Control](https://docs.google.com/presentation/d/11IAptwDXRRgAoPY57daW6r4OHHk_ca2chWqkoX1iEpw/edit?usp=sharing)
-  This resources discusses the basics of using GitHub/Git and R.
-  It includes how to make a new repository, how to upload files to GitHub like data or code, how to set up usage of Git on your local computer, and how to push changes from your local computer to GitHub. 
+  
+    - This resources discusses the basics of using GitHub/Git and R. It includes how to make a new repository, how to upload files to GitHub, like data or code, how to set up usage of git on your local computer, and how to push changes from your local computer to GitHub. 
   
 - [Open Data](https://docs.google.com/presentation/d/1csCTr4sWBbWfi_JTNGKLF3J-AeFx_yronVnNC-1mg4k/edit?usp=sharing)
-  This resource covers places to find data to perform environmental health data science research.
+  
+    - This resource covers places to find data to perform environmental health data science research.
 
 - [Code Review ](https://docs.google.com/presentation/d/11-lcYCrqhVJJzZVPTh5nUSlyg6MPD7sYrehbur7FRIw/edit?usp=sharing)
-  This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.
+  
+    - This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.
   
 - [Data Ethics](https://docs.google.com/presentation/d/1PqAAaQL2xZYs_WAb8_Y3gsOwon-rW7Zl5DjGvKrGz1g/edit?usp=sharing)
-  This covers information about AI use, data protection, data privacy, data provenance and more. 
+  
+    - This covers information about AI use, data protection, data privacy, data provenance and more. 
   
 - [Mapping mini-module](https://daseh.org/resources/Mapping.html)
-  This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
   
- 
+    - This covers different tools available to make maps in R, the basics for making map plots, as well as tips and resources.
+  
 ### Codeathon Schedule
 
 Here you can see the [schedule](https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing) from one of our past DaSEH codeathons.
 
 <iframe src="https://docs.google.com/document/d/1ZD-w0vc3Vtv1vf95h6323zaaxORg9vC7Hp4I_IUeW0I/edit?usp=sharing" width="800px" height="1200px"></iframe>
 
-### Stand ups
+### Stand ups {#standups}
 
-To facilitate participants communicating with us and one another, we had what we called "stand ups" throughout the codeathon. These are opportunities for participants to pause and reflect on how their work is going and share that information with others. 
+To facilitate participants communicating with us and one another, we held regular "stand-ups" where participants stood in a circle and shared progress and challenges. We modeled these brief check-ins after [stand-up meetings in the software development sphere](https://en.wikipedia.org/wiki/Stand-up_meeting). 
 
-We had participants stand up from their desks and stand in a large circle where they would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
+These stand-up check-ins are opportunities for participants to pause and reflect on how their work is going and share that information with others. During the codeathon, learners would take turns talking about what was going well, what was not going well, what they were currently working on, and if they could use help or if they were interested in collaborating. 
 
-We often discovered that many of the participants would have common interests or challenges that they would sometimes decide to tackle together or share resources on the topic. We would encourage learners to help others, as this process can really solidify understanding of a topic. This can also lead to new collaborations between attendees. 
+We often discovered that many of the participants would have common interests or challenges, leading to peer support (e.g., sharing resources) or tackling a problem together. We would encourage learners to help others, as this process can really solidify understanding of a topic. We believe this can also lead to new collaborations between professional learners. 
 
-This also allowed us as instructors to determine who might need extra assistance and what kind of resources we might share with them. 
+Stand ups also allowed us (the instructors) to determine who might need extra assistance and what kind of resources we might share with them. 
 
-Importantly, it also helped participants get to know one another and to take a break from their work to think about what their next steps should be and if they needed to pivot what they were working on. This decision making process is exactly what happens in real research labs, and was a very important skill to discuss. 
+Importantly, stand-ups also helped participants get to know one another, think about next steps, consider pivoting if needed, and take a break from mentally challenging tasks. These are key decision making skills in real environmental health settings we felt were important to discuss.
 
-Feedback from participants suggested that they really enjoyed the stand up process. 
+Feedback from participants suggests that they really enjoyed the stand-up process. 
 
 
 ## Data

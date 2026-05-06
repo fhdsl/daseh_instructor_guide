@@ -34,8 +34,7 @@ All DaSEH materials use the R statistical programming language for data analysis
 
 #### Software 
 
-All case studies use the R statistical programming language for data analysis. While there is no specific R version requirement for the case studies, the `OCSdata` package, which can be used to get and load the data, does require R 3.5. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the `sessionInfo()` section in each case study.  
-
+DaSEH uses R and RStudio. The most recent versions tested out for DaSEH can be found [here](https://daseh.org/docs/module_details/day0.html). 
 
 ### Experience Level Descriptions
 

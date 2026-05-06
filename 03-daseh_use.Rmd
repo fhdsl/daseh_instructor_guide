@@ -7,30 +7,30 @@ ottrpal::set_knitr_image_path()
 
 ## Learning Objectives
 
-
 This chapter will provide guidance on how to use DaSEH resources for instruction including how to:
 
 - Determine prerequisite knowledge and skills
-- Identify what material is appropriate for beginner, intermediate, or advanced learners.
-- Use the full set of DaSEH resources, some of the modules, or just the data for different kinds of instruction.
-- Extend the materials to serve as a template for homework assignments or independent student exploration. 
+- Identify what material is appropriate for beginner, intermediate, or advanced learners
+- Use the full set of DaSEH resources, some of the modules, or just the data for different kinds of instruction
+- Extend the materials to serve as a template for homework assignments or independent student exploration
 
-The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
+The examples presented in this chapter are merely suggestions. Modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
+The following are suggested for students using DaSEH materials.
 
 #### Environmental Health Subject Matter
  
-The materials in DaSEH use data related to environmental health. There is no requirement for any prior knowledge on environmental health. The resources are also applicable for those interested in data science for other uses. 
+DaSEH uses data related to environmental health. There is no requirement for any prior knowledge on environmental health. DaSEH resources are also applicable for those interested in data science for other uses. 
 
 #### Statistics
 
-The DaSEH materials do expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course.
+DaSEH materials expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course. Alternatively, you may choose to omit the [Statistics module](https://daseh.org/modules/Statistics/Statistics.html).
 
 #### Coding/Data Science
 
-All materials for DaSEH use the R statistical programming language for data analysis. No familiarity with R basics is expected for learners.  
+All DaSEH materials use the R statistical programming language for data analysis. No familiarity with R basics is expected for learners.  
 
 #### Software 
 

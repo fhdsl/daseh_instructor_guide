@@ -80,46 +80,47 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 ### Teaching Part of the DaSEH Materials
 
-Some educators may find that only certain modules are relevant to their course learning objectives. Each provides information about how to access the appropriate data. Note that you may have to add some introduction to explain any functions that were explained in a previous module. 
+Depending on the course objectives, instructors might choose a subset of modules. Note that some introduction/explanation might be needed for any functions that were explained in a previous module. The following are a few examples of how our modules could be used: 
 
+#### Data Visualization Focus
 
-* For a data visualization course, the following modules could be useful:
+The following modules could be useful:
 
-   - Basic R (only if students don't have familiarity with R)
-   - RStudio  (only if students don't have familiarity with R)
-   - Manipulating Data in R (to convert data from wide to long format to facilitate data visualization)
-   - Intro to Data Visualization
-   - Data Visualization
-   - Factors
+- Basic R (only if students don't have familiarity with R)
+- RStudio (only if students don't have familiarity with R)
+- Manipulating Data in R (to convert data from wide to long format to facilitate data visualization)
+- Intro to Data Visualization
+- Data Visualization
+- Factors
 
-* For a data wrangling course, the following modules could be useful:
+#### Data Wrangling Focus
 
-    - Basic R
-    - RStudio  (only if students don't have familiarity with R)
-    - Subsetting Data in R
-    - Data Classes
-    - Data Cleaning
-    - Manipulating Data in R
-    - Factors
+The following modules could be useful:
 
-* For a reproducibility course the following modules could be useful:
+- Basic R
+- RStudio (only if students don't have familiarity with R)
+- Subsetting Data in R
+- Data Classes
+- Data Cleaning
+- Manipulating Data in R
+- Factors
 
-    - Reproducibility
-    - Data Input
-    - Data Output
-    - Functions
+#### Reproducibility Focus
 
-* For a data ethics course the following materials could be useful:
+The following modules could be useful:
 
-    - Reproducibility
-    - Version Control (from the codeathon materials)
-    - Data ethics (from the codeathon materials)
-  
-<br>
+- Reproducibility
+- Data Input
+- Data Output
+- Functions
 
+#### Data Ethics Focus
 
+The following materials could be useful:
 
-
+- Reproducibility
+- Version Control (from the codeathon materials)
+- Data Ethics (from the codeathon materials)
 
 ### Teaching With DaSEH Data Only
 

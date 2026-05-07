@@ -199,6 +199,7 @@ The following table lists a few example case studies that would be suitable for 
 | Data Ethics | All levels |
 | Mapping mini-module | Intermediate |
 
+
 ## Troubleshooting
 
 You may encounter errors trying to render our materials from the `.Rmd` files. 
@@ -206,6 +207,7 @@ You may encounter errors trying to render our materials from the `.Rmd` files.
 R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.
 
 If you encounter an error, this is likely the reason. We try to update our materials when we can, but updates to packages may happen in the meantime. We recommend using the knit-to-`Rmd` error messages to determine what function(s) may have been updated or deprecated. This helps you or your students learn the most up-to-date information.
+
 
 ## Additional Use Cases
 
@@ -238,7 +240,6 @@ Resources for GitHub, Code Review, and Reproducibility:
 - Guide to [code review](https://hutchdatascience.org/code_review/)
 - [Introduction to reproducibility course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
 - [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
-
 
 
 ## Session info

@@ -41,13 +41,13 @@ In this chapter we will describe the overall infrastructure of the DaSEH Project
 We like to share recordings of our sessions (using Zoom) with registered learners immediately to:
 
 - Accommodate learners with other commitments
-- Revisit materials for review after live sessions
-- Access content in the future as a refresher
+- Allow learners to revisit materials for review after live sessions
+- Give learners access to content in the future as a refresher
 
 Recordings also:
 
 - Accommodate independent learners more effectively
-- Support instructors who need to refresh their knowledge
+- Support instructors (and assistants) who need to refresh their knowledge or are less familiar with the topics
 
 ### Contact Info
 
@@ -114,7 +114,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 6) [**Data Subsetting**](https://daseh.org/modules/Subsetting_Data_in_R/Subsetting_Data_in_R.html)
 
-    This module covers accessing specific parts of a dataset by selecting columns and filtering rows, including AND/OR logic for filtering conditions. We also cover renaming columns (using `rename()` from the `dplyr` package and `clean_names()` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition, we cover how to sort data, remove columns, and create columns using the `mutate()` function.
+    This module covers accessing specific parts of a dataset by selecting columns and filtering rows, including AND/OR logic for filtering conditions. We also cover renaming columns (using `rename()` from the `dplyr` package and `clean_names()` from the `janitor` package) and best practices for naming columns, as this can impact our ability to subset our data. We discuss why pulling the data withing a column of a data frame as a vector is often needed for mathematical operations. In addition, we cover how to arrange/sort data, remove columns, and create columns using the `mutate()` function.
     
     The [lab activity](https://daseh.org/modules/Subsetting_Data_in_R/lab/Subsetting_Data_in_R_Lab_Key.html) covers functions like `rename()`, `rename_with()`, `pull()`, `select()`, `filter()` so that learners can practice renaming columns, pulling out a single column as a vector, selecting specific columns, and filtering data based on conditions. Learners also practice creating new columns with `mutate()`.
 
@@ -287,7 +287,7 @@ Our Codeathon slides cover:
 
 - [Code Review ](https://docs.google.com/presentation/d/11-lcYCrqhVJJzZVPTh5nUSlyg6MPD7sYrehbur7FRIw/edit?usp=sharing)
   
-    - This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.
+    - This resource includes the basics of how to do code review on GitHub, including the use of GitHub issues.
   
 - [Data Ethics](https://docs.google.com/presentation/d/1PqAAaQL2xZYs_WAb8_Y3gsOwon-rW7Zl5DjGvKrGz1g/edit?usp=sharing)
   

@@ -285,19 +285,24 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 ## Modify Codeathon materials
 
-Our codeathon materials are Google Slide presentations which are available to view by the public. This allows for copying and pasting content within the slides.
+Our codeathon materials are Google Slide presentations which are available to view by the public. You can find iterations of these materials on [Google Drive](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing).
 
-If you would like access to the raw slides, please reach out to us at daseh@fredhutch.org. 
+All slides will appear to you as "View Only". To create a copy that you can edit, go to "File" > "Make a copy" and select either "Entire presentation" or "Selected slides".
 
-
-
-## Distribute your modified content as you please! 
-
-You can share HTML, PDF and Word files directly with your students or you can host your website for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github] as described above. 
-
- If you  are new to GitHub, also be sure to check out [Happy Git with R](https://happygitwithr.com/) @happygitwithr.
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a view only Google Slides link, where the File to Make a copy dropdown is selected", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3df3e912bd5_0_20#slide=id.g3df3e912bd5_0_20')
+```
 
 
+## Distribute Your Modified Content As You Please! 
+
+You can share HTML, PDF and Word files directly with your students or you can host your website for free on GitHub using [GitHub Pages](https://pages.github.com/) as described above. 
+
+If you are new to GitHub, also be sure to check out [Happy Git with R](https://happygitwithr.com/).
+
+::: {.notice}
+Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you will need to use the same license if you are distributing a modified version of our resources. 
+:::
 
 
 ## Session info

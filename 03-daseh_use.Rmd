@@ -124,14 +124,21 @@ The following materials could be useful:
 
 ### Teaching DaSEH - Data Only
 
-Educators can use the data available with the DaSEH without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data). See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
+Educators can use DaSEH's data without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data) and the [data page](https://daseh.org/data.html) of the website. See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
 
-The data can also be accessed in R by updating the path of daseh.org/data/ with the name of the data file in the URL like the following examples:
+The data can also be accessed directly in R via URL, replacing `<filename>` with the name of the data file in the following pattern:
+
+```
+"https://daseh.org/data/<filename>"
+```
+
+For example:
 
 ```{r, eval = FALSE}
+# readr package is required for read_csv()
 library(readr)
-er <- 
-  read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
+
+er <- read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
 
 er_visits_age <- read_csv("https://daseh.org/data/CO_ER_heat_visits_by_age.csv")
 
@@ -144,12 +151,9 @@ Be careful to make sure that the name of the file matches exactly include the ca
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b78c177085_0_0#slide=id.g3b78c177085_0_0')
 ```
 
+A table of which module(s) data is used in is available here: https://daseh.org/data.html
 
-A table of which data is used in which materials is available here: https://daseh.org/data.html
-
-
-
-A paper about how to consider what data to use for teaching may also be useful to read called:[How to be “Choosy”: Wrangling big datasets for the classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/test.70022).
+A paper about how to consider what data to use for teaching may also be useful to read called: [How to be “Choosy”: Wrangling big datasets for the classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/test.70022) (pdf can be found [here](https://github.com/fhdsl/daseh_instructor_guide/blob/3e8e8afa94912866fa62989165f7b1d89295b607/resources/Wilkerson2025.pdf)).
 
 ## DaSEH Level Recommendations
 

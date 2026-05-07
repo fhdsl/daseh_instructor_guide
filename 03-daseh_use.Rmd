@@ -7,34 +7,35 @@ ottrpal::set_knitr_image_path()
 
 ## Learning Objectives
 
+
 This chapter will provide guidance on how to use DaSEH resources for instruction including how to:
 
 - Determine prerequisite knowledge and skills
-- Identify what material is appropriate for beginner, intermediate, or advanced learners
-- Use the full set of DaSEH resources, some of the modules, or just the data for different kinds of instruction
-- Extend the materials to serve as a template for homework assignments or independent student exploration
+- Identify what material is appropriate for beginner, intermediate, or advanced learners.
+- Use the full set of DaSEH resources, some of the modules, or just the data for different kinds of instruction.
+- Extend the materials to serve as a template for homework assignments or independent student exploration. 
 
-The examples presented in this chapter are merely suggestions. Modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
+The examples presented in this chapter are merely suggestions - modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
 ### Prerequisites
 
-The following are suggested for students using DaSEH materials.
 
 #### Environmental Health Subject Matter
  
-DaSEH uses data related to environmental health. There is no requirement for any prior knowledge on environmental health. DaSEH resources are also applicable for those interested in data science for other uses. 
+The materials in DaSEH use data related to environmental health. There is no requirement for any prior knowledge on environmental health. The resources are also applicable for those interested in data science for other uses. 
 
 #### Statistics
 
-DaSEH materials expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course. Alternatively, you may choose to omit the [Statistics module](https://daseh.org/modules/Statistics/Statistics.html).
+The DaSEH materials do expect some familiarity with statistics and focuses mostly on the application of R for analysis, rather than the theory of statistics. We recommend additional resources for statistics if you are teaching a statistics course.
 
 #### Coding/Data Science
 
-All DaSEH materials use the R statistical programming language for data analysis. No familiarity with R basics is expected for learners.  
+All materials for DaSEH use the R statistical programming language for data analysis. No familiarity with R basics is expected for learners.  
 
 #### Software 
 
-DaSEH uses R and RStudio. The most recent versions tested out for DaSEH can be found [here](https://daseh.org/docs/module_details/day0.html). 
+All case studies use the R statistical programming language for data analysis. While there is no specific R version requirement for the case studies, the `OCSdata` package, which can be used to get and load the data, does require R 3.5. Furthermore, R packages used to run specific analyses in each case study may have their own R version requirements. R version requirements may be checked in the `sessionInfo()` section in each case study.  
+
 
 ### Experience Level Descriptions
 
@@ -52,7 +53,7 @@ Typically, most middle/high school and first year undergraduate students will fi
 
 The DaSEH materials are structured in a modular manner to support both partial and full use of our materials. Educators are also free to use the DaSEH data by itself.  
 
-### Teaching DaSEH - Full Set of Materials
+### Teaching the full set of materials
 
 The DaSEH materials are written to provide a comprehensive introduction to environmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the materials: 
 
@@ -78,67 +79,59 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 [See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_4#slide=id.g3d507fbfd91_0_4)
 
-### Teaching DaSEH - Part of the Materials
+### Teaching Part of the DaSEH Materials
 
-Depending on the course objectives, instructors might choose a subset of modules. Note that some introduction/explanation might be needed for any functions that were explained in a previous module. The following are a few examples of how our modules could be used: 
+Some educators may find that only certain modules are relevant to their course learning objectives. Each provides information about how to access the appropriate data. Note that you may have to add some introduction to explain any functions that were explained in a previous module. 
 
-#### Data Visualization Focus
 
-The following modules could be useful:
+* For a data visualization course, the following modules could be useful:
 
-- Basic R (only if students don't have familiarity with R)
-- RStudio (only if students don't have familiarity with R)
-- Manipulating Data in R (to convert data from wide to long format to facilitate data visualization)
-- Intro to Data Visualization
-- Data Visualization
-- Factors
+   - Basic R (only if students don't have familiarity with R)
+   - RStudio  (only if students don't have familiarity with R)
+   - Manipulating Data in R (to convert data from wide to long format to facilitate data visualization)
+   - Intro to Data Visualization
+   - Data Visualization
+   - Factors
 
-#### Data Wrangling Focus
+* For a data wrangling course, the following modules could be useful:
 
-The following modules could be useful:
+    - Basic R
+    - RStudio  (only if students don't have familiarity with R)
+    - Subsetting Data in R
+    - Data Classes
+    - Data Cleaning
+    - Manipulating Data in R
+    - Factors
 
-- Basic R
-- RStudio (only if students don't have familiarity with R)
-- Subsetting Data in R
-- Data Classes
-- Data Cleaning
-- Manipulating Data in R
-- Factors
+* For a reproducibility course the following modules could be useful:
 
-#### Reproducibility Focus
+    - Reproducibility
+    - Data Input
+    - Data Output
+    - Functions
 
-The following modules could be useful:
+* For a data ethics course the following materials could be useful:
 
-- Reproducibility
-- Data Input
-- Data Output
-- Functions
+    - Reproducibility
+    - Version Control (from the codeathon materials)
+    - Data ethics (from the codeathon materials)
+  
+<br>
 
-#### Data Ethics Focus
 
-The following materials could be useful:
 
-- Reproducibility
-- Version Control (from the codeathon materials)
-- Data Ethics (from the codeathon materials)
 
-### Teaching DaSEH - Data Only
 
-Educators can use DaSEH's data without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data) and the [data page](https://daseh.org/data.html) of the website. See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
+### Teaching With DaSEH Data Only
 
-The data can also be accessed directly in R via URL, replacing `filename.csv` with the name of the data file in the following pattern:
+Educators can use the data available with the DaSEH without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data). See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
 
-```
-"https://daseh.org/data/filename.csv"
-```
-
-For example:
+The data can also be accessed in R by updating the path of daseh.org/data/ with the name of the data file in the URL like the following examples:
 
 ```{r, eval = FALSE}
-# readr package is required for read_csv()
 library(readr)
-
-er <- read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
+er <- 
+  read_csv("https://daseh.org/data/CO_ER_heat_visits.csv")
 
 er_visits_age <- read_csv("https://daseh.org/data/CO_ER_heat_visits_by_age.csv")
 
@@ -151,10 +144,12 @@ Be careful to make sure that the name of the file matches exactly include the ca
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b78c177085_0_0#slide=id.g3b78c177085_0_0')
 ```
 
-A table of which module(s) data is used in is available here: https://daseh.org/data.html
 
-A paper about how to consider what data to use for teaching may also be useful to read called: [How to be “Choosy”: Wrangling big datasets for the classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/test.70022) (pdf can be found [here](https://github.com/fhdsl/daseh_instructor_guide/blob/3e8e8afa94912866fa62989165f7b1d89295b607/resources/Wilkerson2025.pdf)).
+A table of which data is used in which materials is available here: https://daseh.org/data.html
 
+
+
+A paper about how to consider what data to use for teaching may also be useful to read called:[How to be “Choosy”: Wrangling big datasets for the classroom](https://onlinelibrary.wiley.com/doi/abs/10.1111/test.70022).
 
 ## DaSEH Level Recommendations
 
@@ -172,10 +167,10 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 | Intermediate | Some experience with importing common data formats (e.g. CSVs) into R or significant experience in another programming language. Some experience wrangling or cleaning raw data in common formats (e.g. numerical data) in R or significant experience in another programming language. Some experience with common visualization packages in R (e.g. ggplot) or significant experience in another programming language. Some familiarity with common statistical concepts (e.g. summary statistics, hypothesis testing) and techniques (e.g. t-test). |
 | Advanced | Experience with importing uncommon data types (e.g. PDFs or web-scraping) and comfort with troubleshooting import challenges. Experience cleaning and wrangling raw data in uncommon formats (e.g. regular expressions) in R and comfort with troubleshooting wrangling challenges. Experience with creating complex data visualizations in R and comfort with visualization challenges.Good understanding of foundational statistical concepts and comfort with applying foundational statistical techniques. |
 
-<br>
 
-The following table lists a few example case studies that would be suitable for each experience level.   
-<br>
+
+The following table lists a few example case studies that would be suitable for each experience level. 
+
 
 | Module | Skill Level| 
 | ------- | --------- | 
@@ -201,57 +196,46 @@ The following table lists a few example case studies that would be suitable for 
 | Data Ethics | All levels |
 | Mapping mini-module | Intermediate |
 
-
 ## Troubleshooting
 
-You may encounter errors trying to render our materials from the `.Rmd` files. 
+You may encounter errors trying to render our materials. 
 
 R packages versions can have updates to arguments and function names that can cause code to work differently or can break the code.
 
-If you encounter an error, this is likely the reason. We try to update our materials when we can, but updates to packages may happen in the meantime. We recommend using the knit-to-`Rmd` error messages to determine what function(s) may have been updated or deprecated. This helps you or your students learn the most up-to-date information.
-
+If you encounter an error, this is likely the reason. We try to update our materials when we can, but updates to packages may happen in the meantime. You can either use the error message from trying to knit the Rmd file to determine what function may have been updated or deprecated (we recommend this option to help you or your students learn the most up-to-date information).
 
 ## Additional Use Cases
 
-Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, please [let us know](https://daseh.org/contact.html) about it! 
+Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, we would love to [hear](https://daseh.org/contact.html) about it! 
 
-### Using Materials for Assignments 
+ 1. Using materials for assignments 
 
-Assignments could include: 
-
-- Scientific writing like [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the the data and analysis
-
-- [Extending analyses](https://github.com/advdatasci/homework11) based on results presented in the lectures and labs
-
-- Using data in the [Predictability, Computability, and Stability (PCS) framework](https://yu-group.github.io/vdocs/PCSDoc-Template.html) to think critically about real-world data challenges
-
-- Additional data visualization
-
-- Presentations
+ Assignments could include: 
+  - Scientific writing like [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the the data
+  - [Extending analyses](https://github.com/advdatasci/homework11) based on results presented in the lectures and labs. 
+ - Additional data visualization
+ - Presentations
 
 Our final project guidelines could also be expanded to create a more involved project.
 
-### Independent Study
+ 
+ 2. Independent Study
 
-Our materials and recordings can be used to help learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
+Our materials and recordings be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
 
 
 ## Additional Resources
 
-### Resources for Data Science and Writing
-
 - Considerations for effective and ethical [data visualization](http://jtleek.com/ads2020/week-5.html) 
 - [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
-
 - Resource on [writing and evaluating scientific writing](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
-### Resources for GitHub, Code Review, and Reproducibility:
+Resources for GitHub, Code Review, and Reproducibility:
 
 - Guide to [code review](https://hutchdatascience.org/code_review/)
-
 - [Introduction to reproducibility course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
-
 - [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
+
 
 
 ## Session info

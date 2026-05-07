@@ -66,45 +66,50 @@ Next, to set up the website deployment you will need to do a few steps.
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b693ca2b53_0_21#slide=id.g3b693ca2b53_0_21')
 ```
 
-#### Website Deployment - Secret
+#### Website Deployment - Create Secret
 
 Next, we'll create a secret (to give you the right permissions). This allows you to run the GitHub actions that we use safely.
 
 - Click on your profile photo in the upper right corner
-- Scroll down to Settings in the menu that pops up and right click to open it in a new tab
-- Scroll all the way down on the left menu to the bottom where it says Developer Settings
-- Score down on the left side menu and click on Personal Access Tokens
-- Select Tokens (classic)
-- Click the Generate new token button that is in the upper right
-- Select Generate new token (classic)
+- Scroll down to "Settings" in the menu that pops up and right click to open it in a new tab
+- Scroll all the way down on the left menu to the bottom and click on "Developer Settings"
+- On the left side menu, click on "Personal Access Tokens"
+- Select "Tokens (classic)"
+- Click the "Generate new token" button that is in the upper right
+- Select "Generate new token (classic)"
 - Confirm your access with any two factor authentication if you have that set up
-- Name your token GH_PAT in the "Note" section
- 
- Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
- 
- - Underneath Select Scopes (where the check boxes are), check repository (so everything under it is checked) and workflow
- 
- - Click the green Generate Token button at the bottom
- - Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. Do not store it anywhere public.)
+- Name your token `GH_PAT` in the "Note" section
 
+::: {.warning} 
+Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
+:::
 
+- Underneath "Select Scopes" (where the check boxes are), check "repo" (so everything under it is checked) and workflow
 
-3) Add your secret to your repository
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of the secret generation page under Select scopes, where repo and nested scopes are selected", out.width="100%"}
+ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3df3e912bd5_0_0#slide=id.g3df3e912bd5_0_0')
+```
 
-Now that your secret is ready we will add it back to our website repository that we created from the DaSEH repository.
+- Click the green "Generate token" button at the bottom
+- Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. **Do not store it anywhere public**.)
 
-- Go to Settings at the top menu of your repository
-- Go to Secrets and variables in the left side menu
-- Click on Actions
-- Under Repository secrets, click on the green "New repository secrets" button
-- Under name, enter GH_PAT
-- For the secret section paste the secret that you copied
+#### Website Deployment - Add Secret
+
+Now that your secret is ready, we will add it back to your website repository that you created from the DaSEH repository.
+
+- Go to "Settings" at the top menu of your repository
+- Go to "Secrets and variables" in the left side menu
+- Click on "Actions"
+- Under "Repository secrets", click on the green "New repository secret" button
+- Under "Name", enter `GH_PAT`
+- For the "Secret" section, paste the secret that you copied in the step above
 - Click the green "Add secret" button. 
 
-Note that GitHub sometimes changes their website, so this process might slightly change. We will try to keep this information up-to-date however.
+::: {.notice}
+Note that GitHub sometimes changes their website, so this process might change slightly. We will try to keep this information up-to-date however.
+:::
 
-
-Nice! Now you are ready to modify your new website. You can find your rendered website under the repository settings tab (top menu) and scrolling down to pages (left menu) again. 
+Nice! Now you are ready to modify your new website. You can find the link to your rendered website under the repository "Settings" tab (top menu) and clicking "Pages" (left menu). 
 
 You will see that the page now lists a link for your new website. You can click "Visit site" to see your website or copy and paste the link. This is the link you can share with students/learners. 
 
@@ -112,17 +117,19 @@ You will see that the page now lists a link for your new website. You can click 
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b693ca2b53_0_30#slide=id.g3b693ca2b53_0_30')
 ```
 
+Currently your website should look exactly like ours. Now you are ready to actually modify some files. To do so, go to the main page of your repository (the "Code" tab). 
 
-Currently your website should look exactly like ours. Now you are ready to actually modify some files. To do so go to the main page of your repository. 
+You can either:
 
-You can either click the green code button to clone the repository to work on your local machine (say on RStudio) which is trickier but recommended as you can actually test any changes to your code on your machine or you can modify the files directly on GitHub. 
+- Click the green "Code" button to clone the repository, allowing you to work on your local machine (say in RStudio) - this is trickier but recommended as you can actually test any changes to your code on your machine
+- Modify the files directly on GitHub
 
 Please see this guide on how to make changes with either method: https://www.ottrproject.org/editing_website.html.
 
 Note that lecture slides and lab files will be within the modules folder and organized by topic. 
 
-
 We will now talk about how to modify these files.
+
 
 ## Modify module slides
 

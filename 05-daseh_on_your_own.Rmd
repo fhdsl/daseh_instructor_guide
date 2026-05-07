@@ -64,7 +64,7 @@ We might also keep track of the following metadata:
 - Status
 - Status Note
 
-See the checklist above for more details.
+See the [checklist above](running-a-program-like-daseh.html#planning-a-daseh-course) for more details.
 
 ### Virtual Set Up Considerations
 
@@ -98,7 +98,7 @@ There are 3 major things to consider for a DaSEH event space, if it is for an in
 
 3. Make sure there are enough outlets in the room and/or make a plan for extension cords that will allow for learners to plug in their laptops.
 
-### Making certificates
+### Making Certificates
 
 Certificates are generated in R using the [`certificate` package](https://forwards.github.io/certificate/) and the [`googlesheets4` package](https://googlesheets4.tidyverse.org/) to programmatically generate certificates for each participant reading in a google sheet with all of their names. 
 

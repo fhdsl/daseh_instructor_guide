@@ -102,7 +102,7 @@ There are 3 major things to consider for a DaSEH event space, if it is for an in
 
 Certificates are generated in R using the [`certificate` package](https://forwards.github.io/certificate/) and the [`googlesheets4` package](https://googlesheets4.tidyverse.org/) to programmatically generate certificates for each participant reading in a google sheet with all of their names. 
 
-These are then manually signed. 
+These are then manually signed and emailed. 
 
 ## Session info
 

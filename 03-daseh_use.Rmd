@@ -174,7 +174,7 @@ Here, we are using the following interpretations of "beginner", "intermediate", 
 
 <br>
 
-The following table lists a few example case studies that would be suitable for each experience level. 
+The following table lists a few example case studies that would be suitable for each experience level.   
 <br>
 
 | Module | Skill Level| 

@@ -18,9 +18,13 @@ This chapter will cover how to modify the DaSEH resources to suit your own needs
 
 If you would like to make a copy of our website to modify for your own use, there are a couple of options.
 
-1) You can "fork" our repository. This lets you keep track of changes that we make and send us suggestions if you'd like. This also allows you to use the same infrastructure that we did to create our website. _Please be sure to update the website so that it is clear who ultimately made your site._ Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you should also indicate that you are using our resources or a modified version of our resources. 
+1) You can "fork" our repository. This lets you keep track of changes that we make and send us suggestions if you'd like. This also allows you to use the same infrastructure that we did to create our website. _Please be sure to update the website so that it is clear who ultimately made your site._
 
 2) You can copy the files from our repository into your own website - to access the contents of the files, go to [our repository on GitHub](https://github.com/fhdsl/daseh). This allows you to use whatever website setup you would like. 
+
+::: {.notice}
+Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you should also indicate that you are using our resources or a modified version of our resources. 
+:::
 
 ### Creating a fork of our repository
 

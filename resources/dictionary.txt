@@ -75,6 +75,7 @@ programmatically
 readr
 recode
 replicability
+repo
 reproducibility
 rewatch
 rmarkdown

@@ -128,9 +128,7 @@ Educators can use DaSEH's data without using the DaSEH materials as a whole. The
 
 The data can also be accessed directly in R via URL, replacing `<filename>` with the name of the data file in the following pattern:
 
-```
-"https://daseh.org/data/<filename>"
-```
+`https://daseh.org/data/<filename>`
 
 For example:
 
@@ -252,7 +250,7 @@ Our materials and recordings can be used to help learners to gain experience in 
 - [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
 
 
-## Session info
+## Session Info
 
 ```{r, echo = FALSE}
 sessionInfo()

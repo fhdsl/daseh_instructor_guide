@@ -126,9 +126,11 @@ The following materials could be useful:
 
 Educators can use DaSEH's data without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data) and the [data page](https://daseh.org/data.html) of the website. See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
 
-The data can also be accessed directly in R via URL, replacing `<filename>` with the name of the data file in the following pattern:
+The data can also be accessed directly in R via URL, replacing `filename.csv` with the name of the data file in the following pattern:
 
-`https://daseh.org/data/<filename>`
+```
+"https://daseh.org/data/filename.csv"
+```
 
 For example:
 

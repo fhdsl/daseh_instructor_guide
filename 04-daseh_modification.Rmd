@@ -36,16 +36,15 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 Once you click this, you will be taken to a new page where it will ask you what you would like to call your new repository. 
 
+#### Create a New Fork
 
-You will likely want to change the name for your course/use. 
+On this page:
 
-You can also optionally select to have your repository as part of a GitHub organization (if you are part of one) instead of just using your personal account.
-
-Please also change the description to explain what your use is and that are modifying our files. 
-
-Ensure that the copy the main branch only is selected. 
-
-Then click the green "Create fork" button.
+- Change the Repository name for your course/use
+- (Optional) select to have your repository as part of a GitHub organization (if you are part of one) instead of just using your personal account
+- Change the Description field to explain what your use is and that are modifying our files 
+- Ensure that "copy the `main` branch only" is selected
+- Finally, click the green "Create fork" button
 
 Here is what the page looks like:
 
@@ -53,33 +52,33 @@ Here is what the page looks like:
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b693ca2b53_0_7#slide=id.g3b693ca2b53_0_7')
 ```
 
+<br>
 
-Next to set up the website deployment you will need to do a few steps.
+Next, to set up the website deployment you will need to do a few steps.
 
-1) Setting up the website
+#### Website Deployment - Setup
 
 - First go to the "Settings" page (top menu)
 - Then scroll down to the "Pages" (on the left menu)
-- Next configure your website to use the main branch (where it says "none") and the root folder and press save
+- Next configure your website to use the main branch (where it says "none") and the root folder and press "Save"
 
 ```{r, fig.align='center', echo = FALSE, fig.alt = "image of the configuration for the main branch and the root folder for the github website", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3b693ca2b53_0_21#slide=id.g3b693ca2b53_0_21')
 ```
 
+#### Website Deployment - Secret
 
-2) Create a secret (to give you the right permissions)
+Next, we'll create a secret (to give you the right permissions). This allows you to run the GitHub actions that we use safely.
 
-This allows you to run the GitHub actions that we use safely.
-
- - Click on your profile photo in the upper right corner
- - Scroll down to Settings in the menu that pops up and right click to open it in a new tab
- - Scroll all the way down on the left menu to the bottom where it says Developer Settings
- - Score down on the left side menu and click on Personal Access Tokens
- - Select Tokens (classic)
- - Click the Generate new token button that is in the upper right
- - Select Generate new token (classic)
- - Confirm your access with any two factor authentication if you have that set up
- - Name your token GH_PAT in the "Note" section
+- Click on your profile photo in the upper right corner
+- Scroll down to Settings in the menu that pops up and right click to open it in a new tab
+- Scroll all the way down on the left menu to the bottom where it says Developer Settings
+- Score down on the left side menu and click on Personal Access Tokens
+- Select Tokens (classic)
+- Click the Generate new token button that is in the upper right
+- Select Generate new token (classic)
+- Confirm your access with any two factor authentication if you have that set up
+- Name your token GH_PAT in the "Note" section
  
  Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
  

@@ -80,7 +80,7 @@ Next, we'll create a secret (to give you the right permissions). This allows you
 - Confirm your access with any two factor authentication if you have that set up
 - Name your token `GH_PAT` in the "Note" section
 
-::: {.warning} 
+::: {.notice} 
 Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
 :::
 
@@ -91,7 +91,11 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 ```
 
 - Click the green "Generate token" button at the bottom
-- Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. **Do not store it anywhere public**.)
+- Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one)
+
+::: {.warning}
+DO NOT store your personal access token anywhere public!
+:::
 
 #### Website Deployment - Add Secret
 

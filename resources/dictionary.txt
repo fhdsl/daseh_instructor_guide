@@ -47,6 +47,7 @@ impactful
 ioslides
 ITCR
 itcrtraining
+iteratively
 ITN
 knitr
 LastName

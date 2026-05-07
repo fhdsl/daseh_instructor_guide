@@ -226,26 +226,25 @@ While experience with GitHub is not needed to access the materials, using GitHub
 
 1) Home: explains what the course is for: https://daseh.org/index.html
 
-2) Apply: links to a form to apply to DaSEH: (Link to Google Forms changes periodically)
+2) Apply: links to a form to apply to DaSEH -- The link to Google Forms changes periodically, but you can view a static version [here](resources/EXAMPLE_DaSEH_Application_Form_Google_Forms.pdf)
 
 3) Course Content
 
-- Materials + Schedule: A schedule with all associated materials: https://daseh.org/materials_schedule.html
-- Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
-- Data: links to data used in the course and resources about where to find environmental health data: https://daseh.org/data.html
-- Error FAQ: help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html 
+    - Materials + Schedule: A schedule with all associated materials: https://daseh.org/materials_schedule.html
+    - Course Logistics: information about how people can participate and what is required: https://daseh.org/logistics.html 
+    - Data: links to data used in the course and resources about where to find environmental health data: https://daseh.org/data.html
+    - Error FAQ: help page for common issues, common errors, and how to change preferences in RStudio: https://daseh.org/help.html    
 
 4) Support
 
-- Learning Resources: links to extra learning and help: https://daseh.org/resources.html
-- Contact Us: https://daseh.org/contact.html
-- Give Feedback: (Link to Google Forms changes periodically)
+    - Learning Resources: links to extra learning and help: https://daseh.org/resources.html
+    - Contact Us: https://daseh.org/contact.html
+    - Give Feedback: (Link to Google Forms changes periodically)    
 
 5) Instructors
 
-- Instructor Workshops: Upcoming events: https://daseh.org/instructors.html
-- Instructor Guide: This resource! 
-
+    - Instructor Workshops: Upcoming events: https://daseh.org/instructors.html
+    - Instructor Guide: This resource!    
 
 ## Feedback
 
@@ -253,11 +252,17 @@ We are continually working to improve the DaSEH resources to address learner and
 
 ### Survey
 
-Please consider participating in our user experience survey. 
+<!-- Please consider participating in our user experience survey.  -->
 
-avocado need to update for our own survey!
+<!-- avocado need to update for our own survey! -->
 
-We appreciate feedback about all aspects of the DaSEH user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the our materials in the classroom. 
+We appreciate feedback about all aspects of the DaSEH user experience including but not limited to technical challenges, potential improvements, or new ideas on how to use the our materials in the classroom. Students, instructors, or anyone engaging with DaSEH can leave open ended feedback here:
+
+```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
+knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLScfcU8TSOsdzUVWgqWDy5ucpy8CBTtboWtxKO3VJaoVabyd_g/viewform")
+```
+
+You can also add your name and email to the DaSEH Interest Form to be contacted about upcoming events and opportunities:
 
 ```{r, fig.align="center", echo = FALSE, fig.alt = "survey"}
 knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL_H65PI6U0sR1lPDjMI-DG2MtSld-1A/viewform")
@@ -265,7 +270,7 @@ knitr::include_url("https://docs.google.com/forms/d/e/1FAIpQLScpzjYQBuM2rpo4SMZL
 
 ### Feedback for this Guide
 
-If you have feedback for this guide about how we can improve the content, please see [here](https://github.com/fhdsl/daseh_instructor_guide/issues/new/choose).
+If you have feedback for this guide about how we can improve the content, please comment on our GitHub repository  [here](https://github.com/fhdsl/daseh_instructor_guide/issues/new/choose).
 
 
 ## Contact Us 

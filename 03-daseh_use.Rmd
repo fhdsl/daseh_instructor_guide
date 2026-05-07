@@ -52,7 +52,7 @@ Typically, most middle/high school and first year undergraduate students will fi
 
 The DaSEH materials are structured in a modular manner to support both partial and full use of our materials. Educators are also free to use the DaSEH data by itself.  
 
-### Teaching the full set of materials
+### Teaching DaSEH - Full Set of Materials
 
 The DaSEH materials are written to provide a comprehensive introduction to environmental health data science. Our materials provide students with experience in all the  standard aspects of a data science workflow as well as best practices regarding reproducibility. The following list provides a few examples of how educators could use the materials: 
 
@@ -78,7 +78,7 @@ ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWj
 
 [See the slide directly.](https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3d507fbfd91_0_4#slide=id.g3d507fbfd91_0_4)
 
-### Teaching Part of the DaSEH Materials
+### Teaching DaSEH - Part of the Materials
 
 Depending on the course objectives, instructors might choose a subset of modules. Note that some introduction/explanation might be needed for any functions that were explained in a previous module. The following are a few examples of how our modules could be used: 
 
@@ -122,7 +122,7 @@ The following materials could be useful:
 - Version Control (from the codeathon materials)
 - Data Ethics (from the codeathon materials)
 
-### Teaching With DaSEH Data Only
+### Teaching DaSEH - Data Only
 
 Educators can use the data available with the DaSEH without using the DaSEH materials as a whole. The data is available on GitHub in the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data). See the [data section](https://hutchdatascience.org/daseh_instructor_guide/daseh-infrastructure.html#data) of the infrastructure chapter for more information about how to access the data. 
 

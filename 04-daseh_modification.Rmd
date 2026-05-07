@@ -175,7 +175,9 @@ We recommend copying and pasting from [here](https://gist.github.com/rxaviers/73
 
 ### Smaller Text Fonts
 
-If you want to change the style of all slides, modify the `style.css` file. For example, adding the following to the `style .css` file is how you can make slides with smaller font:
+If you want to change the style of a slide, modify the `style.css` file.
+
+For example the `style .css` file contains the following, which creates a smaller font environment called `.small`:
 
 ```
 .small {
@@ -190,7 +192,7 @@ To change the font of a single slide you can put `{.small}` next to a slide titl
 
 ### Smaller Code Fonts
 
-In the `style .css` file the following creates smaller font throughout:
+The `style .css` file contains the following, which creates a smaller code font environment called `.codesmall`:
 
 ```
 .codesmall pre {

@@ -287,7 +287,7 @@ Our Codeathon slides cover:
 
 - [Code Review ](https://docs.google.com/presentation/d/11-lcYCrqhVJJzZVPTh5nUSlyg6MPD7sYrehbur7FRIw/edit?usp=sharing)
   
-    - This resource includes the basics of how to do code review on GitHub, include the use of GitHub issues.
+    - This resource includes the basics of how to do code review on GitHub, including the use of GitHub issues.
   
 - [Data Ethics](https://docs.google.com/presentation/d/1PqAAaQL2xZYs_WAb8_Y3gsOwon-rW7Zl5DjGvKrGz1g/edit?usp=sharing)
   

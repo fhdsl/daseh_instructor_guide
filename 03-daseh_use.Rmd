@@ -254,7 +254,7 @@ Our materials and recordings can be used to help learners to gain experience in 
 - [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
 
 
-## Session Info
+## Session info
 
 ```{r, echo = FALSE}
 sessionInfo()

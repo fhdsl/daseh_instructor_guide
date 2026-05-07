@@ -211,34 +211,44 @@ If you encounter an error, this is likely the reason. We try to update our mater
 
 ## Additional Use Cases
 
-Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, we would love to [hear](https://daseh.org/contact.html) about it! 
+Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, please [let us know](https://daseh.org/contact.html) about it! 
 
- 1. Using materials for assignments 
+### Using Materials for Assignments 
 
- Assignments could include: 
-  - Scientific writing like [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the the data
-  - [Extending analyses](https://github.com/advdatasci/homework11) based on results presented in the lectures and labs. 
- - Additional data visualization
- - Presentations
+Assignments could include: 
+
+- Scientific writing like [writing scientific journal sections](https://github.com/advdatasci/homework9) (e.g. Introduction, Methods, Results, Discussion) based on the the data and analysis
+
+- [Extending analyses](https://github.com/advdatasci/homework11) based on results presented in the lectures and labs
+
+- Using data in the [Predictability, Computability, and Stability (PCS) framework](https://yu-group.github.io/vdocs/PCSDoc-Template.html) to think critically about real-world data challenges
+
+- Additional data visualization
+
+- Presentations
 
 Our final project guidelines could also be expanded to create a more involved project.
 
- 
- 2. Independent Study
+### Independent Study
 
-Our materials and recordings be used for learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
+Our materials and recordings can be used to help learners to gain experience in statistics and data science independently. We strongly recommend that independent learners aim to actively engage with the recordings by running the analyses independently, and exploring additional data to investigate their own hypotheses. Furthermore, creating a finished product, such as a blog post or a presentation, can be an excellent demonstration of the skills learned. 
 
 
 ## Additional Resources
 
+### Resources for Data Science and Writing
+
 - Considerations for effective and ethical [data visualization](http://jtleek.com/ads2020/week-5.html) 
 - [Advanced Data Science Course](http://jtleek.com/ads2020/) taught by [Jeff leek](https://jtleek.com/) and [Roger Peng](https://rdpeng.org/) at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
+
 - Resource on [writing and evaluating scientific writing](https://ocw.mit.edu/courses/20-109-laboratory-fundamentals-in-biological-engineering-spring-2010/pages/assignments/guidelines-for-writing-up-your-research/). 
 
-Resources for GitHub, Code Review, and Reproducibility:
+### Resources for GitHub, Code Review, and Reproducibility:
 
 - Guide to [code review](https://hutchdatascience.org/code_review/)
+
 - [Introduction to reproducibility course](https://jhudatascience.org/Reproducibility_in_Cancer_Informatics/)
+
 - [Advanced Reproducibility course](https://jhudatascience.org/Adv_Reproducibility_in_Cancer_Informatics/) (this includes more information about how to create a pull request and how to do code review)
 
 

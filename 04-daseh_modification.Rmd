@@ -165,7 +165,7 @@ You will notice that `##` is used throughout the file. This indicates the start 
 
 A single `#` indicates a new section slide, which will be a slide that looks like this:
 
-```{r, fig.align='center', echo = FALSE, fig.alt = "image of the pages site after the website is set up", out.width="100%"}
+```{r, fig.align='center', echo = FALSE, fig.alt = "image of a slide with a H1 level header to start a new section", out.width="100%"}
 ottrpal::include_slide('https://docs.google.com/presentation/d/1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns/edit?slide=id.g3ba67d8997e_0_2#slide=id.g3ba67d8997e_0_2')
 ```
 

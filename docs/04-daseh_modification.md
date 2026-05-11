@@ -12,110 +12,122 @@ This chapter will cover how to modify the DaSEH resources to suit your own needs
 - Modify module labs and lab keys
 - Modify codeathon resources
 
-## Modify the website
+## Modify the Website
 
 If you would like to make a copy of our website to modify for your own use, there are a couple of options.
 
-1) You can "fork" our repository so that you can keep track of changes that we make and send us suggestions if you'd like. This also allows you to use the same infrastructure that we did to create our website. Please be sure to update the website so that it is clear who ultimately made your site and please indicate that you are using our resources or a modified version of our resources. 
+1) You can "fork" our repository. This lets you keep track of changes that we make and send us suggestions if you'd like. This also allows you to use the same infrastructure that we did to create our website. _Please be sure to update the website so that it is clear who ultimately made your site._
 
-2) You can copy the files from our repository into your own website - to access the contents of the files, go to [our repository on GitHub](https://github.com/fhdsl/daseh). This allows you to use whatever website setup you would like. 
+2) You can copy the files from our repository into your own website. To access the contents of the files, go to [our repository on GitHub](https://github.com/fhdsl/daseh). This allows you to use whatever website setup you would like. 
 
-### Creating a fork of our repository
+::: {.notice}
+Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you should also indicate that you are using our resources or a modified version of our resources. 
+:::
 
-To create what is called a "fork" of our repository (which allows you to make your own version based off of ours) then look for the fork button on the upper right corner of our repository on GitHub.
+### Creating a Fork of our Repository
+
+To create what is called a ["fork"](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#about-forks) of our repository (which allows you to make your own version based off of ours) then look for the fork button on the upper right corner of our repository on GitHub.
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_0.png){width=100%}
 
 Once you click this, you will be taken to a new page where it will ask you what you would like to call your new repository. 
 
+#### Create a New Fork
 
-You will likely want to change the name for your course/use. 
+On this page:
 
-You can also optionally select to have your repository as part of a GitHub organization (if you are part of one) instead of just using your personal account.
-
-Please also change the description to explain what your use is and that are modifying our files. 
-
-Ensure that the copy the main branch only is selected. 
-
-Then click the green "Create fork" button.
+- Change the Repository name for your course/use
+- (Optional) select to have your repository as part of a GitHub organization (if you are part of one) instead of just using your personal account
+- Change the Description field to explain what your use is and that are modifying our files 
+- Ensure that "copy the `main` branch only" is selected
+- Finally, click the green "Create fork" button
 
 Here is what the page looks like:
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_7.png){width=100%}
 
+<br>
 
-Next to set up the website deployment you will need to do a few steps.
+Next, to set up the website deployment you will need to do a few steps.
 
-1) Setting up the website
+#### Website Deployment - Setup
 
 - First go to the "Settings" page (top menu)
 - Then scroll down to the "Pages" (on the left menu)
-- Next configure your website to use the main branch (where it says "none") and the root folder and press save
+- Next configure your website to use the main branch (where it says "none") and the root folder and press "Save"
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_21.png){width=100%}
 
+#### Website Deployment - Create Secret
 
-2) Create a secret (to give you the right permissions)
+Next, we'll create a secret (to give you the right permissions). This allows you to run the GitHub actions that we use safely.
 
-This allows you to run the GitHub actions that we use safely.
+- Click on your profile photo in the upper right corner
+- Scroll down to "Settings" in the menu that pops up and right click to open it in a new tab
+- Scroll all the way down on the left menu to the bottom and click on "Developer Settings"
+- On the left side menu, click on "Personal Access Tokens"
+- Select "Tokens (classic)"
+- Click the "Generate new token" button that is in the upper right
+- Select "Generate new token (classic)"
+- Confirm your access with any two factor authentication if you have that set up
+- Name your token `GH_PAT` in the "Note" section
 
- - Click on your profile photo in the upper right corner
- - Scroll down to Settings in the menu that pops up and right click to open it in a new tab
- - Scroll all the way down on the left menu to the bottom where it says Developer Settings
- - Score down on the left side menu and click on Personal Access Tokens
- - Select Tokens (classic)
- - Click the Generate new token button that is in the upper right
- - Select Generate new token (classic)
- - Confirm your access with any two factor authentication if you have that set up
- - Name your token GH_PAT in the "Note" section
- 
- Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
- 
- - Underneath Select Scopes (where the check boxes are), check repository (so everything under it is checked) and workflow
- 
- - Click the green Generate Token button at the bottom
- - Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one. Do not store it anywhere public.)
+::: {.notice} 
+Note that your token will expire based on the date that you set in the Expiration section. You will have to complete this process again when your token expires. GitHub will let you know as you will get an error about credentials. It is a good idea to use the default settings. You will just repeat this process when the time comes. This [cheatsheet](https://www.ottrproject.org/cheatsheets/ottr_token.html) may also be helpful.
+:::
 
+- Underneath "Select Scopes" (where the check boxes are), check "repo" (so everything under it is checked) and workflow
 
+![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3df3e912bd5_0_0.png){width=100%}
 
-3) Add your secret to your repository
+- Click the green "Generate token" button at the bottom
+- Copy your personal access token (Note that you will note have access to it again, you can always however just make a new one)
 
-Now that your secret is ready we will add it back to our website repository that we created from the DaSEH repository.
+::: {.warning}
+**DO NOT store your personal access token anywhere public!**
+:::
 
-- Go to Settings at the top menu of your repository
-- Go to Secrets and variables in the left side menu
-- Click on Actions
-- Under Repository secrets, click on the green "New repository secrets" button
-- Under name, enter GH_PAT
-- For the secret section paste the secret that you copied
+#### Website Deployment - Add Secret
+
+Now that your secret is ready, we will add it back to your website repository that you created from the DaSEH repository.
+
+- Go to "Settings" at the top menu of your repository
+- Go to "Secrets and variables" in the left side menu
+- Click on "Actions"
+- Under "Repository secrets", click on the green "New repository secret" button
+- Under "Name", enter `GH_PAT`
+- For the "Secret" section, paste the secret that you copied in the step above
 - Click the green "Add secret" button. 
 
-Note that GitHub sometimes changes their website, so this process might slightly change. We will try to keep this information up-to-date however.
+::: {.notice}
+Note that GitHub sometimes changes their website, so this process might change slightly. We will try to keep this information up-to-date however.
+:::
 
-
-Nice! Now you are ready to modify your new website. You can find your rendered website under the repository settings tab (top menu) and scrolling down to pages (left menu) again. 
+Nice! Now you are ready to modify your new website. You can find the link to your rendered website under the repository "Settings" tab (top menu) and clicking "Pages" (left menu). 
 
 You will see that the page now lists a link for your new website. You can click "Visit site" to see your website or copy and paste the link. This is the link you can share with students/learners. 
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3b693ca2b53_0_30.png){width=100%}
 
+Currently your website should look exactly like ours. Now you are ready to actually modify some files. To do so, go to the main page of your repository (the "Code" tab). 
 
-Currently your website should look exactly like ours. Now you are ready to actually modify some files. To do so go to the main page of your repository. 
+You can either:
 
-You can either click the green code button to clone the repository to work on your local machine (say on RStudio) which is trickier but recommended as you can actually test any changes to your code on your machine or you can modify the files directly on GitHub. 
+- Click the green "Code" button to clone the repository, allowing you to work on your local machine (say in RStudio) - this is trickier but recommended as you can actually test any changes to your code on your machine
+- Modify the files directly on GitHub
 
 Please see this guide on how to make changes with either method: https://www.ottrproject.org/editing_website.html.
 
 Note that lecture slides and lab files will be within the modules folder and organized by topic. 
 
-
 We will now talk about how to modify these files.
 
-## Modify module slides
 
-The modules are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using [Markdown syntax](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf). RStudio projects are used to organize files. The [knitr](https://yihui.org/knitr/) package "knits" the case study written in R Markdown and outputs the document as an HTML file. DaSEH uses these HTML files to post the materials online. 
+## Modify Module Slides
 
-See the above sections about modifying the website to get the files that were used for the module lectures.
+The modules are written in [R Markdown](https://rmarkdown.rstudio.com/) documents and developed within an RStudio project. R Markdown documents are denoted with the file extension ".Rmd" and allow for the inclusion of code chunks and outputs in a written report. They are written using [Markdown syntax](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf). RStudio projects are used to organize files. The [knitr](https://yihui.org/knitr/) package "knits" the modules written in R Markdown and outputs the document as an HTML file. DaSEH uses these HTML files to post the materials online. 
+
+See the above sections about modifying the website to get the files used for the module lectures.
 
 Each of the lectures can be found within the [modules directory](https://github.com/fhdsl/DaSEH/tree/main/modules) of our DaSEH GitHub repository. 
 
@@ -123,71 +135,78 @@ Each module folder contains the lecture slides within the .Rmd file.
 
 To edit a lecture, locate the appropriate directory within `modules` and edit the `.Rmd` file. For example, if you want to edit the Statistics lecture, you'd edit `Statistics.Rmd` in the `modules/Statistics/` directory.
 
-** Do not edit the html or pdf files. These are automatically generated by GitHub Actions. ** 
+![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3df3e912bd5_0_11.png){width=100%}
 
-However, sometimes workflows don't complete, so it's always good to double check that htmls and pdfs are appearing as expected on the website once your PR is merged to main.
+::: {.warning}
+Do not edit the `.html` or `.pdf` files. These are automatically generated by GitHub Actions. 
+:::
 
-You will notice that `##` is used throughout the file. This indicates where the start of a new slide is. 
+However, sometimes workflows don't complete, so it's always good to double check that `.html` and `.pdf` files are appearing as expected on the website once you have made changes.
+
+### Slide Formatting
+
+These slides are made with something called `ioslides`. See [this website for additional help with ioslides](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html).
+
+You will notice that `##` is used throughout the file. This indicates the start of a new slide. 
 
 A single `#` indicates a new section slide, which will be a slide that looks like this:
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3ba67d8997e_0_2.png){width=100%}
 
-
-
-### Emojis in slides
+### Emojis in Slides
 
 We recommend copying and pasting from [here](https://gist.github.com/rxaviers/7360908).
 
-
-### Smaller text font per slide
+### Smaller Text Font
 
 If you want to change the style of a slide, modify the `style.css` file.
 
-For example - this is how you can make slides with smaller font:
+For example the `style.css` file contains the following, which creates a smaller font environment called `.small`:
 
-In the `style .css` file is the following- which creates smaller font:
 ```
 .small {
    font-size: 0.8em;
 }
 
 ```
-To change the font of a single slide you can putt {.small} next to a slide title like so:
+
+To change the font of a single slide you can put `{.small}` next to a slide title like so:
 
 `## slide name {.small}`
 
+### Smaller Code Font
 
+The `style.css` file contains the following, which creates a smaller code font environment called `.codesmall`:
 
-### Smaller code font per slide
-
-
-In the `style .css` file is the following- which creates smaller font:
 ```
 .codesmall pre {
     font-size: 16px;
 }
 ```
-This can be applied to a slide by putting {.codesmall} next to a slide title like so:
+
+To change a single slide you can put `{.codesmall}` next to a slide title like so:
 
 `## slide name {.codesmall}`
 
-
-
-### Add color to slide text
+### Add Color to Slide Text
 
 ```
 :::{style="color: red;""}
 RED STUFF!
 :::
 ```
- or like this:
+
+or using HTML directly like this:
  
+```
+`Integer` is a special subset of `numeric` that contains only <span style="color: red;">whole numbers.</span>
+```
+
 `Integer` is a special subset of `numeric` that contains only <span style="color: red;">whole numbers.</span>
 
+### Add Background Color 
 
-
-### Add background color to code chunk describe general syntax for code
+Background color can be added to code chunks to describe general syntax for code.
 
 In the `styles.css` file is the following:
 
@@ -198,7 +217,7 @@ In the `styles.css` file is the following:
 }
 ```
 
-To add this to a chunk use this in the Rmd file before and after the chunk:
+To add this to a code chunk, use HTML in the `.Rmd` file before and after the chunk:
 
 ````
 <div class = "codeexample">
@@ -209,70 +228,62 @@ To add this to a chunk use this in the Rmd file before and after the chunk:
 </div>
 ````
 
-### Create gifs
+### Create Screen Capture gifs
 
-To create video gifs first [record your screen](https://www.hellotech.com/guide/for/how-to-screen-record-on-mac) like so (note this is for Mac users): 
+To create video gifs, first [record your screen](https://www.hellotech.com/guide/for/how-to-screen-record-on-mac) like so (note this is for Mac users): 
 
 1) Command + Shift + 5 
 2) Select either entire screen - or more likely a portion of the screen button
 3) Click record
 
-Next convert the video to a gif using https://ezgif.com/video-to-gif.
-
-Be sure that you select gif as the output.
-
-These slides are made with something called ioslides. See [this website for additional help with ioslides] (https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html).
-
-
-
-
+Next, convert the video to a gif using https://ezgif.com/video-to-gif. Be sure that you select "gif" as the output.
 
 
 ## Modifying Labs
 
 Within each module directory, there is a subdirectory called `lab`. Locate the `lab` subdirectory within the appropriate module directory and edit the `_Key.Rmd` file. For example, if you want to edit the Statistics lab, you'd edit `Statistics_Lab_Key.Rmd` in the `modules/Statistics/lab/` directory.
 
-** Only edit the `_Key.Rmd`. Do not edit the html or pdf files, or the `_Lab.Rmd` file. These are automatically generated by GitHub Actions. ** The `_Lab.Rmd` file is automatically cleaned up for students to fill in during class.
+::: {.warning}
+**Only edit the `_Key.Rmd` file. Do not edit the `.html` or `.pdf` files, or the `_Lab.Rmd` file. These are automatically generated by GitHub Actions.** 
 
+The `_Lab.Rmd` file is automatically cleaned up for students to fill in during class.
+:::
 
-
-#### How does the lab file cleanup work?
+### How does the lab file cleanup work?
 
 When creating the lab key, you will write the answer to the questions in the key. However, for the file that the students see, we want the answers to be removed. 
 
-
 To make sure this happens correctly, the chunks you want to clean must have a `label` ending with `response`. Chunks without a label following this pattern will be ignored and reproduced exactly for the students. 
-
-
 
 ![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3ba9e61ea01_0_0.png){width=100%}
 
+#### Manually Downloading from GitHub:
 
-#### Manually Download Data from GitHub:
+1) Download the `.Rmd` files found in the [modules directory of the GitHub repository](https://github.com/fhdsl/DaSEH/tree/main/modules). Download any relevant data files from the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data)).
 
- 1) Download the .Rmd files found in the [modules directory of the GitHub repository](https://github.com/fhdsl/DaSEH/tree/main/modules) (and any relevant data files from the [data directory](https://github.com/fhdsl/DaSEH/tree/main/data)).
+    - The list of corresponding lectures is available on the [materials and schedule page](https://daseh.org/materials_schedule.html) of the DaSEH website. Data files are listed on [our data page](https://daseh.org/data.html).
 
-The list of corresponding lectures is available on the [materials and schedule page](https://daseh.org/materials_schedule.html) of the DaSEH website and the data files are listed on [our data page](https://daseh.org/data.html).
-
-  2) Move the data files from your 'Downloads' folder to your R session's current working directory (you can see what this is with ```getwd()```). Open the files that you wish to modify in RStudio or wherever you like to work.
-
+2) Move the data files from your "Downloads" folder to your R session's current working directory (you can see what this is with ```getwd()```). Open the files that you wish to modify in RStudio or wherever you like to work.
 
 
 ## Modify Codeathon materials
 
-Our codeathon materials are Google Slide presentations which are available to view by the public. This allows for copying and pasting content within the slides.
+Our codeathon materials are Google Slide presentations which are available to view by the public. You can find iterations of these materials on [Google Drive](https://drive.google.com/drive/folders/18LZlTF-iGwM6kZvFGeoFq1wFmIvOyCYQ?usp=sharing).
 
-If you would like access to the raw slides, please reach out to us at daseh@fredhutch.org. 
+All slides will appear to you as "View Only". To create a copy that you can edit, go to "File" > "Make a copy" and select either "Entire presentation" or "Selected slides". You can also download in PowerPoint (`.pptx`) or PDF format.
 
-
-
-## Distribute your modified content as you please! 
-
-You can share HTML, PDF and Word files directly with your students or you can host your website for free on GitHub using [GitHub pages](https://pages.github.com/) [@pages_github] as described above. 
-
- If you  are new to GitHub, also be sure to check out [Happy Git with R](https://happygitwithr.com/) @happygitwithr.
+![](04-daseh_modification_files/figure-docx//1vCiMPvvsdwQjiMWjf0YuSpTkG0DGXsy1614cRiFc7ns_g3df3e912bd5_0_20.png){width=100%}
 
 
+## Distribute Your Modified Content As You Please! 
+
+You can share HTML, PDF and Word files directly with your students or you can host your website for free on GitHub using [GitHub Pages](https://pages.github.com/) as described above. 
+
+If you are new to GitHub, also be sure to check out [Happy Git with R](https://happygitwithr.com/).
+
+::: {.notice}
+Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you will need to use the same license if you are distributing a modified version of our resources. 
+:::
 
 
 ## Session info

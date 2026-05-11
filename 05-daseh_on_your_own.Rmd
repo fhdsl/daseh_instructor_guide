@@ -48,19 +48,19 @@ To screen applicants, we might add the following columns for evaluation:
 
 We might also keep track of the following metadata:
 
-- Flags for follow up (for example, we can't support international travel)
+- Flags for follow-up (for example, we can't support international travel)
 - Who will follow up
-- Follow up sent date
-- Applicant response received Y/N
-- Travel likely needed Y/N
-- Who send acceptance/decline email & confirmation link
-- Acceptance/decline email sent date
+- Follow-up sent date
+- Applicant response received? Y/N
+- Travel likely needed? Y/N
+- Who will send accept/decline email & confirmation link
+- Accept/decline email sent date
 - Confirmation form complete
 - Travel Assistance Needed
-- Follow up sent about travel assistance
-- FLIGHT
-- HOTEL
-- PARKING
+- Follow-up sent about travel assistance
+- FLIGHT (if applicable)
+- HOTEL (if applicable)
+- PARKING (if applicable)
 - Status
 - Status Note
 

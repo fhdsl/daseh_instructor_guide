@@ -16,6 +16,10 @@ This chapter will provide guidance on how to use DaSEH resources for instruction
 
 The examples presented in this chapter are merely suggestions. Modifications to the material to fit student needs are expected and encouraged! If you come up with a different way to use our resources, please [let us know](https://daseh.org/contact.html) what you come up with so that other educators may be inspired by your creativity. 
 
+::: {.notice}
+Under our [CC BY-NC-SA license](introduction.html#reuse-and-licensing), you should indicate that you are using our resources or a modified version of our resources. 
+:::
+
 ### Prerequisites
 
 The following are suggested for students using DaSEH materials.

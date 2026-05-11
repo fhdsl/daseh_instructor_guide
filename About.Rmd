@@ -12,6 +12,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 |Content Author|[Carrie Wright]|
 |PI of Project|[Ava Hoffman]|
 |Content Editor(s)/Reviewer(s)|[Ava Hoffman]|
+|DaSEH Authors|[Ava Hoffman], [Carrie Wright], [Elizabeth Humphries]|
 |**Production**||
 |Content Publisher(s)| [Carrie Wright]|
 |**Technical**||

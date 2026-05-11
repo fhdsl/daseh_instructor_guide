@@ -213,7 +213,7 @@ If you encounter an error, this is likely the reason. We try to update our mater
 
 ## Additional Use Cases
 
-Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used . If you use DaSEH resources in a new way, please [let us know](https://daseh.org/contact.html) about it! 
+Our materials can be used in a variety of ways that cater to the learner's goals, experience, and interests. Below, we provide a few examples of how they could be used. If you use DaSEH resources in a new way, please [let us know](https://daseh.org/contact.html) about it! 
 
 ### Using Materials for Assignments 
 

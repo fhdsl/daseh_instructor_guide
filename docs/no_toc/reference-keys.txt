@@ -99,8 +99,9 @@ learning-objectives-4
 planning-a-daseh-course
 tips-for-logistics
 scheduling-considerations
-considerations-for-event-spaces
+registering-learners
 virtual-set-up-considerations
+considerations-for-event-spaces
 making-certificates
 session-info-2
 references

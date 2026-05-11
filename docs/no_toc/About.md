@@ -9,12 +9,12 @@ These credits are based on our [course contributors table guidelines](https://ww
 |Credits|Names|
 |-------|-----|
 |**Pedagogy**||
-|Lead Content Instructor(s)|[Carrie Wright]|
+|Content Author|[Carrie Wright]|
 |PI of Project|[Ava Hoffman]|
-|Content Editor(s)/Reviewer(s) | Checked your content|
+|Content Editor(s)/Reviewer(s)|[Ava Hoffman]|
+|DaSEH Authors|[Ava Hoffman], [Carrie Wright], [Elizabeth Humphries]|
 |**Production**||
 |Content Publisher(s)| [Carrie Wright]|
-|Content Publishing Reviewer(s)| Reviewed overall content and aesthetics on publishing platform|
 |**Technical**||
 |Course Publishing Engineer(s)| [Carrie Wright]|
 |Template Publishing Engineers|[Candace Savonen], [Carrie Wright], [Ava Hoffman]|
